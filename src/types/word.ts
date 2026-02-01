@@ -1,3 +1,12 @@
+export interface KasusDeklination {
+    nominativ?: string;
+    akkusativ?: string;
+    dativ?: string;
+    nominativPlural?: string;
+    akkusativPlural?: string;
+    dativPlural?: string;
+}
+
 export interface Word {
     word: string;
     article: string;
@@ -5,7 +14,8 @@ export interface Word {
     pluralArticle: string;
     category: string;
     english?: string;
-    type: 'noun' | 'verb' | 'adjective' | 'particle' | 'question_word' | 'country' | 'pronoun' | 'article_declension';
+    // Noun case declensions
+    kasus?: KasusDeklination | string;  // string for Artikel entries (Nominativ/Akkusativ/Dativ)
     // Verb specific
     conjugations?: Record<string, string>;
     partizip?: string;
@@ -22,7 +32,6 @@ export interface Word {
     // Pronoun specific
     possessive?: string;
     // Article declension specific
-    kasus?: string;
     geschlecht?: string;
     indefinit?: string;
     negation?: string;

@@ -159,45 +159,88 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
         );
     };
 
+    // Determine word type from category and properties
+    const getWordType = (): string => {
+        if (word.category === 'Verben' || word.category === 'Wetter' && word.conjugations) return 'verb';
+        if (word.category === 'Adjektive' || word.category === 'Farben' || word.category === 'Gesundheit' && word.komparativ !== undefined) return 'adjective';
+        if (word.category === 'Länder') return 'country';
+        if (word.category === 'Partikel') return 'particle';
+        if (word.category === 'Fragewörter') return 'question_word';
+        if (word.category === 'Pronomen') return 'pronoun';
+        if (word.category === 'Artikel') return 'article_declension';
+        if (word.conjugations) return 'verb';
+        if (word.komparativ !== undefined) return 'adjective';
+        if (word.article) return 'noun';
+        return 'noun';
+    };
+
+    const wordType = getWordType();
+
     const renderBack = () => {
-        switch (word.type) {
+        switch (wordType) {
             case 'noun':
+                const kasus = typeof word.kasus === 'object' ? word.kasus : null;
                 return (
                     <div className="text-center space-y-3">
                         {renderEnglish()}
-                        {word.article && (
-                            <div className="space-y-1">
-                                <p className="text-sm text-gray-400 uppercase tracking-wide">Article</p>
-                                <p className={`text-4xl font-bold ${getArticleColor(word.article)}`}>
-                                    {word.article}
-                                </p>
+                        {kasus && (
+                            <div className="space-y-2">
+                                <div className="grid grid-cols-1 gap-1 text-left max-w-xs mx-auto">
+                                    <div className="flex justify-between items-center">
+                                        <span className="text-xs text-gray-500 uppercase">Nom:</span>
+                                        <span className={`text-lg font-medium ${getArticleColor(word.article)}`}>
+                                            {kasus.nominativ}
+                                        </span>
+                                    </div>
+                                    <div className="flex justify-between items-center">
+                                        <span className="text-xs text-gray-500 uppercase">Akk:</span>
+                                        <span className={`text-lg font-medium ${word.article === 'der' ? 'text-blue-400' : getArticleColor(word.article)}`}>
+                                            {kasus.akkusativ}
+                                        </span>
+                                    </div>
+                                    <div className="flex justify-between items-center">
+                                        <span className="text-xs text-gray-500 uppercase">Dat:</span>
+                                        <span className={`text-lg font-medium ${word.article === 'die' ? 'text-blue-400' : 'text-blue-400'}`}>
+                                            {kasus.dativ}
+                                        </span>
+                                    </div>
+                                </div>
+                                {kasus.nominativPlural && (
+                                    <div className="pt-2 border-t border-gray-700">
+                                        <p className="text-xs text-gray-500 uppercase mb-1">Plural</p>
+                                        <div className="grid grid-cols-1 gap-1 text-left max-w-xs mx-auto">
+                                            <div className="flex justify-between items-center">
+                                                <span className="text-xs text-gray-500 uppercase">Nom:</span>
+                                                <span className="text-base text-pink-400">{kasus.nominativPlural}</span>
+                                            </div>
+                                            <div className="flex justify-between items-center">
+                                                <span className="text-xs text-gray-500 uppercase">Dat:</span>
+                                                <span className="text-base text-blue-400">{kasus.dativPlural}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
                         )}
-                        {word.plural && (
-                            <div className="space-y-1">
-                                <p className="text-sm text-gray-400 uppercase tracking-wide">Plural</p>
-                                <p className="text-2xl">
-                                    <span className={getArticleColor(word.pluralArticle)}>{word.pluralArticle}</span>{' '}
-                                    <span className="text-white">{word.plural}</span>
-                                </p>
-                            </div>
+                        {!kasus && word.article && (
+                            <p className={`text-3xl font-bold ${getArticleColor(word.article)}`}>
+                                {word.article} {word.word}
+                            </p>
                         )}
                         {word.feminine && (
-                            <div className="space-y-1">
-                                <p className="text-sm text-gray-400 uppercase tracking-wide">Feminine</p>
-                                <p className="text-xl">
+                            <div className="space-y-1 pt-2 border-t border-gray-700">
+                                <p className="text-xs text-gray-500 uppercase">Feminine</p>
+                                <p className="text-lg">
                                     <span className="text-pink-500">die</span>{' '}
                                     <span className="text-white">{word.feminine}</span>
                                     {word.femininePlural && (
-                                        <span className="text-gray-400 text-base ml-2">
-                                            (Pl: {word.femininePlural})
-                                        </span>
+                                        <span className="text-gray-400 text-sm ml-2">(Pl: {word.femininePlural})</span>
                                     )}
                                 </p>
                             </div>
                         )}
                         <div className="pt-2">
-                            <span className="inline-block px-3 py-1 bg-gray-700 rounded-full text-sm text-gray-300">
+                            <span className="inline-block px-3 py-1 bg-gray-700 rounded-full text-xs text-gray-300">
                                 {word.category}
                             </span>
                         </div>
@@ -355,7 +398,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                         {renderEnglish()}
                         <div className="space-y-1">
                             <p className="text-sm text-gray-400 uppercase tracking-wide">
-                                {word.kasus} • {word.geschlecht}
+                                {typeof word.kasus === 'string' ? word.kasus : ''} • {word.geschlecht}
                             </p>
                             <p className="text-3xl font-bold text-amber-400">{word.word}</p>
                         </div>
