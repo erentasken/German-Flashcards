@@ -462,17 +462,6 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                 <button
                     onClick={() => {
                         if (isTransitioning) return;
-                        onMarkKnown(word);
-                        handleNext();
-                    }}
-                    disabled={isTransitioning}
-                    className="flex-1 py-3 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl transition-all active:scale-95 text-sm font-medium disabled:opacity-50"
-                >
-                    ✓ Know
-                </button>
-                <button
-                    onClick={() => {
-                        if (isTransitioning) return;
                         onMarkUnknown(word);
                         handleNext();
                     }}
