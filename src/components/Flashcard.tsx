@@ -12,10 +12,14 @@ interface FlashcardProps {
     onMarkUnknown: (word: Word) => void;
     onMarkKnown: (word: Word) => void;
     isUnknown: boolean;
+    categories?: string[];
+    onAddToCategory?: (word: Word, category: string) => void;
 }
 
-export default function Flashcard({ word, onNext, onPrev, current, total, onMarkUnknown, onMarkKnown, isUnknown }: FlashcardProps) {
+export default function Flashcard({ word, onNext, onPrev, current, total, onMarkUnknown, onMarkKnown, isUnknown, categories = [], onAddToCategory }: FlashcardProps) {
     const [isFlipped, setIsFlipped] = useState(false);
+    const [showAddMenu, setShowAddMenu] = useState(false);
+    const [newCategoryName, setNewCategoryName] = useState('');
     const [isTransitioning, setIsTransitioning] = useState(false);
     const [isSpeaking, setIsSpeaking] = useState(false);
     const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -476,10 +480,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                             </svg>
                         </button>
                         <p className="text-3xl sm:text-4xl font-bold text-white text-center leading-tight">{word.word}</p>
-                        <p className="text-xs text-slate-500 mt-6 flex items-center gap-1">
-                            <span className="inline-block w-4 h-4 border border-slate-600 rounded"></span>
-                            Tap to reveal
-                        </p>
+                        <p className="text-xs text-slate-500 mt-6">Tap to reveal</p>
                     </div>
 
                     {/* Back */}
@@ -506,7 +507,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
             </div>
 
             {/* Action buttons */}
-            <div className="flex gap-3 w-full">
+            <div className="flex gap-3 w-full relative">
                 <button
                     onClick={handlePrev}
                     disabled={isTransitioning}
@@ -532,6 +533,51 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                 >
                     Next →
                 </button>
+                <div className="relative">
+                    <button
+                        onClick={(e) => { e.stopPropagation(); setShowAddMenu(!showAddMenu); }}
+                        className="px-3 py-3 bg-emerald-600 text-white rounded-xl hover:bg-emerald-500 transition"
+                        title="Add to category"
+                    >
+                        ➕ Add
+                    </button>
+
+                    {showAddMenu && (
+                        <div onClick={(e) => e.stopPropagation()} className="absolute right-0 mt-2 w-56 bg-slate-900 border border-slate-800 rounded-lg p-3 z-50">
+                            <div className="text-xs text-slate-400 mb-2">Add "{word.word}" to:</div>
+                            <div className="max-h-40 overflow-y-auto space-y-1 mb-2">
+                                {categories.map((cat) => (
+                                    <button
+                                        key={cat}
+                                        onClick={(e) => { e.stopPropagation(); onAddToCategory?.(word, cat); setShowAddMenu(false); }}
+                                        className="w-full text-left px-2 py-1 rounded hover:bg-slate-800 text-sm"
+                                    >
+                                        {cat}
+                                    </button>
+                                ))}
+                            </div>
+                            <div className="flex gap-2">
+                                <input
+                                    value={newCategoryName}
+                                    onChange={(e) => setNewCategoryName(e.target.value)}
+                                    onKeyDown={(e) => { if (e.key === 'Enter' && newCategoryName.trim()) { onAddToCategory?.(word, newCategoryName.trim()); setNewCategoryName(''); setShowAddMenu(false); } }}
+                                    placeholder="Or create new..."
+                                    className="flex-1 px-2 py-2 bg-slate-800 border border-slate-700 rounded text-sm outline-none"
+                                />
+                                <button
+                                    onClick={() => {
+                                        if (!newCategoryName.trim()) return;
+                                        onAddToCategory?.(word, newCategoryName.trim());
+                                        setShowAddMenu(false);
+                                        setNewCategoryName('');
+                                    }}
+                                    className="px-3 py-2 bg-blue-600 rounded text-sm"
+                                >Create
+                                </button>
+                            </div>
+                        </div>
+                    )}
+                </div>
             </div>
         </div>
     );

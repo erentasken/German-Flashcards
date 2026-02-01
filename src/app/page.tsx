@@ -10,20 +10,26 @@ import wordsData from '@/data/words.json';
 export default function Home() {
   const words = wordsData as Word[];
 
-  // Get unique categories
-  const categories = useMemo(() =>
-    [...new Set(words.map(w => w.category))].sort(),
-    [words]
-  );
+  const [customCategories, setCustomCategories] = useState<Record<string, Word[]>>({});
 
-  // Get word counts per category
+  // Get unique categories (including custom categories)
+  const categories = useMemo(() => {
+    const base = [...new Set(words.map(w => w.category))];
+    const customs = Object.keys(customCategories || {});
+    return [...new Set([...base, ...customs])].sort();
+  }, [words, customCategories]);
+
+  // Get word counts per category (include custom categories)
   const categoryCounts = useMemo(() => {
     const counts: Record<string, number> = {};
     words.forEach(w => {
       counts[w.category] = (counts[w.category] || 0) + 1;
     });
+    Object.entries(customCategories).forEach(([k, arr]) => {
+      counts[k] = (counts[k] || 0) + (arr?.length || 0);
+    });
     return counts;
-  }, [words]);
+  }, [words, customCategories]);
 
   const [selectedCategories, setSelectedCategories] = useState<string[]>(categories);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,6 +42,8 @@ export default function Home() {
   const [showSearch, setShowSearch] = useState(false);
   const [showGenerator, setShowGenerator] = useState(false);
   const [generatedWords, setGeneratedWords] = useState<Word[]>([]);
+  const [searchAddOpenKey, setSearchAddOpenKey] = useState<string | null>(null);
+  const [searchAddNewCategory, setSearchAddNewCategory] = useState('');
 
   // Combine original words with generated words
   const allWords = useMemo(() => [...words, ...generatedWords], [words, generatedWords]);
@@ -50,6 +58,19 @@ export default function Home() {
       (w.article && `${w.article} ${w.word}`.toLowerCase().includes(query))
     ).slice(0, 10); // Limit to 10 results
   }, [allWords, searchQuery]);
+
+  const openSearchAddFor = (key: string | null) => {
+    setSearchAddNewCategory('');
+    setSearchAddOpenKey(key);
+  };
+
+  const handleAddFromSearch = (word: Word, categoryName: string) => {
+    if (!categoryName) return;
+    // this will create the category key if it doesn't exist
+    handleAddWordToCategory(word, categoryName);
+    setSearchAddOpenKey(null);
+    setSearchAddNewCategory('');
+  };
 
   // Load unknown words from localStorage on mount
   useEffect(() => {
@@ -71,6 +92,15 @@ export default function Home() {
         console.error('Failed to load generated words:', e);
       }
     }
+    // Load custom categories
+    const savedCustom = localStorage.getItem('customCategories');
+    if (savedCustom) {
+      try {
+        setCustomCategories(JSON.parse(savedCustom));
+      } catch (e) {
+        console.error('Failed to load custom categories:', e);
+      }
+    }
   }, []);
 
   // Save unknown words to localStorage
@@ -82,6 +112,47 @@ export default function Home() {
   useEffect(() => {
     localStorage.setItem('generatedWords', JSON.stringify(generatedWords));
   }, [generatedWords]);
+
+  // Save custom categories to localStorage
+  useEffect(() => {
+    localStorage.setItem('customCategories', JSON.stringify(customCategories));
+  }, [customCategories]);
+
+  const handleCreateCustomCategory = (name: string) => {
+    if (!name.trim()) return;
+    if (customCategories[name]) return;
+    setCustomCategories(prev => ({ ...prev, [name]: [] }));
+    setSelectedCategories(prev => {
+      if (prev.includes(name)) return prev;
+      return [...prev, name];
+    });
+  };
+
+  const handleAddWordToCategory = (word: Word, categoryName: string) => {
+    if (!categoryName) return;
+    setCustomCategories(prev => {
+      const existing = prev[categoryName] || [];
+      if (existing.some(w => w.word === word.word && w.category === word.category)) return prev;
+      return { ...prev, [categoryName]: [...existing, word] };
+    });
+  };
+
+  const handleRemoveWordFromCategory = (word: Word, categoryName: string) => {
+    setCustomCategories(prev => {
+      const existing = prev[categoryName] || [];
+      return { ...prev, [categoryName]: existing.filter(w => !(w.word === word.word && w.category === word.category)) };
+    });
+  };
+
+  const handleDeleteCustomCategory = (name: string) => {
+    if (!confirm(`Delete category "${name}"? This will remove its words from your custom categories.`)) return;
+    setCustomCategories(prev => {
+      const next = { ...prev };
+      delete next[name];
+      return next;
+    });
+    setSelectedCategories(prev => prev.filter(c => c !== name));
+  };
 
   // Handler for adding generated words
   const handleWordGenerated = (word: Word) => {
@@ -96,7 +167,34 @@ export default function Home() {
       // In revision mode, only show unknown words
       filtered = unknownWords;
     } else {
-      filtered = allWords.filter(w => selectedCategories.includes(w.category));
+      const results: Word[] = [];
+      const added = new Set<string>();
+
+      selectedCategories.forEach((cat) => {
+        // if it's a custom category, include those words
+        if (customCategories[cat]) {
+          customCategories[cat].forEach((w) => {
+            const key = `${w.word}::${w.category}`;
+            if (!added.has(key)) {
+              results.push(w);
+              added.add(key);
+            }
+          });
+        } else {
+          // include original words with matching category
+          allWords.forEach((w) => {
+            if (w.category === cat) {
+              const key = `${w.word}::${w.category}`;
+              if (!added.has(key)) {
+                results.push(w);
+                added.add(key);
+              }
+            }
+          });
+        }
+      });
+
+      filtered = results;
     }
 
     if (isShuffled && filtered.length > 0) {
@@ -109,7 +207,7 @@ export default function Home() {
     }
 
     return filtered;
-  }, [allWords, selectedCategories, isShuffled, revisionMode, unknownWords]);
+  }, [allWords, selectedCategories, isShuffled, revisionMode, unknownWords, customCategories]);
 
   // Reset index when filters change
   useEffect(() => {
@@ -262,21 +360,65 @@ export default function Home() {
                         className="px-4 py-3 hover:bg-slate-700/50 transition-colors"
                       >
                         <div className="flex justify-between items-start">
-                          <div>
-                            <span className="text-white font-medium">
-                              {word.article && <span className="text-blue-400">{word.article} </span>}
-                              {word.word}
-                            </span>
-                            {word.plural && (
-                              <span className="text-slate-500 text-sm ml-2">
-                                (pl: {word.pluralArticle} {word.plural})
-                              </span>
-                            )}
-                          </div>
-                          <span className="text-xs px-2 py-0.5 bg-slate-900 text-slate-400 rounded-full">
-                            {word.category}
-                          </span>
-                        </div>
+                              <div>
+                                <span className="text-white font-medium">
+                                  {word.article && <span className="text-blue-400">{word.article} </span>}
+                                  {word.word}
+                                </span>
+                                {word.plural && (
+                                  <span className="text-slate-500 text-sm ml-2">
+                                    (pl: {word.pluralArticle} {word.plural})
+                                  </span>
+                                )}
+                              </div>
+                              <div className="flex items-center gap-2">
+                                <span className="text-xs px-2 py-0.5 bg-slate-900 text-slate-400 rounded-full">
+                                  {word.category}
+                                </span>
+                                <div className="relative">
+                                  <button
+                                    onClick={(e) => { e.stopPropagation(); openSearchAddFor(`${word.word}::${word.category}`); }}
+                                    className="text-xs px-2 py-0.5 bg-emerald-600 text-white rounded hover:bg-emerald-500"
+                                  >
+                                    ➕ Add
+                                  </button>
+
+                                  {searchAddOpenKey === `${word.word}::${word.category}` && (
+                                    <div onClick={(e) => e.stopPropagation()} className="absolute right-0 mt-2 w-64 bg-slate-900 border border-slate-800 rounded-lg p-3 z-50">
+                                      <div className="text-xs text-slate-400 mb-2">Add "{word.word}" to:</div>
+                                      <div className="max-h-40 overflow-y-auto space-y-1 mb-2">
+                                        {Object.keys(customCategories).length > 0 ? (
+                                          Object.keys(customCategories).map((cat) => (
+                                            <button
+                                              key={cat}
+                                              onClick={(e) => { e.stopPropagation(); handleAddFromSearch(word, cat); }}
+                                              className="w-full text-left px-2 py-1 rounded hover:bg-slate-800 text-sm"
+                                            >
+                                              {cat}
+                                            </button>
+                                          ))
+                                        ) : (
+                                          <div className="text-xs text-slate-500">No custom categories yet.</div>
+                                        )}
+                                      </div>
+                                      <div className="flex gap-2">
+                                        <input
+                                          value={searchAddNewCategory}
+                                          onChange={(e) => setSearchAddNewCategory(e.target.value)}
+                                          onKeyDown={(e) => { if (e.key === 'Enter' && searchAddNewCategory.trim()) { handleAddFromSearch(word, searchAddNewCategory.trim()); } }}
+                                          placeholder="Create and add..."
+                                          className="flex-1 px-2 py-2 bg-slate-800 border border-slate-700 rounded text-sm outline-none"
+                                        />
+                                        <button
+                                          onClick={() => { if (searchAddNewCategory.trim()) { handleAddFromSearch(word, searchAddNewCategory.trim()); } }}
+                                          className="px-3 py-2 bg-blue-600 rounded text-sm"
+                                        >Add</button>
+                                      </div>
+                                    </div>
+                                  )}
+                                </div>
+                              </div>
+                            </div>
                         <p className="text-slate-400 text-sm mt-1">{word.english}</p>
                       </li>
                     ))}
@@ -389,6 +531,13 @@ export default function Home() {
               selectedCategories={selectedCategories}
               onCategoryChange={setSelectedCategories}
               categoryCounts={categoryCounts}
+              onCreateCategory={handleCreateCustomCategory}
+              deletableCategories={Object.keys(customCategories)}
+              onDeleteCategory={handleDeleteCustomCategory}
+              words={allWords}
+              onAddWordToCategory={handleAddWordToCategory}
+              customCategories={customCategories}
+              onRemoveWordFromCategory={handleRemoveWordFromCategory}
             />
           </div>
         )}
@@ -405,6 +554,8 @@ export default function Home() {
               onMarkUnknown={handleMarkUnknown}
               onMarkKnown={handleMarkKnown}
               isUnknown={isWordUnknown(filteredWords[currentIndex])}
+              categories={Object.keys(customCategories)}
+              onAddToCategory={handleAddWordToCategory}
             />
           )}
         </main>
