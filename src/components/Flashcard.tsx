@@ -159,91 +159,60 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
         );
     };
 
-    // Determine word type from category and properties
-    const getWordType = (): string => {
-        if (word.category === 'Verben' || word.category === 'Wetter' && word.conjugations) return 'verb';
-        if (word.category === 'Adjektive' || word.category === 'Farben' || word.category === 'Gesundheit' && word.komparativ !== undefined) return 'adjective';
-        if (word.category === 'Länder') return 'country';
-        if (word.category === 'Partikel') return 'particle';
-        if (word.category === 'Fragewörter') return 'question_word';
-        if (word.category === 'Pronomen') return 'pronoun';
-        if (word.category === 'Artikel') return 'article_declension';
-        if (word.conjugations) return 'verb';
-        if (word.komparativ !== undefined) return 'adjective';
-        if (word.article) return 'noun';
-        return 'noun';
+    const renderSentence = () => {
+        if (!word.sentence) return null;
+        return (
+            <div className="mt-4 pt-3 border-t border-slate-700/50">
+                <p className="text-sm text-gray-400 uppercase tracking-wide mb-2">Example</p>
+                <p className="text-base text-slate-300 italic">"{word.sentence.de}"</p>
+                <p className="text-sm text-slate-500 mt-1">{word.sentence.en}</p>
+            </div>
+        );
     };
 
-    const wordType = getWordType();
-
     const renderBack = () => {
-        switch (wordType) {
+        switch (word.type) {
             case 'noun':
-                const kasus = typeof word.kasus === 'object' ? word.kasus : null;
                 return (
                     <div className="text-center space-y-3">
                         {renderEnglish()}
-                        {kasus && (
-                            <div className="space-y-2">
-                                <div className="grid grid-cols-1 gap-1 text-left max-w-xs mx-auto">
-                                    <div className="flex justify-between items-center">
-                                        <span className="text-xs text-gray-500 uppercase">Nom:</span>
-                                        <span className={`text-lg font-medium ${getArticleColor(word.article)}`}>
-                                            {kasus.nominativ}
-                                        </span>
-                                    </div>
-                                    <div className="flex justify-between items-center">
-                                        <span className="text-xs text-gray-500 uppercase">Akk:</span>
-                                        <span className={`text-lg font-medium ${word.article === 'der' ? 'text-blue-400' : getArticleColor(word.article)}`}>
-                                            {kasus.akkusativ}
-                                        </span>
-                                    </div>
-                                    <div className="flex justify-between items-center">
-                                        <span className="text-xs text-gray-500 uppercase">Dat:</span>
-                                        <span className={`text-lg font-medium ${word.article === 'die' ? 'text-blue-400' : 'text-blue-400'}`}>
-                                            {kasus.dativ}
-                                        </span>
-                                    </div>
-                                </div>
-                                {kasus.nominativPlural && (
-                                    <div className="pt-2 border-t border-gray-700">
-                                        <p className="text-xs text-gray-500 uppercase mb-1">Plural</p>
-                                        <div className="grid grid-cols-1 gap-1 text-left max-w-xs mx-auto">
-                                            <div className="flex justify-between items-center">
-                                                <span className="text-xs text-gray-500 uppercase">Nom:</span>
-                                                <span className="text-base text-pink-400">{kasus.nominativPlural}</span>
-                                            </div>
-                                            <div className="flex justify-between items-center">
-                                                <span className="text-xs text-gray-500 uppercase">Dat:</span>
-                                                <span className="text-base text-blue-400">{kasus.dativPlural}</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                )}
+                        {word.article && (
+                            <div className="space-y-1">
+                                <p className="text-sm text-gray-400 uppercase tracking-wide">Article</p>
+                                <p className={`text-4xl font-bold ${getArticleColor(word.article)}`}>
+                                    {word.article}
+                                </p>
                             </div>
                         )}
-                        {!kasus && word.article && (
-                            <p className={`text-3xl font-bold ${getArticleColor(word.article)}`}>
-                                {word.article} {word.word}
-                            </p>
+                        {word.plural && (
+                            <div className="space-y-1">
+                                <p className="text-sm text-gray-400 uppercase tracking-wide">Plural</p>
+                                <p className="text-2xl">
+                                    <span className={getArticleColor(word.pluralArticle)}>{word.pluralArticle}</span>{' '}
+                                    <span className="text-white">{word.plural}</span>
+                                </p>
+                            </div>
                         )}
                         {word.feminine && (
-                            <div className="space-y-1 pt-2 border-t border-gray-700">
-                                <p className="text-xs text-gray-500 uppercase">Feminine</p>
-                                <p className="text-lg">
+                            <div className="space-y-1">
+                                <p className="text-sm text-gray-400 uppercase tracking-wide">Feminine</p>
+                                <p className="text-xl">
                                     <span className="text-pink-500">die</span>{' '}
                                     <span className="text-white">{word.feminine}</span>
                                     {word.femininePlural && (
-                                        <span className="text-gray-400 text-sm ml-2">(Pl: {word.femininePlural})</span>
+                                        <span className="text-gray-400 text-base ml-2">
+                                            (Pl: {word.femininePlural})
+                                        </span>
                                     )}
                                 </p>
                             </div>
                         )}
                         <div className="pt-2">
-                            <span className="inline-block px-3 py-1 bg-gray-700 rounded-full text-xs text-gray-300">
+                            <span className="inline-block px-3 py-1 bg-gray-700 rounded-full text-sm text-gray-300">
                                 {word.category}
                             </span>
                         </div>
+                        {renderSentence()}
                     </div>
                 );
 
@@ -266,6 +235,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                                 Pronomen
                             </span>
                         </div>
+                        {renderSentence()}
                     </div>
                 );
 
@@ -301,6 +271,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                                 Verb
                             </span>
                         </div>
+                        {renderSentence()}
                     </div>
                 );
 
@@ -329,6 +300,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                                 Adjective
                             </span>
                         </div>
+                        {renderSentence()}
                     </div>
                 );
 
@@ -355,6 +327,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                                 Country
                             </span>
                         </div>
+                        {renderSentence()}
                     </div>
                 );
 
@@ -373,6 +346,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                                 Particle
                             </span>
                         </div>
+                        {renderSentence()}
                     </div>
                 );
 
@@ -389,6 +363,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                                 Fragewort
                             </span>
                         </div>
+                        {renderSentence()}
                     </div>
                 );
 
@@ -398,7 +373,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                         {renderEnglish()}
                         <div className="space-y-1">
                             <p className="text-sm text-gray-400 uppercase tracking-wide">
-                                {typeof word.kasus === 'string' ? word.kasus : ''} • {word.geschlecht}
+                                {word.kasus} • {word.geschlecht}
                             </p>
                             <p className="text-3xl font-bold text-amber-400">{word.word}</p>
                         </div>
@@ -433,6 +408,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                                 Artikel
                             </span>
                         </div>
+                        {renderSentence()}
                     </div>
                 );
 

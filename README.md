@@ -15,7 +15,7 @@ Interactive flashcard app for learning German vocabulary. Built with Next.js, Ty
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/german-flashcards.git
+git clone https://github.com/erentasken/german-flashcards.git
 cd german-flashcards
 npm install
 npm run dev
