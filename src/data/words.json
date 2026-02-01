@@ -7143,7 +7143,19 @@
     "sentence": {
       "de": "Ich bin in der Küche.",
       "en": "I'm in the kitchen."
-    }
+    },
+    "contractions": [
+      {
+        "form": "im",
+        "from": "in + dem",
+        "example": "im Haus (in the house)"
+      },
+      {
+        "form": "ins",
+        "from": "in + das",
+        "example": "ins Kino (to the cinema)"
+      }
+    ]
   },
   {
     "word": "aus",
@@ -7171,7 +7183,14 @@
     "sentence": {
       "de": "Ich bin bei meinen Eltern.",
       "en": "I'm at my parents' place."
-    }
+    },
+    "contractions": [
+      {
+        "form": "beim",
+        "from": "bei + dem",
+        "example": "beim Essen (while eating)"
+      }
+    ]
   },
   {
     "word": "von",
@@ -7185,7 +7204,14 @@
     "sentence": {
       "de": "Das Geschenk ist von mir.",
       "en": "The gift is from me."
-    }
+    },
+    "contractions": [
+      {
+        "form": "vom",
+        "from": "von + dem",
+        "example": "vom Arzt (from the doctor)"
+      }
+    ]
   },
   {
     "word": "an",
@@ -7199,7 +7225,19 @@
     "sentence": {
       "de": "Das Bild hängt an der Wand.",
       "en": "The picture hangs on the wall."
-    }
+    },
+    "contractions": [
+      {
+        "form": "am",
+        "from": "an + dem",
+        "example": "am Montag (on Monday)"
+      },
+      {
+        "form": "ans",
+        "from": "an + das",
+        "example": "ans Fenster (to the window)"
+      }
+    ]
   },
   {
     "word": "mit",

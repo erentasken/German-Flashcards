@@ -3,6 +3,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import Flashcard from '@/components/Flashcard';
 import CategoryFilter from '@/components/CategoryFilter';
+import WordGenerator from '@/components/WordGenerator';
 import { Word } from '@/types/word';
 import wordsData from '@/data/words.json';
 
@@ -33,17 +34,22 @@ export default function Home() {
   const [showUnknownList, setShowUnknownList] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [showSearch, setShowSearch] = useState(false);
+  const [showGenerator, setShowGenerator] = useState(false);
+  const [generatedWords, setGeneratedWords] = useState<Word[]>([]);
+
+  // Combine original words with generated words
+  const allWords = useMemo(() => [...words, ...generatedWords], [words, generatedWords]);
 
   // Search results
   const searchResults = useMemo(() => {
     if (!searchQuery.trim()) return [];
     const query = searchQuery.toLowerCase().trim();
-    return words.filter(w =>
+    return allWords.filter(w =>
       w.word.toLowerCase().includes(query) ||
       (w.english && w.english.toLowerCase().includes(query)) ||
       (w.article && `${w.article} ${w.word}`.toLowerCase().includes(query))
     ).slice(0, 10); // Limit to 10 results
-  }, [words, searchQuery]);
+  }, [allWords, searchQuery]);
 
   // Load unknown words from localStorage on mount
   useEffect(() => {
@@ -55,12 +61,32 @@ export default function Home() {
         console.error('Failed to load unknown words:', e);
       }
     }
+    
+    // Load generated words
+    const savedGenerated = localStorage.getItem('generatedWords');
+    if (savedGenerated) {
+      try {
+        setGeneratedWords(JSON.parse(savedGenerated));
+      } catch (e) {
+        console.error('Failed to load generated words:', e);
+      }
+    }
   }, []);
 
   // Save unknown words to localStorage
   useEffect(() => {
     localStorage.setItem('unknownWords', JSON.stringify(unknownWords));
   }, [unknownWords]);
+
+  // Save generated words to localStorage
+  useEffect(() => {
+    localStorage.setItem('generatedWords', JSON.stringify(generatedWords));
+  }, [generatedWords]);
+
+  // Handler for adding generated words
+  const handleWordGenerated = (word: Word) => {
+    setGeneratedWords(prev => [...prev, word]);
+  };
 
   // Filter words based on selected categories
   const filteredWords = useMemo(() => {
@@ -70,7 +96,7 @@ export default function Home() {
       // In revision mode, only show unknown words
       filtered = unknownWords;
     } else {
-      filtered = words.filter(w => selectedCategories.includes(w.category));
+      filtered = allWords.filter(w => selectedCategories.includes(w.category));
     }
 
     if (isShuffled && filtered.length > 0) {
@@ -83,7 +109,7 @@ export default function Home() {
     }
 
     return filtered;
-  }, [words, selectedCategories, isShuffled, revisionMode, unknownWords]);
+  }, [allWords, selectedCategories, isShuffled, revisionMode, unknownWords]);
 
   // Reset index when filters change
   useEffect(() => {
@@ -160,6 +186,16 @@ export default function Home() {
             🇩🇪 Wortschatz - By Tasken
           </h1>
           <div className="flex gap-2">
+            <button
+              onClick={() => setShowGenerator(!showGenerator)}
+              className={`p-2 rounded-lg transition-all ${showGenerator
+                ? 'bg-purple-600 text-white'
+                : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
+                }`}
+              title="Generate with AI"
+            >
+              🤖
+            </button>
             <button
               onClick={() => setShowSearch(!showSearch)}
               className={`p-2 rounded-lg transition-all ${showSearch
@@ -258,6 +294,30 @@ export default function Home() {
       </header>
 
       <div className="flex-1 flex flex-col max-w-4xl mx-auto w-full px-4 py-4">
+        {/* AI Word Generator */}
+        {showGenerator && (
+          <WordGenerator onWordGenerated={handleWordGenerated} />
+        )}
+
+        {/* Generated Words Count */}
+        {generatedWords.length > 0 && (
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <span className="text-sm text-purple-400">
+              ✨ {generatedWords.length} AI-generated word{generatedWords.length !== 1 ? 's' : ''} added
+            </span>
+            <button
+              onClick={() => {
+                if (confirm('Clear all generated words?')) {
+                  setGeneratedWords([]);
+                }
+              }}
+              className="text-xs px-2 py-1 rounded bg-slate-800 text-slate-500 hover:text-red-400 transition-colors"
+            >
+              Clear
+            </button>
+          </div>
+        )}
+
         {/* Mode Tabs */}
         <div className="flex gap-1 p-1 bg-slate-900 rounded-xl mb-4 self-center">
           <button
@@ -267,7 +327,7 @@ export default function Home() {
               : 'text-slate-400 hover:text-white'
               }`}
           >
-            📚 All ({words.length})
+            📚 All ({allWords.length})
           </button>
           <button
             onClick={() => setRevisionMode(true)}

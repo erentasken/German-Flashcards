@@ -162,16 +162,33 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
     const renderSentence = () => {
         if (!word.sentence) return null;
         return (
-            <div className="mt-4 pt-3 border-t border-slate-700/50">
-                <p className="text-sm text-gray-400 uppercase tracking-wide mb-2">Example</p>
-                <p className="text-base text-slate-300 italic">"{word.sentence.de}"</p>
-                <p className="text-sm text-slate-500 mt-1">{word.sentence.en}</p>
+            <div className="mt-3 pt-2 border-t border-slate-700/50">
+                <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Example</p>
+                <p className="text-sm text-slate-300 italic">&quot;{word.sentence.de}&quot;</p>
+                <p className="text-xs text-slate-500 mt-0.5">{word.sentence.en}</p>
             </div>
         );
     };
 
+    // Determine word type from category and properties
+    const getWordType = (): string => {
+        if (word.category === 'Verben' || word.category === 'Wetter' && word.conjugations) return 'verb';
+        if (word.category === 'Adjektive' || word.category === 'Farben' || word.category === 'Gesundheit' && word.komparativ !== undefined) return 'adjective';
+        if (word.category === 'Länder') return 'country';
+        if (word.category === 'Partikel') return 'particle';
+        if (word.category === 'Fragewörter') return 'question_word';
+        if (word.category === 'Pronomen') return 'pronoun';
+        if (word.category === 'Artikel') return 'article_declension';
+        if (word.conjugations) return 'verb';
+        if (word.komparativ !== undefined) return 'adjective';
+        if (word.article) return 'noun';
+        return 'noun';
+    };
+
+    const wordType = getWordType();
+
     const renderBack = () => {
-        switch (word.type) {
+        switch (wordType) {
             case 'noun':
                 return (
                     <div className="text-center space-y-3">
@@ -194,21 +211,19 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                             </div>
                         )}
                         {word.feminine && (
-                            <div className="space-y-1">
-                                <p className="text-sm text-gray-400 uppercase tracking-wide">Feminine</p>
-                                <p className="text-xl">
+                            <div className="space-y-1 pt-2 border-t border-gray-700">
+                                <p className="text-xs text-gray-500 uppercase">Feminine</p>
+                                <p className="text-lg">
                                     <span className="text-pink-500">die</span>{' '}
                                     <span className="text-white">{word.feminine}</span>
                                     {word.femininePlural && (
-                                        <span className="text-gray-400 text-base ml-2">
-                                            (Pl: {word.femininePlural})
-                                        </span>
+                                        <span className="text-gray-400 text-sm ml-2">(Pl: {word.femininePlural})</span>
                                     )}
                                 </p>
                             </div>
                         )}
                         <div className="pt-2">
-                            <span className="inline-block px-3 py-1 bg-gray-700 rounded-full text-sm text-gray-300">
+                            <span className="inline-block px-3 py-1 bg-gray-700 rounded-full text-xs text-gray-300">
                                 {word.category}
                             </span>
                         </div>
@@ -333,16 +348,35 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
 
             case 'particle':
                 return (
-                    <div className="text-center space-y-4">
+                    <div className="text-center space-y-3">
                         {renderEnglish()}
                         {word.partikelType && (
                             <div className="space-y-1">
-                                <p className="text-sm text-gray-400 uppercase tracking-wide">Type</p>
-                                <p className="text-2xl text-teal-400">{word.partikelType}</p>
+                                <p className="text-xs text-gray-500 uppercase tracking-wide">Type</p>
+                                <p className="text-xl text-teal-400">{word.partikelType}</p>
                             </div>
                         )}
-                        <div className="pt-2">
-                            <span className="inline-block px-3 py-1 bg-teal-900 rounded-full text-sm text-teal-300">
+                        {word.contractions && word.contractions.length > 0 && (
+                            <div className="space-y-1.5">
+                                <p className="text-xs text-gray-500 uppercase tracking-wide">Contractions</p>
+                                <div className="space-y-1">
+                                    {word.contractions.map((c, idx) => (
+                                        <div key={idx} className="bg-slate-800/50 rounded-lg px-2 py-1.5">
+                                            <div className="flex items-center justify-center gap-1.5 text-sm">
+                                                <span className="text-slate-400">{c.from}</span>
+                                                <span className="text-slate-600">→</span>
+                                                <span className="text-teal-400 font-semibold">{c.form}</span>
+                                            </div>
+                                            {c.example && (
+                                                <p className="text-xs text-slate-500 mt-0.5">{c.example}</p>
+                                            )}
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+                        <div className="pt-1">
+                            <span className="inline-block px-2 py-0.5 bg-teal-900 rounded-full text-xs text-teal-300">
                                 Particle
                             </span>
                         </div>
@@ -373,7 +407,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                         {renderEnglish()}
                         <div className="space-y-1">
                             <p className="text-sm text-gray-400 uppercase tracking-wide">
-                                {word.kasus} • {word.geschlecht}
+                                {typeof word.kasus === 'string' ? word.kasus : ''} • {word.geschlecht}
                             </p>
                             <p className="text-3xl font-bold text-amber-400">{word.word}</p>
                         </div>
@@ -421,11 +455,11 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
         <div className="flex flex-col items-center gap-4 w-full max-w-md">
             {/* Card */}
             <div
-                className="relative w-full h-80 sm:h-96 cursor-pointer perspective-1000"
+                className="relative w-full min-h-80 sm:min-h-96 cursor-pointer perspective-1000"
                 onClick={handleFlip}
             >
                 <div
-                    className={`relative w-full h-full transition-transform duration-500 transform-style-3d ${isFlipped ? 'rotate-y-180' : ''
+                    className={`relative w-full min-h-80 sm:min-h-96 transition-transform duration-500 transform-style-3d ${isFlipped ? 'rotate-y-180' : ''
                         }`}
                 >
                     {/* Front */}
@@ -449,8 +483,10 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                     </div>
 
                     {/* Back */}
-                    <div className="absolute w-full h-full backface-hidden bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl shadow-2xl border border-slate-600/50 flex items-center justify-center p-6 rotate-y-180">
-                        {renderBack()}
+                    <div className="absolute w-full min-h-80 sm:min-h-96 backface-hidden bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl shadow-2xl border border-slate-600/50 p-4 sm:p-6 rotate-y-180 overflow-y-auto max-h-[70vh]">
+                        <div className="flex items-center justify-center min-h-full">
+                            {renderBack()}
+                        </div>
                     </div>
                 </div>
             </div>
