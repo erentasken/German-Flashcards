@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Word } from '@/types/word';
 
 interface FlashcardProps {
@@ -18,9 +18,33 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
     const [isFlipped, setIsFlipped] = useState(false);
     const [isTransitioning, setIsTransitioning] = useState(false);
     const [isSpeaking, setIsSpeaking] = useState(false);
+    const audioRef = useRef<HTMLAudioElement | null>(null);
+    const audioUrlRef = useRef<string | null>(null);
+
+    // Cleanup audio when component unmounts or word changes
+    useEffect(() => {
+        return () => {
+            if (audioRef.current) {
+                audioRef.current.pause();
+                audioRef.current = null;
+            }
+            if (audioUrlRef.current) {
+                URL.revokeObjectURL(audioUrlRef.current);
+                audioUrlRef.current = null;
+            }
+        };
+    }, [word]);
 
     const speak = async (text: string) => {
-        if (isSpeaking) return;
+        // Stop any currently playing audio
+        if (audioRef.current) {
+            audioRef.current.pause();
+            audioRef.current = null;
+        }
+        if (audioUrlRef.current) {
+            URL.revokeObjectURL(audioUrlRef.current);
+            audioUrlRef.current = null;
+        }
 
         setIsSpeaking(true);
 
@@ -37,15 +61,26 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
 
             const audioBlob = await response.blob();
             const audioUrl = URL.createObjectURL(audioBlob);
+            audioUrlRef.current = audioUrl;
+            
             const audio = new Audio(audioUrl);
+            audioRef.current = audio;
 
             audio.onended = () => {
                 setIsSpeaking(false);
-                URL.revokeObjectURL(audioUrl);
+                if (audioUrlRef.current) {
+                    URL.revokeObjectURL(audioUrlRef.current);
+                    audioUrlRef.current = null;
+                }
+                audioRef.current = null;
             };
             audio.onerror = () => {
                 setIsSpeaking(false);
-                URL.revokeObjectURL(audioUrl);
+                if (audioUrlRef.current) {
+                    URL.revokeObjectURL(audioUrlRef.current);
+                    audioUrlRef.current = null;
+                }
+                audioRef.current = null;
             };
 
             await audio.play();
