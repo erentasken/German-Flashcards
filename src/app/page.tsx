@@ -9,14 +9,9 @@ import wordsData from '@/data/words.json';
 export default function Home() {
   const words = wordsData as Word[];
 
-  // Get unique categories and types
+  // Get unique categories
   const categories = useMemo(() =>
     [...new Set(words.map(w => w.category))].sort(),
-    [words]
-  );
-
-  const wordTypes = useMemo(() =>
-    [...new Set(words.map(w => w.type))].sort(),
     [words]
   );
 
@@ -30,95 +25,44 @@ export default function Home() {
   }, [words]);
 
   const [selectedCategories, setSelectedCategories] = useState<string[]>(categories);
-  const [selectedTypes, setSelectedTypes] = useState<string[]>(wordTypes);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isShuffled, setIsShuffled] = useState(false);
   const [showFilter, setShowFilter] = useState(true);
   const [unknownWords, setUnknownWords] = useState<Word[]>([]);
   const [revisionMode, setRevisionMode] = useState(false);
   const [showUnknownList, setShowUnknownList] = useState(false);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [showSearch, setShowSearch] = useState(false);
 
-  // Load all state from localStorage on mount
+  // Search results
+  const searchResults = useMemo(() => {
+    if (!searchQuery.trim()) return [];
+    const query = searchQuery.toLowerCase().trim();
+    return words.filter(w =>
+      w.word.toLowerCase().includes(query) ||
+      (w.english && w.english.toLowerCase().includes(query)) ||
+      (w.article && `${w.article} ${w.word}`.toLowerCase().includes(query))
+    ).slice(0, 10); // Limit to 10 results
+  }, [words, searchQuery]);
+
+  // Load unknown words from localStorage on mount
   useEffect(() => {
-    const savedUnknown = localStorage.getItem('unknownWords');
-    const savedCategories = localStorage.getItem('selectedCategories');
-    const savedTypes = localStorage.getItem('selectedTypes');
-    const savedIndex = localStorage.getItem('currentIndex');
-    const savedRevisionMode = localStorage.getItem('revisionMode');
-    const savedShowFilter = localStorage.getItem('showFilter');
-
-    if (savedUnknown) {
+    const saved = localStorage.getItem('unknownWords');
+    if (saved) {
       try {
-        setUnknownWords(JSON.parse(savedUnknown));
+        setUnknownWords(JSON.parse(saved));
       } catch (e) {
         console.error('Failed to load unknown words:', e);
       }
     }
-    if (savedCategories) {
-      try {
-        const parsed = JSON.parse(savedCategories);
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setSelectedCategories(parsed);
-        }
-      } catch (e) {
-        console.error('Failed to load categories:', e);
-      }
-    }
-    if (savedTypes) {
-      try {
-        const parsed = JSON.parse(savedTypes);
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setSelectedTypes(parsed);
-        }
-      } catch (e) {
-        console.error('Failed to load types:', e);
-      }
-    }
-    if (savedIndex) {
-      setCurrentIndex(parseInt(savedIndex, 10) || 0);
-    }
-    if (savedRevisionMode) {
-      setRevisionMode(savedRevisionMode === 'true');
-    }
-    if (savedShowFilter) {
-      setShowFilter(savedShowFilter === 'true');
-    }
-    setIsLoaded(true);
   }, []);
 
-  // Save state to localStorage
+  // Save unknown words to localStorage
   useEffect(() => {
-    if (!isLoaded) return;
     localStorage.setItem('unknownWords', JSON.stringify(unknownWords));
-  }, [unknownWords, isLoaded]);
+  }, [unknownWords]);
 
-  useEffect(() => {
-    if (!isLoaded) return;
-    localStorage.setItem('selectedCategories', JSON.stringify(selectedCategories));
-  }, [selectedCategories, isLoaded]);
-
-  useEffect(() => {
-    if (!isLoaded) return;
-    localStorage.setItem('selectedTypes', JSON.stringify(selectedTypes));
-  }, [selectedTypes, isLoaded]);
-
-  useEffect(() => {
-    if (!isLoaded) return;
-    localStorage.setItem('currentIndex', currentIndex.toString());
-  }, [currentIndex, isLoaded]);
-
-  useEffect(() => {
-    if (!isLoaded) return;
-    localStorage.setItem('revisionMode', revisionMode.toString());
-  }, [revisionMode, isLoaded]);
-
-  useEffect(() => {
-    if (!isLoaded) return;
-    localStorage.setItem('showFilter', showFilter.toString());
-  }, [showFilter, isLoaded]);
-
-  // Filter words based on selected categories and types
+  // Filter words based on selected categories
   const filteredWords = useMemo(() => {
     let filtered: Word[];
 
@@ -126,9 +70,7 @@ export default function Home() {
       // In revision mode, only show unknown words
       filtered = unknownWords;
     } else {
-      filtered = words.filter(
-        w => selectedCategories.includes(w.category) && selectedTypes.includes(w.type)
-      );
+      filtered = words.filter(w => selectedCategories.includes(w.category));
     }
 
     if (isShuffled && filtered.length > 0) {
@@ -141,7 +83,12 @@ export default function Home() {
     }
 
     return filtered;
-  }, [words, selectedCategories, selectedTypes, isShuffled, revisionMode, unknownWords]);
+  }, [words, selectedCategories, isShuffled, revisionMode, unknownWords]);
+
+  // Reset index when filters change
+  useEffect(() => {
+    setCurrentIndex(0);
+  }, [selectedCategories, revisionMode]);
 
   // Ensure currentIndex is within bounds
   useEffect(() => {
@@ -214,6 +161,16 @@ export default function Home() {
           </h1>
           <div className="flex gap-2">
             <button
+              onClick={() => setShowSearch(!showSearch)}
+              className={`p-2 rounded-lg transition-all ${showSearch
+                ? 'bg-purple-600 text-white'
+                : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
+                }`}
+              title="Search"
+            >
+              🔍
+            </button>
+            <button
               onClick={handleShuffle}
               className={`p-2 rounded-lg transition-all ${isShuffled
                 ? 'bg-emerald-600 text-white'
@@ -235,6 +192,69 @@ export default function Home() {
             </button>
           </div>
         </div>
+
+        {/* Search Bar */}
+        {showSearch && (
+          <div className="max-w-4xl mx-auto px-4 pb-3">
+            <div className="relative">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search German or English word..."
+                className="w-full px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500"
+                autoFocus
+              />
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+
+            {/* Search Results */}
+            {searchQuery.trim() && (
+              <div className="mt-2 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden">
+                {searchResults.length > 0 ? (
+                  <ul className="divide-y divide-slate-700">
+                    {searchResults.map((word, idx) => (
+                      <li
+                        key={`${word.word}-${word.category}-${idx}`}
+                        className="px-4 py-3 hover:bg-slate-700/50 transition-colors"
+                      >
+                        <div className="flex justify-between items-start">
+                          <div>
+                            <span className="text-white font-medium">
+                              {word.article && <span className="text-blue-400">{word.article} </span>}
+                              {word.word}
+                            </span>
+                            {word.plural && (
+                              <span className="text-slate-500 text-sm ml-2">
+                                (pl: {word.pluralArticle} {word.plural})
+                              </span>
+                            )}
+                          </div>
+                          <span className="text-xs px-2 py-0.5 bg-slate-900 text-slate-400 rounded-full">
+                            {word.category}
+                          </span>
+                        </div>
+                        <p className="text-slate-400 text-sm mt-1">{word.english}</p>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <div className="px-4 py-6 text-center">
+                    <p className="text-slate-500">No words found for "{searchQuery}"</p>
+                    <p className="text-slate-600 text-sm mt-1">Try a different search term</p>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        )}
       </header>
 
       <div className="flex-1 flex flex-col max-w-4xl mx-auto w-full px-4 py-4">
@@ -308,9 +328,6 @@ export default function Home() {
               categories={categories}
               selectedCategories={selectedCategories}
               onCategoryChange={setSelectedCategories}
-              wordTypes={wordTypes}
-              selectedTypes={selectedTypes}
-              onTypeChange={setSelectedTypes}
               categoryCounts={categoryCounts}
             />
           </div>

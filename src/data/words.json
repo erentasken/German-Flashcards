@@ -4,612 +4,1048 @@
     "article": "das",
     "plural": "Augen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "eye"
+    "category": "Körper & Gesundheit",
+    "english": "eye",
+    "kasus": {
+      "nominativ": "das Auge",
+      "akkusativ": "das Auge",
+      "dativ": "dem Auge",
+      "nominativPlural": "die Augen",
+      "akkusativPlural": "die Augen",
+      "dativPlural": "den Augen"
+    }
   },
   {
     "word": "Fahrrad",
     "article": "das",
     "plural": "Fahrräder",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "bicycle"
+    "category": "Orte & Verkehr",
+    "english": "bicycle",
+    "kasus": {
+      "nominativ": "das Fahrrad",
+      "akkusativ": "das Fahrrad",
+      "dativ": "dem Fahrrad",
+      "nominativPlural": "die Fahrräder",
+      "akkusativPlural": "die Fahrräder",
+      "dativPlural": "den Fahrrädern"
+    }
   },
   {
     "word": "Fenster",
     "article": "das",
     "plural": "Fenster",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "window"
+    "category": "Haus & Wohnen",
+    "english": "window",
+    "kasus": {
+      "nominativ": "das Fenster",
+      "akkusativ": "das Fenster",
+      "dativ": "dem Fenster",
+      "nominativPlural": "die Fenster",
+      "akkusativPlural": "die Fenster",
+      "dativPlural": "den Fenstern"
+    }
   },
   {
     "word": "Foto",
     "article": "das",
     "plural": "Fotos",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "photo"
+    "category": "Haus & Wohnen",
+    "english": "photo",
+    "kasus": {
+      "nominativ": "das Foto",
+      "akkusativ": "das Foto",
+      "dativ": "dem Foto",
+      "nominativPlural": "die Fotos",
+      "akkusativPlural": "die Fotos",
+      "dativPlural": "den Fotos"
+    }
   },
   {
     "word": "Gebäude",
     "article": "das",
     "plural": "Gebäude",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "building"
+    "category": "Haus & Wohnen",
+    "english": "building",
+    "kasus": {
+      "nominativ": "das Gebäude",
+      "akkusativ": "das Gebäude",
+      "dativ": "dem Gebäude",
+      "nominativPlural": "die Gebäude",
+      "akkusativPlural": "die Gebäude",
+      "dativPlural": "den Gebäuden"
+    }
   },
   {
     "word": "Geschenk",
     "article": "das",
     "plural": "Geschenke",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "gift"
+    "category": "Freizeit",
+    "english": "gift",
+    "kasus": {
+      "nominativ": "das Geschenk",
+      "akkusativ": "das Geschenk",
+      "dativ": "dem Geschenk",
+      "nominativPlural": "die Geschenke",
+      "akkusativPlural": "die Geschenke",
+      "dativPlural": "den Geschenken"
+    }
   },
   {
     "word": "Handy",
     "article": "das",
     "plural": "Handys",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "cell phone"
+    "category": "Technik",
+    "english": "cell phone",
+    "kasus": {
+      "nominativ": "das Handy",
+      "akkusativ": "das Handy",
+      "dativ": "dem Handy",
+      "nominativPlural": "die Handys",
+      "akkusativPlural": "die Handys",
+      "dativPlural": "den Handys"
+    }
   },
   {
     "word": "Haus",
     "article": "das",
     "plural": "Häuser",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "house"
+    "category": "Haus & Wohnen",
+    "english": "house",
+    "kasus": {
+      "nominativ": "das Haus",
+      "akkusativ": "das Haus",
+      "dativ": "dem Haus",
+      "nominativPlural": "die Häuser",
+      "akkusativPlural": "die Häuser",
+      "dativPlural": "den Häusern"
+    }
   },
   {
     "word": "Licht",
     "article": "das",
     "plural": "Lichter",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "light"
+    "category": "Haus & Wohnen",
+    "english": "light",
+    "kasus": {
+      "nominativ": "das Licht",
+      "akkusativ": "das Licht",
+      "dativ": "dem Licht",
+      "nominativPlural": "die Lichter",
+      "akkusativPlural": "die Lichter",
+      "dativPlural": "den Lichtern"
+    }
   },
   {
     "word": "Ohr",
     "article": "das",
     "plural": "Ohren",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "ear"
+    "category": "Körper & Gesundheit",
+    "english": "ear",
+    "kasus": {
+      "nominativ": "das Ohr",
+      "akkusativ": "das Ohr",
+      "dativ": "dem Ohr",
+      "nominativPlural": "die Ohren",
+      "akkusativPlural": "die Ohren",
+      "dativPlural": "den Ohren"
+    }
   },
   {
     "word": "Problem",
     "article": "das",
     "plural": "Probleme",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "problem"
+    "category": "Freizeit",
+    "english": "problem",
+    "kasus": {
+      "nominativ": "das Problem",
+      "akkusativ": "das Problem",
+      "dativ": "dem Problem",
+      "nominativPlural": "die Probleme",
+      "akkusativPlural": "die Probleme",
+      "dativPlural": "den Problemen"
+    }
   },
   {
     "word": "Rad",
     "article": "das",
     "plural": "Räder",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "wheel"
+    "category": "Orte & Verkehr",
+    "english": "wheel",
+    "kasus": {
+      "nominativ": "das Rad",
+      "akkusativ": "das Rad",
+      "dativ": "dem Rad",
+      "nominativPlural": "die Räder",
+      "akkusativPlural": "die Räder",
+      "dativPlural": "den Rädern"
+    }
   },
   {
     "word": "Schild",
     "article": "das",
     "plural": "Schilder",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "sign"
+    "category": "Haus & Wohnen",
+    "english": "sign",
+    "kasus": {
+      "nominativ": "das Schild",
+      "akkusativ": "das Schild",
+      "dativ": "dem Schild",
+      "nominativPlural": "die Schilder",
+      "akkusativPlural": "die Schilder",
+      "dativPlural": "den Schildern"
+    }
   },
   {
     "word": "Zentrum",
     "article": "das",
     "plural": "Zentren",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "center"
+    "category": "Haus & Wohnen",
+    "english": "center",
+    "kasus": {
+      "nominativ": "das Zentrum",
+      "akkusativ": "das Zentrum",
+      "dativ": "dem Zentrum",
+      "nominativPlural": "die Zentren",
+      "akkusativPlural": "die Zentren",
+      "dativPlural": "den Zentren"
+    }
   },
   {
     "word": "Spray",
     "article": "das",
     "plural": "Sprays",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "spray"
+    "category": "Körper & Gesundheit",
+    "english": "spray",
+    "kasus": {
+      "nominativ": "das Spray",
+      "akkusativ": "das Spray",
+      "dativ": "dem Spray",
+      "nominativPlural": "die Sprays",
+      "akkusativPlural": "die Sprays",
+      "dativPlural": "den Sprays"
+    }
   },
   {
     "word": "Rezept",
     "article": "das",
     "plural": "Rezepte",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "recipe / prescription"
+    "category": "Körper & Gesundheit",
+    "english": "recipe / prescription",
+    "kasus": {
+      "nominativ": "das Rezept",
+      "akkusativ": "das Rezept",
+      "dativ": "dem Rezept",
+      "nominativPlural": "die Rezepte",
+      "akkusativPlural": "die Rezepte",
+      "dativPlural": "den Rezepten"
+    }
   },
   {
     "word": "Fernsehen",
     "article": "das",
     "plural": "",
     "pluralArticle": "",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "television"
+    "category": "Technik",
+    "english": "television",
+    "kasus": {
+      "nominativ": "das Fernsehen",
+      "akkusativ": "das Fernsehen",
+      "dativ": "dem Fernsehen"
+    }
   },
   {
     "word": "Feuer",
     "article": "das",
     "plural": "",
     "pluralArticle": "",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "fire"
+    "category": "Natur & Welt",
+    "english": "fire",
+    "kasus": {
+      "nominativ": "das Feuer",
+      "akkusativ": "das Feuer",
+      "dativ": "dem Feuer"
+    }
   },
   {
     "word": "Schach",
     "article": "das",
     "plural": "",
     "pluralArticle": "",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "chess"
+    "category": "Freizeit",
+    "english": "chess",
+    "kasus": {
+      "nominativ": "das Schach",
+      "akkusativ": "das Schach",
+      "dativ": "dem Schach"
+    }
   },
   {
     "word": "Toilettenpapier",
     "article": "das",
     "plural": "",
     "pluralArticle": "",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "toilet paper"
+    "category": "Natur & Welt",
+    "english": "toilet paper",
+    "kasus": {
+      "nominativ": "das Toilettenpapier",
+      "akkusativ": "das Toilettenpapier",
+      "dativ": "dem Toilettenpapier"
+    }
   },
   {
     "word": "Klopapier",
     "article": "das",
     "plural": "",
     "pluralArticle": "",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "toilet paper"
+    "category": "Natur & Welt",
+    "english": "toilet paper",
+    "kasus": {
+      "nominativ": "das Klopapier",
+      "akkusativ": "das Klopapier",
+      "dativ": "dem Klopapier"
+    }
   },
   {
     "word": "Heimweh",
     "article": "das",
     "plural": "",
     "pluralArticle": "",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "homesickness"
+    "category": "Freizeit",
+    "english": "homesickness",
+    "kasus": {
+      "nominativ": "das Heimweh",
+      "akkusativ": "das Heimweh",
+      "dativ": "dem Heimweh"
+    }
   },
   {
     "word": "Abfall",
     "article": "der",
     "plural": "Abfälle",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "waste / garbage"
+    "category": "Natur & Welt",
+    "english": "waste / garbage",
+    "kasus": {
+      "nominativ": "der Abfall",
+      "akkusativ": "den Abfall",
+      "dativ": "dem Abfall",
+      "nominativPlural": "die Abfälle",
+      "akkusativPlural": "die Abfälle",
+      "dativPlural": "den Abfällen"
+    }
   },
   {
     "word": "Bahnhof",
     "article": "der",
     "plural": "Bahnhöfe",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "train station"
+    "category": "Orte & Verkehr",
+    "english": "train station",
+    "kasus": {
+      "nominativ": "der Bahnhof",
+      "akkusativ": "den Bahnhof",
+      "dativ": "dem Bahnhof",
+      "nominativPlural": "die Bahnhöfe",
+      "akkusativPlural": "die Bahnhöfe",
+      "dativPlural": "den Bahnhöfen"
+    }
   },
   {
     "word": "Buchstabe",
     "article": "der",
     "plural": "Buchstaben",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "letter (alphabet)"
+    "category": "Technik",
+    "english": "letter (alphabet)",
+    "kasus": {
+      "nominativ": "der Buchstabe",
+      "akkusativ": "den Buchstabe",
+      "dativ": "dem Buchstabe",
+      "nominativPlural": "die Buchstaben",
+      "akkusativPlural": "die Buchstaben",
+      "dativPlural": "den Buchstaben"
+    }
   },
   {
     "word": "Dom",
     "article": "der",
     "plural": "Dome",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "cathedral"
+    "category": "Haus & Wohnen",
+    "english": "cathedral",
+    "kasus": {
+      "nominativ": "der Dom",
+      "akkusativ": "den Dom",
+      "dativ": "dem Dom",
+      "nominativPlural": "die Dome",
+      "akkusativPlural": "die Dome",
+      "dativPlural": "den Domen"
+    }
   },
   {
     "word": "Fernseher",
     "article": "der",
     "plural": "Fernseher",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "TV set"
+    "category": "Technik",
+    "english": "TV set",
+    "kasus": {
+      "nominativ": "der Fernseher",
+      "akkusativ": "den Fernseher",
+      "dativ": "dem Fernseher",
+      "nominativPlural": "die Fernseher",
+      "akkusativPlural": "die Fernseher",
+      "dativPlural": "den Fernsehern"
+    }
   },
   {
     "word": "Geburtstag",
     "article": "der",
     "plural": "Geburtstage",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "birthday"
+    "category": "Freizeit",
+    "english": "birthday",
+    "kasus": {
+      "nominativ": "der Geburtstag",
+      "akkusativ": "den Geburtstag",
+      "dativ": "dem Geburtstag",
+      "nominativPlural": "die Geburtstage",
+      "akkusativPlural": "die Geburtstage",
+      "dativPlural": "den Geburtstagen"
+    }
   },
   {
     "word": "Handschuh",
     "article": "der",
     "plural": "Handschuhe",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "glove"
+    "category": "Kleidung",
+    "english": "glove",
+    "kasus": {
+      "nominativ": "der Handschuh",
+      "akkusativ": "den Handschuh",
+      "dativ": "dem Handschuh",
+      "nominativPlural": "die Handschuhe",
+      "akkusativPlural": "die Handschuhe",
+      "dativPlural": "den Handschuhen"
+    }
   },
   {
     "word": "Helm",
     "article": "der",
     "plural": "Helme",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "helmet"
+    "category": "Kleidung",
+    "english": "helmet",
+    "kasus": {
+      "nominativ": "der Helm",
+      "akkusativ": "den Helm",
+      "dativ": "dem Helm",
+      "nominativPlural": "die Helme",
+      "akkusativPlural": "die Helme",
+      "dativPlural": "den Helmen"
+    }
   },
   {
     "word": "ICE",
     "article": "der",
     "plural": "ICEs",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "high-speed train"
+    "category": "Orte & Verkehr",
+    "english": "high-speed train",
+    "kasus": {
+      "nominativ": "der ICE",
+      "akkusativ": "den ICE",
+      "dativ": "dem ICE",
+      "nominativPlural": "die ICEs",
+      "akkusativPlural": "die ICEs",
+      "dativPlural": "den ICEs"
+    }
   },
   {
     "word": "Ohrschützer",
     "article": "der",
     "plural": "Ohrschützer",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "ear muffs"
+    "category": "Körper & Gesundheit",
+    "english": "ear muffs",
+    "kasus": {
+      "nominativ": "der Ohrschützer",
+      "akkusativ": "den Ohrschützer",
+      "dativ": "dem Ohrschützer",
+      "nominativPlural": "die Ohrschützer",
+      "akkusativPlural": "die Ohrschützer",
+      "dativPlural": "den Ohrschützern"
+    }
   },
   {
     "word": "Platz",
     "article": "der",
     "plural": "Plätze",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "place / square"
+    "category": "Freizeit",
+    "english": "place / square",
+    "kasus": {
+      "nominativ": "der Platz",
+      "akkusativ": "den Platz",
+      "dativ": "dem Platz",
+      "nominativPlural": "die Plätze",
+      "akkusativPlural": "die Plätze",
+      "dativPlural": "den Plätzen"
+    }
   },
   {
     "word": "Pullover",
     "article": "der",
     "plural": "Pullover",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "sweater"
+    "category": "Kleidung",
+    "english": "sweater",
+    "kasus": {
+      "nominativ": "der Pullover",
+      "akkusativ": "den Pullover",
+      "dativ": "dem Pullover",
+      "nominativPlural": "die Pullover",
+      "akkusativPlural": "die Pullover",
+      "dativPlural": "den Pullovern"
+    }
   },
   {
     "word": "Schlüssel",
     "article": "der",
     "plural": "Schlüssel",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "key"
+    "category": "Haus & Wohnen",
+    "english": "key",
+    "kasus": {
+      "nominativ": "der Schlüssel",
+      "akkusativ": "den Schlüssel",
+      "dativ": "dem Schlüssel",
+      "nominativPlural": "die Schlüssel",
+      "akkusativPlural": "die Schlüssel",
+      "dativPlural": "den Schlüsseln"
+    }
   },
   {
     "word": "Schuh",
     "article": "der",
     "plural": "Schuhe",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "shoe"
+    "category": "Kleidung",
+    "english": "shoe",
+    "kasus": {
+      "nominativ": "der Schuh",
+      "akkusativ": "den Schuh",
+      "dativ": "dem Schuh",
+      "nominativPlural": "die Schuhe",
+      "akkusativPlural": "die Schuhe",
+      "dativPlural": "den Schuhen"
+    }
   },
   {
     "word": "Spaziergang",
     "article": "der",
     "plural": "Spziergänge",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "walk / stroll"
+    "category": "Freizeit",
+    "english": "walk / stroll",
+    "kasus": {
+      "nominativ": "der Spaziergang",
+      "akkusativ": "den Spaziergang",
+      "dativ": "dem Spaziergang",
+      "nominativPlural": "die Spziergänge",
+      "akkusativPlural": "die Spziergänge",
+      "dativPlural": "den Spziergängen"
+    }
   },
   {
     "word": "Urlaub",
     "article": "der",
     "plural": "Urlaube",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "vacation"
+    "category": "Freizeit",
+    "english": "vacation",
+    "kasus": {
+      "nominativ": "der Urlaub",
+      "akkusativ": "den Urlaub",
+      "dativ": "dem Urlaub",
+      "nominativPlural": "die Urlaube",
+      "akkusativPlural": "die Urlaube",
+      "dativPlural": "den Urlauben"
+    }
   },
   {
     "word": "Zug",
     "article": "der",
     "plural": "Züge",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "train"
+    "category": "Orte & Verkehr",
+    "english": "train",
+    "kasus": {
+      "nominativ": "der Zug",
+      "akkusativ": "den Zug",
+      "dativ": "dem Zug",
+      "nominativPlural": "die Züge",
+      "akkusativPlural": "die Züge",
+      "dativPlural": "den Zügen"
+    }
   },
   {
     "word": "Saft",
     "article": "der",
     "plural": "Säfte",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "juice"
+    "category": "Orte & Verkehr",
+    "english": "juice",
+    "kasus": {
+      "nominativ": "der Saft",
+      "akkusativ": "den Saft",
+      "dativ": "dem Saft",
+      "nominativPlural": "die Säfte",
+      "akkusativPlural": "die Säfte",
+      "dativPlural": "den Säften"
+    }
   },
   {
     "word": "Tropfen",
     "article": "der",
     "plural": "Tropfen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "drop"
+    "category": "Körper & Gesundheit",
+    "english": "drop",
+    "kasus": {
+      "nominativ": "der Tropfen",
+      "akkusativ": "den Tropfen",
+      "dativ": "dem Tropfen",
+      "nominativPlural": "die Tropfen",
+      "akkusativPlural": "die Tropfen",
+      "dativPlural": "den Tropfen"
+    }
   },
   {
     "word": "Müll",
     "article": "der",
     "plural": "",
     "pluralArticle": "",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "garbage / trash"
+    "category": "Natur & Welt",
+    "english": "garbage / trash",
+    "kasus": {
+      "nominativ": "der Müll",
+      "akkusativ": "den Müll",
+      "dativ": "dem Müll"
+    }
   },
   {
     "word": "Brille",
     "article": "die",
     "plural": "Brillen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "glasses"
+    "category": "Kleidung",
+    "english": "glasses",
+    "kasus": {
+      "nominativ": "die Brille",
+      "akkusativ": "die Brille",
+      "dativ": "der Brille",
+      "nominativPlural": "die Brillen",
+      "akkusativPlural": "die Brillen",
+      "dativPlural": "den Brillen"
+    }
   },
   {
     "word": "Burg",
     "article": "die",
     "plural": "Burgen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "castle"
+    "category": "Haus & Wohnen",
+    "english": "castle",
+    "kasus": {
+      "nominativ": "die Burg",
+      "akkusativ": "die Burg",
+      "dativ": "der Burg",
+      "nominativPlural": "die Burgen",
+      "akkusativPlural": "die Burgen",
+      "dativPlural": "den Burgen"
+    }
   },
   {
     "word": "FAU-Karte",
     "article": "die",
     "plural": "FAU-Karten",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "university card"
+    "category": "Orte & Verkehr",
+    "english": "university card",
+    "kasus": {
+      "nominativ": "die FAU-Karte",
+      "akkusativ": "die FAU-Karte",
+      "dativ": "der FAU-Karte",
+      "nominativPlural": "die FAU-Karten",
+      "akkusativPlural": "die FAU-Karten",
+      "dativPlural": "den FAU-Karten"
+    }
   },
   {
     "word": "Information",
     "article": "die",
     "plural": "Informationen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "information"
+    "category": "Technik",
+    "english": "information",
+    "kasus": {
+      "nominativ": "die Information",
+      "akkusativ": "die Information",
+      "dativ": "der Information",
+      "nominativPlural": "die Informationen",
+      "akkusativPlural": "die Informationen",
+      "dativPlural": "den Informationen"
+    }
   },
   {
     "word": "Jacke",
     "article": "die",
     "plural": "Jacken",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "jacket"
+    "category": "Kleidung",
+    "english": "jacket",
+    "kasus": {
+      "nominativ": "die Jacke",
+      "akkusativ": "die Jacke",
+      "dativ": "der Jacke",
+      "nominativPlural": "die Jacken",
+      "akkusativPlural": "die Jacken",
+      "dativPlural": "den Jacken"
+    }
   },
   {
     "word": "Karte",
     "article": "die",
     "plural": "Karten",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "card / map"
+    "category": "Orte & Verkehr",
+    "english": "card / map",
+    "kasus": {
+      "nominativ": "die Karte",
+      "akkusativ": "die Karte",
+      "dativ": "der Karte",
+      "nominativPlural": "die Karten",
+      "akkusativPlural": "die Karten",
+      "dativPlural": "den Karten"
+    }
   },
   {
     "word": "Kerze",
     "article": "die",
     "plural": "Kerzen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "candle"
+    "category": "Haus & Wohnen",
+    "english": "candle",
+    "kasus": {
+      "nominativ": "die Kerze",
+      "akkusativ": "die Kerze",
+      "dativ": "der Kerze",
+      "nominativPlural": "die Kerzen",
+      "akkusativPlural": "die Kerzen",
+      "dativPlural": "den Kerzen"
+    }
   },
   {
     "word": "Kirche",
     "article": "die",
     "plural": "Kirchen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "church"
+    "category": "Haus & Wohnen",
+    "english": "church",
+    "kasus": {
+      "nominativ": "die Kirche",
+      "akkusativ": "die Kirche",
+      "dativ": "der Kirche",
+      "nominativPlural": "die Kirchen",
+      "akkusativPlural": "die Kirchen",
+      "dativPlural": "den Kirchen"
+    }
   },
   {
     "word": "Lampe",
     "article": "die",
     "plural": "Lampen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "lamp"
+    "category": "Haus & Wohnen",
+    "english": "lamp",
+    "kasus": {
+      "nominativ": "die Lampe",
+      "akkusativ": "die Lampe",
+      "dativ": "der Lampe",
+      "nominativPlural": "die Lampen",
+      "akkusativPlural": "die Lampen",
+      "dativPlural": "den Lampen"
+    }
   },
   {
     "word": "Maske",
     "article": "die",
     "plural": "Masken",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "mask"
+    "category": "Kleidung",
+    "english": "mask",
+    "kasus": {
+      "nominativ": "die Maske",
+      "akkusativ": "die Maske",
+      "dativ": "der Maske",
+      "nominativPlural": "die Masken",
+      "akkusativPlural": "die Masken",
+      "dativPlural": "den Masken"
+    }
   },
   {
     "word": "Maus",
     "article": "die",
     "plural": "Mäuse",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "mouse"
+    "category": "Technik",
+    "english": "mouse",
+    "kasus": {
+      "nominativ": "die Maus",
+      "akkusativ": "die Maus",
+      "dativ": "der Maus",
+      "nominativPlural": "die Mäuse",
+      "akkusativPlural": "die Mäuse",
+      "dativPlural": "den Mäusen"
+    }
   },
   {
     "word": "Party",
     "article": "die",
     "plural": "Partys",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "party"
+    "category": "Freizeit",
+    "english": "party",
+    "kasus": {
+      "nominativ": "die Party",
+      "akkusativ": "die Party",
+      "dativ": "der Party",
+      "nominativPlural": "die Partys",
+      "akkusativPlural": "die Partys",
+      "dativPlural": "den Partys"
+    }
   },
   {
     "word": "Pyramide",
     "article": "die",
     "plural": "Pyramiden",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "pyramid"
+    "category": "Haus & Wohnen",
+    "english": "pyramid",
+    "kasus": {
+      "nominativ": "die Pyramide",
+      "akkusativ": "die Pyramide",
+      "dativ": "der Pyramide",
+      "nominativPlural": "die Pyramiden",
+      "akkusativPlural": "die Pyramiden",
+      "dativPlural": "den Pyramiden"
+    }
   },
   {
     "word": "Sprache",
     "article": "die",
     "plural": "Sprachen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "language"
+    "category": "Technik",
+    "english": "language",
+    "kasus": {
+      "nominativ": "die Sprache",
+      "akkusativ": "die Sprache",
+      "dativ": "der Sprache",
+      "nominativPlural": "die Sprachen",
+      "akkusativPlural": "die Sprachen",
+      "dativPlural": "den Sprachen"
+    }
   },
   {
     "word": "Stadt",
     "article": "die",
     "plural": "Städte",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "city"
+    "category": "Orte & Verkehr",
+    "english": "city",
+    "kasus": {
+      "nominativ": "die Stadt",
+      "akkusativ": "die Stadt",
+      "dativ": "der Stadt",
+      "nominativPlural": "die Städte",
+      "akkusativPlural": "die Städte",
+      "dativPlural": "den Städten"
+    }
   },
   {
     "word": "Straße",
     "article": "die",
     "plural": "Straßen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "street"
+    "category": "Orte & Verkehr",
+    "english": "street",
+    "kasus": {
+      "nominativ": "die Straße",
+      "akkusativ": "die Straße",
+      "dativ": "der Straße",
+      "nominativPlural": "die Straßen",
+      "akkusativPlural": "die Straßen",
+      "dativPlural": "den Straßen"
+    }
   },
   {
     "word": "Tasche",
     "article": "die",
     "plural": "Taschen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "bag"
+    "category": "Kleidung",
+    "english": "bag",
+    "kasus": {
+      "nominativ": "die Tasche",
+      "akkusativ": "die Tasche",
+      "dativ": "der Tasche",
+      "nominativPlural": "die Taschen",
+      "akkusativPlural": "die Taschen",
+      "dativPlural": "den Taschen"
+    }
   },
   {
     "word": "Tür",
     "article": "die",
     "plural": "Türen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "door"
+    "category": "Haus & Wohnen",
+    "english": "door",
+    "kasus": {
+      "nominativ": "die Tür",
+      "akkusativ": "die Tür",
+      "dativ": "der Tür",
+      "nominativPlural": "die Türen",
+      "akkusativPlural": "die Türen",
+      "dativPlural": "den Türen"
+    }
   },
   {
     "word": "Uhr",
     "article": "die",
     "plural": "Uhren",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "clock / watch"
+    "category": "Haus & Wohnen",
+    "english": "clock / watch",
+    "kasus": {
+      "nominativ": "die Uhr",
+      "akkusativ": "die Uhr",
+      "dativ": "der Uhr",
+      "nominativPlural": "die Uhren",
+      "akkusativPlural": "die Uhren",
+      "dativPlural": "den Uhren"
+    }
   },
   {
     "word": "Zahl",
     "article": "die",
     "plural": "Zahlen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "number"
+    "category": "Technik",
+    "english": "number",
+    "kasus": {
+      "nominativ": "die Zahl",
+      "akkusativ": "die Zahl",
+      "dativ": "der Zahl",
+      "nominativPlural": "die Zahlen",
+      "akkusativPlural": "die Zahlen",
+      "dativPlural": "den Zahlen"
+    }
   },
   {
     "word": "Salbe",
     "article": "die",
     "plural": "Salben",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "ointment"
+    "category": "Körper & Gesundheit",
+    "english": "ointment",
+    "kasus": {
+      "nominativ": "die Salbe",
+      "akkusativ": "die Salbe",
+      "dativ": "der Salbe",
+      "nominativPlural": "die Salben",
+      "akkusativPlural": "die Salben",
+      "dativPlural": "den Salben"
+    }
   },
   {
     "word": "Tablette",
     "article": "die",
     "plural": "Tabletten",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "pill / tablet"
+    "category": "Körper & Gesundheit",
+    "english": "pill / tablet",
+    "kasus": {
+      "nominativ": "die Tablette",
+      "akkusativ": "die Tablette",
+      "dativ": "der Tablette",
+      "nominativPlural": "die Tabletten",
+      "akkusativPlural": "die Tabletten",
+      "dativPlural": "den Tabletten"
+    }
   },
   {
     "word": "Sprechstundenhilfe",
     "article": "die",
     "plural": "Sprechstundenhilfen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "receptionist (medical)"
+    "category": "Körper & Gesundheit",
+    "english": "receptionist (medical)",
+    "kasus": {
+      "nominativ": "die Sprechstundenhilfe",
+      "akkusativ": "die Sprechstundenhilfe",
+      "dativ": "der Sprechstundenhilfe",
+      "nominativPlural": "die Sprechstundenhilfen",
+      "akkusativPlural": "die Sprechstundenhilfen",
+      "dativPlural": "den Sprechstundenhilfen"
+    }
   },
   {
     "word": "Pause",
     "article": "die",
     "plural": "Pausen",
     "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "break / pause"
+    "category": "Freizeit",
+    "english": "break / pause",
+    "kasus": {
+      "nominativ": "die Pause",
+      "akkusativ": "die Pause",
+      "dativ": "der Pause",
+      "nominativPlural": "die Pausen",
+      "akkusativPlural": "die Pausen",
+      "dativPlural": "den Pausen"
+    }
   },
   {
     "word": "Luft",
     "article": "die",
     "plural": "",
     "pluralArticle": "",
-    "category": "Nomen",
-    "type": "noun",
-    "english": "air"
-  },
-  {
-    "word": "û",
-    "article": "û",
-    "plural": "Beschwerden",
-    "pluralArticle": "die",
-    "category": "Nomen",
-    "type": "noun",
-    "english": ""
+    "category": "Natur & Welt",
+    "english": "air",
+    "kasus": {
+      "nominativ": "die Luft",
+      "akkusativ": "die Luft",
+      "dativ": "der Luft"
+    }
   },
   {
     "word": "Gabel",
@@ -617,8 +1053,15 @@
     "plural": "Gabeln",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "fork"
+    "english": "fork",
+    "kasus": {
+      "nominativ": "die Gabel",
+      "akkusativ": "die Gabel",
+      "dativ": "der Gabel",
+      "nominativPlural": "die Gabeln",
+      "akkusativPlural": "die Gabeln",
+      "dativPlural": "den Gabeln"
+    }
   },
   {
     "word": "Tasse",
@@ -626,8 +1069,15 @@
     "plural": "Tassen",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "cup"
+    "english": "cup",
+    "kasus": {
+      "nominativ": "die Tasse",
+      "akkusativ": "die Tasse",
+      "dativ": "der Tasse",
+      "nominativPlural": "die Tassen",
+      "akkusativPlural": "die Tassen",
+      "dativPlural": "den Tassen"
+    }
   },
   {
     "word": "Flasche",
@@ -635,8 +1085,15 @@
     "plural": "Flaschen",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "bottle"
+    "english": "bottle",
+    "kasus": {
+      "nominativ": "die Flasche",
+      "akkusativ": "die Flasche",
+      "dativ": "der Flasche",
+      "nominativPlural": "die Flaschen",
+      "akkusativPlural": "die Flaschen",
+      "dativPlural": "den Flaschen"
+    }
   },
   {
     "word": "Schüssel",
@@ -644,8 +1101,15 @@
     "plural": "Schüsseln",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "bowl"
+    "english": "bowl",
+    "kasus": {
+      "nominativ": "die Schüssel",
+      "akkusativ": "die Schüssel",
+      "dativ": "der Schüssel",
+      "nominativPlural": "die Schüsseln",
+      "akkusativPlural": "die Schüsseln",
+      "dativPlural": "den Schüsseln"
+    }
   },
   {
     "word": "Schale",
@@ -653,17 +1117,15 @@
     "plural": "Schalen",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "bowl / peel"
-  },
-  {
-    "word": "Flasche",
-    "article": "die",
-    "plural": "Flaschen",
-    "pluralArticle": "die",
-    "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "bottle"
+    "english": "bowl / peel",
+    "kasus": {
+      "nominativ": "die Schale",
+      "akkusativ": "die Schale",
+      "dativ": "der Schale",
+      "nominativPlural": "die Schalen",
+      "akkusativPlural": "die Schalen",
+      "dativPlural": "den Schalen"
+    }
   },
   {
     "word": "Suppe",
@@ -671,8 +1133,15 @@
     "plural": "Suppen",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "soup"
+    "english": "soup",
+    "kasus": {
+      "nominativ": "die Suppe",
+      "akkusativ": "die Suppe",
+      "dativ": "der Suppe",
+      "nominativPlural": "die Suppen",
+      "akkusativPlural": "die Suppen",
+      "dativPlural": "den Suppen"
+    }
   },
   {
     "word": "Tomate",
@@ -680,8 +1149,15 @@
     "plural": "Tomaten",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "tomato"
+    "english": "tomato",
+    "kasus": {
+      "nominativ": "die Tomate",
+      "akkusativ": "die Tomate",
+      "dativ": "der Tomate",
+      "nominativPlural": "die Tomaten",
+      "akkusativPlural": "die Tomaten",
+      "dativPlural": "den Tomaten"
+    }
   },
   {
     "word": "Banane",
@@ -689,8 +1165,15 @@
     "plural": "Bananen",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "banana"
+    "english": "banana",
+    "kasus": {
+      "nominativ": "die Banane",
+      "akkusativ": "die Banane",
+      "dativ": "der Banane",
+      "nominativPlural": "die Bananen",
+      "akkusativPlural": "die Bananen",
+      "dativPlural": "den Bananen"
+    }
   },
   {
     "word": "Zitrone",
@@ -698,8 +1181,15 @@
     "plural": "Zitronen",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "lemon"
+    "english": "lemon",
+    "kasus": {
+      "nominativ": "die Zitrone",
+      "akkusativ": "die Zitrone",
+      "dativ": "der Zitrone",
+      "nominativPlural": "die Zitronen",
+      "akkusativPlural": "die Zitronen",
+      "dativPlural": "den Zitronen"
+    }
   },
   {
     "word": "Kartoffel",
@@ -707,8 +1197,15 @@
     "plural": "Kartoffeln",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "potato"
+    "english": "potato",
+    "kasus": {
+      "nominativ": "die Kartoffel",
+      "akkusativ": "die Kartoffel",
+      "dativ": "der Kartoffel",
+      "nominativPlural": "die Kartoffeln",
+      "akkusativPlural": "die Kartoffeln",
+      "dativPlural": "den Kartoffeln"
+    }
   },
   {
     "word": "Nudel",
@@ -716,8 +1213,15 @@
     "plural": "Nudeln",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "noodle / pasta"
+    "english": "noodle / pasta",
+    "kasus": {
+      "nominativ": "die Nudel",
+      "akkusativ": "die Nudel",
+      "dativ": "der Nudel",
+      "nominativPlural": "die Nudeln",
+      "akkusativPlural": "die Nudeln",
+      "dativPlural": "den Nudeln"
+    }
   },
   {
     "word": "Besteck",
@@ -725,8 +1229,15 @@
     "plural": "Bestecke",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "cutlery"
+    "english": "cutlery",
+    "kasus": {
+      "nominativ": "das Besteck",
+      "akkusativ": "das Besteck",
+      "dativ": "dem Besteck",
+      "nominativPlural": "die Bestecke",
+      "akkusativPlural": "die Bestecke",
+      "dativPlural": "den Bestecken"
+    }
   },
   {
     "word": "Brot",
@@ -734,8 +1245,15 @@
     "plural": "Brote",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "bread"
+    "english": "bread",
+    "kasus": {
+      "nominativ": "das Brot",
+      "akkusativ": "das Brot",
+      "dativ": "dem Brot",
+      "nominativPlural": "die Brote",
+      "akkusativPlural": "die Brote",
+      "dativPlural": "den Broten"
+    }
   },
   {
     "word": "Topf",
@@ -743,8 +1261,15 @@
     "plural": "Töpfe",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "pot"
+    "english": "pot",
+    "kasus": {
+      "nominativ": "der Topf",
+      "akkusativ": "den Topf",
+      "dativ": "dem Topf",
+      "nominativPlural": "die Töpfe",
+      "akkusativPlural": "die Töpfe",
+      "dativPlural": "den Töpfen"
+    }
   },
   {
     "word": "Salat",
@@ -752,8 +1277,15 @@
     "plural": "Salate",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "salad"
+    "english": "salad",
+    "kasus": {
+      "nominativ": "der Salat",
+      "akkusativ": "den Salat",
+      "dativ": "dem Salat",
+      "nominativPlural": "die Salate",
+      "akkusativPlural": "die Salate",
+      "dativPlural": "den Salaten"
+    }
   },
   {
     "word": "Fisch",
@@ -761,8 +1293,15 @@
     "plural": "Fische",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "fish"
+    "english": "fish",
+    "kasus": {
+      "nominativ": "der Fisch",
+      "akkusativ": "den Fisch",
+      "dativ": "dem Fisch",
+      "nominativPlural": "die Fische",
+      "akkusativPlural": "die Fische",
+      "dativPlural": "den Fischen"
+    }
   },
   {
     "word": "Glas",
@@ -770,8 +1309,15 @@
     "plural": "Gläser",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "glass"
+    "english": "glass",
+    "kasus": {
+      "nominativ": "das Glas",
+      "akkusativ": "das Glas",
+      "dativ": "dem Glas",
+      "nominativPlural": "die Gläser",
+      "akkusativPlural": "die Gläser",
+      "dativPlural": "den Gläsern"
+    }
   },
   {
     "word": "Ei",
@@ -779,8 +1325,15 @@
     "plural": "Eier",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "egg"
+    "english": "egg",
+    "kasus": {
+      "nominativ": "das Ei",
+      "akkusativ": "das Ei",
+      "dativ": "dem Ei",
+      "nominativPlural": "die Eier",
+      "akkusativPlural": "die Eier",
+      "dativPlural": "den Eiern"
+    }
   },
   {
     "word": "Pizza",
@@ -788,8 +1341,15 @@
     "plural": "Pizzas (auch: Pizzen)",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "pizza"
+    "english": "pizza",
+    "kasus": {
+      "nominativ": "die Pizza",
+      "akkusativ": "die Pizza",
+      "dativ": "der Pizza",
+      "nominativPlural": "die Pizzas (auch: Pizzen)",
+      "akkusativPlural": "die Pizzas (auch: Pizzen)",
+      "dativPlural": "den Pizzas (auch: Pizzen)n"
+    }
   },
   {
     "word": "Messer",
@@ -797,8 +1357,15 @@
     "plural": "Messer",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "knife"
+    "english": "knife",
+    "kasus": {
+      "nominativ": "das Messer",
+      "akkusativ": "das Messer",
+      "dativ": "dem Messer",
+      "nominativPlural": "die Messer",
+      "akkusativPlural": "die Messer",
+      "dativPlural": "den Messern"
+    }
   },
   {
     "word": "Essstäbchen",
@@ -806,8 +1373,15 @@
     "plural": "Essstäbchen",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "chopsticks"
+    "english": "chopsticks",
+    "kasus": {
+      "nominativ": "das Essstäbchen",
+      "akkusativ": "das Essstäbchen",
+      "dativ": "dem Essstäbchen",
+      "nominativPlural": "die Essstäbchen",
+      "akkusativPlural": "die Essstäbchen",
+      "dativPlural": "den Essstäbchen"
+    }
   },
   {
     "word": "Brötchen",
@@ -815,8 +1389,15 @@
     "plural": "Brötchen",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "bread roll"
+    "english": "bread roll",
+    "kasus": {
+      "nominativ": "das Brötchen",
+      "akkusativ": "das Brötchen",
+      "dativ": "dem Brötchen",
+      "nominativPlural": "die Brötchen",
+      "akkusativPlural": "die Brötchen",
+      "dativPlural": "den Brötchen"
+    }
   },
   {
     "word": "Löffel",
@@ -824,8 +1405,15 @@
     "plural": "Löffel",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "spoon"
+    "english": "spoon",
+    "kasus": {
+      "nominativ": "der Löffel",
+      "akkusativ": "den Löffel",
+      "dativ": "dem Löffel",
+      "nominativPlural": "die Löffel",
+      "akkusativPlural": "die Löffel",
+      "dativPlural": "den Löffeln"
+    }
   },
   {
     "word": "Teller",
@@ -833,8 +1421,15 @@
     "plural": "Teller",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "plate"
+    "english": "plate",
+    "kasus": {
+      "nominativ": "der Teller",
+      "akkusativ": "den Teller",
+      "dativ": "dem Teller",
+      "nominativPlural": "die Teller",
+      "akkusativPlural": "die Teller",
+      "dativPlural": "den Tellern"
+    }
   },
   {
     "word": "Becher",
@@ -842,8 +1437,15 @@
     "plural": "Becher",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "cup / mug"
+    "english": "cup / mug",
+    "kasus": {
+      "nominativ": "der Becher",
+      "akkusativ": "den Becher",
+      "dativ": "dem Becher",
+      "nominativPlural": "die Becher",
+      "akkusativPlural": "die Becher",
+      "dativPlural": "den Bechern"
+    }
   },
   {
     "word": "Hamburger",
@@ -851,8 +1453,15 @@
     "plural": "Hamburger",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "hamburger"
+    "english": "hamburger",
+    "kasus": {
+      "nominativ": "der Hamburger",
+      "akkusativ": "den Hamburger",
+      "dativ": "dem Hamburger",
+      "nominativPlural": "die Hamburger",
+      "akkusativPlural": "die Hamburger",
+      "dativPlural": "den Hamburgern"
+    }
   },
   {
     "word": "Apfel",
@@ -860,8 +1469,15 @@
     "plural": "Äpfel",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "apple"
+    "english": "apple",
+    "kasus": {
+      "nominativ": "der Apfel",
+      "akkusativ": "den Apfel",
+      "dativ": "dem Apfel",
+      "nominativPlural": "die Äpfel",
+      "akkusativPlural": "die Äpfel",
+      "dativPlural": "den Äpfeln"
+    }
   },
   {
     "word": "Kuchen",
@@ -869,8 +1485,15 @@
     "plural": "Kuchen",
     "pluralArticle": "die",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "cake"
+    "english": "cake",
+    "kasus": {
+      "nominativ": "der Kuchen",
+      "akkusativ": "den Kuchen",
+      "dativ": "dem Kuchen",
+      "nominativPlural": "die Kuchen",
+      "akkusativPlural": "die Kuchen",
+      "dativPlural": "den Kuchen"
+    }
   },
   {
     "word": "Geschirr",
@@ -878,8 +1501,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "dishes"
+    "english": "dishes",
+    "kasus": {
+      "nominativ": "das Geschirr",
+      "akkusativ": "das Geschirr",
+      "dativ": "dem Geschirr"
+    }
   },
   {
     "word": "Salz",
@@ -887,8 +1514,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "salt"
+    "english": "salt",
+    "kasus": {
+      "nominativ": "das Salz",
+      "akkusativ": "das Salz",
+      "dativ": "dem Salz"
+    }
   },
   {
     "word": "Obst",
@@ -896,8 +1527,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "fruit"
+    "english": "fruit",
+    "kasus": {
+      "nominativ": "das Obst",
+      "akkusativ": "das Obst",
+      "dativ": "dem Obst"
+    }
   },
   {
     "word": "Gemüse",
@@ -905,8 +1540,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "vegetables"
+    "english": "vegetables",
+    "kasus": {
+      "nominativ": "das Gemüse",
+      "akkusativ": "das Gemüse",
+      "dativ": "dem Gemüse"
+    }
   },
   {
     "word": "Fleisch",
@@ -914,8 +1553,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "meat"
+    "english": "meat",
+    "kasus": {
+      "nominativ": "das Fleisch",
+      "akkusativ": "das Fleisch",
+      "dativ": "dem Fleisch"
+    }
   },
   {
     "word": "Eis",
@@ -923,8 +1566,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "ice / ice cream"
+    "english": "ice / ice cream",
+    "kasus": {
+      "nominativ": "das Eis",
+      "akkusativ": "das Eis",
+      "dativ": "dem Eis"
+    }
   },
   {
     "word": "Wasser",
@@ -932,8 +1579,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "water"
+    "english": "water",
+    "kasus": {
+      "nominativ": "das Wasser",
+      "akkusativ": "das Wasser",
+      "dativ": "dem Wasser"
+    }
   },
   {
     "word": "Bier",
@@ -941,8 +1592,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "beer"
+    "english": "beer",
+    "kasus": {
+      "nominativ": "das Bier",
+      "akkusativ": "das Bier",
+      "dativ": "dem Bier"
+    }
   },
   {
     "word": "Zucker",
@@ -950,8 +1605,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "sugar"
+    "english": "sugar",
+    "kasus": {
+      "nominativ": "der Zucker",
+      "akkusativ": "den Zucker",
+      "dativ": "dem Zucker"
+    }
   },
   {
     "word": "Senf",
@@ -959,8 +1618,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "mustard"
+    "english": "mustard",
+    "kasus": {
+      "nominativ": "der Senf",
+      "akkusativ": "den Senf",
+      "dativ": "dem Senf"
+    }
   },
   {
     "word": "Käse",
@@ -968,8 +1631,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "cheese"
+    "english": "cheese",
+    "kasus": {
+      "nominativ": "der Käse",
+      "akkusativ": "den Käse",
+      "dativ": "dem Käse"
+    }
   },
   {
     "word": "Ketchup",
@@ -977,8 +1644,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "ketchup"
+    "english": "ketchup",
+    "kasus": {
+      "nominativ": "der Ketchup",
+      "akkusativ": "den Ketchup",
+      "dativ": "dem Ketchup"
+    }
   },
   {
     "word": "Reis",
@@ -986,8 +1657,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "rice"
+    "english": "rice",
+    "kasus": {
+      "nominativ": "der Reis",
+      "akkusativ": "den Reis",
+      "dativ": "dem Reis"
+    }
   },
   {
     "word": "Tofu",
@@ -995,8 +1670,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "tofu"
+    "english": "tofu",
+    "kasus": {
+      "nominativ": "der Tofu",
+      "akkusativ": "den Tofu",
+      "dativ": "dem Tofu"
+    }
   },
   {
     "word": "Honig",
@@ -1004,8 +1683,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "honey"
+    "english": "honey",
+    "kasus": {
+      "nominativ": "der Honig",
+      "akkusativ": "den Honig",
+      "dativ": "dem Honig"
+    }
   },
   {
     "word": "Tee",
@@ -1013,8 +1696,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "tea"
+    "english": "tea",
+    "kasus": {
+      "nominativ": "der Tee",
+      "akkusativ": "den Tee",
+      "dativ": "dem Tee"
+    }
   },
   {
     "word": "Kaffee",
@@ -1022,17 +1709,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "coffee"
-  },
-  {
-    "word": "Saft",
-    "article": "der",
-    "plural": "",
-    "pluralArticle": "",
-    "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "juice"
+    "english": "coffee",
+    "kasus": {
+      "nominativ": "der Kaffee",
+      "akkusativ": "den Kaffee",
+      "dativ": "dem Kaffee"
+    }
   },
   {
     "word": "Orangensaft",
@@ -1040,8 +1722,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "orange juice"
+    "english": "orange juice",
+    "kasus": {
+      "nominativ": "der Orangensaft",
+      "akkusativ": "den Orangensaft",
+      "dativ": "dem Orangensaft"
+    }
   },
   {
     "word": "Wein",
@@ -1049,8 +1735,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "wine"
+    "english": "wine",
+    "kasus": {
+      "nominativ": "der Wein",
+      "akkusativ": "den Wein",
+      "dativ": "dem Wein"
+    }
   },
   {
     "word": "Rotwein",
@@ -1058,8 +1748,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "red wine"
+    "english": "red wine",
+    "kasus": {
+      "nominativ": "der Rotwein",
+      "akkusativ": "den Rotwein",
+      "dativ": "dem Rotwein"
+    }
   },
   {
     "word": "Weißwein",
@@ -1067,17 +1761,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "white wine"
-  },
-  {
-    "word": "Saft",
-    "article": "der",
-    "plural": "",
-    "pluralArticle": "",
-    "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "juice"
+    "english": "white wine",
+    "kasus": {
+      "nominativ": "der Weißwein",
+      "akkusativ": "den Weißwein",
+      "dativ": "dem Weißwein"
+    }
   },
   {
     "word": "Sahne",
@@ -1085,8 +1774,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "cream"
+    "english": "cream",
+    "kasus": {
+      "nominativ": "die Sahne",
+      "akkusativ": "die Sahne",
+      "dativ": "der Sahne"
+    }
   },
   {
     "word": "Mayonnaise",
@@ -1094,8 +1787,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "mayonnaise"
+    "english": "mayonnaise",
+    "kasus": {
+      "nominativ": "die Mayonnaise",
+      "akkusativ": "die Mayonnaise",
+      "dativ": "der Mayonnaise"
+    }
   },
   {
     "word": "Cola",
@@ -1103,8 +1800,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "cola"
+    "english": "cola",
+    "kasus": {
+      "nominativ": "die Cola",
+      "akkusativ": "die Cola",
+      "dativ": "der Cola"
+    }
   },
   {
     "word": "Milch",
@@ -1112,17 +1813,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Essen & Trinken",
-    "type": "noun",
-    "english": "milk"
-  },
-  {
-    "word": "û",
-    "article": "û",
-    "plural": "Pommes",
-    "pluralArticle": "die",
-    "category": "Essen & Trinken",
-    "type": "noun",
-    "english": ""
+    "english": "milk",
+    "kasus": {
+      "nominativ": "die Milch",
+      "akkusativ": "die Milch",
+      "dativ": "der Milch"
+    }
   },
   {
     "word": "Schule",
@@ -1130,8 +1826,15 @@
     "plural": "Schulen",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "school"
+    "english": "school",
+    "kasus": {
+      "nominativ": "die Schule",
+      "akkusativ": "die Schule",
+      "dativ": "der Schule",
+      "nominativPlural": "die Schulen",
+      "akkusativPlural": "die Schulen",
+      "dativPlural": "den Schulen"
+    }
   },
   {
     "word": "Heft",
@@ -1139,8 +1842,15 @@
     "plural": "Hefte",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "notebook"
+    "english": "notebook",
+    "kasus": {
+      "nominativ": "das Heft",
+      "akkusativ": "das Heft",
+      "dativ": "dem Heft",
+      "nominativPlural": "die Hefte",
+      "akkusativPlural": "die Hefte",
+      "dativPlural": "den Heften"
+    }
   },
   {
     "word": "Lineal",
@@ -1148,8 +1858,15 @@
     "plural": "Lineale",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "ruler"
+    "english": "ruler",
+    "kasus": {
+      "nominativ": "das Lineal",
+      "akkusativ": "das Lineal",
+      "dativ": "dem Lineal",
+      "nominativPlural": "die Lineale",
+      "akkusativPlural": "die Lineale",
+      "dativPlural": "den Linealen"
+    }
   },
   {
     "word": "Seminar",
@@ -1157,8 +1874,15 @@
     "plural": "Seminare",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "seminar"
+    "english": "seminar",
+    "kasus": {
+      "nominativ": "das Seminar",
+      "akkusativ": "das Seminar",
+      "dativ": "dem Seminar",
+      "nominativPlural": "die Seminare",
+      "akkusativPlural": "die Seminare",
+      "dativPlural": "den Seminaren"
+    }
   },
   {
     "word": "Bleistift",
@@ -1166,8 +1890,15 @@
     "plural": "Bleistifte",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "pencil"
+    "english": "pencil",
+    "kasus": {
+      "nominativ": "der Bleistift",
+      "akkusativ": "den Bleistift",
+      "dativ": "dem Bleistift",
+      "nominativPlural": "die Bleistifte",
+      "akkusativPlural": "die Bleistifte",
+      "dativPlural": "den Bleistiften"
+    }
   },
   {
     "word": "Schreibtisch",
@@ -1175,8 +1906,15 @@
     "plural": "Schreibtische",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "desk"
+    "english": "desk",
+    "kasus": {
+      "nominativ": "der Schreibtisch",
+      "akkusativ": "den Schreibtisch",
+      "dativ": "dem Schreibtisch",
+      "nominativPlural": "die Schreibtische",
+      "akkusativPlural": "die Schreibtische",
+      "dativPlural": "den Schreibtischen"
+    }
   },
   {
     "word": "Kurs",
@@ -1184,8 +1922,15 @@
     "plural": "Kurse",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "course"
+    "english": "course",
+    "kasus": {
+      "nominativ": "der Kurs",
+      "akkusativ": "den Kurs",
+      "dativ": "dem Kurs",
+      "nominativPlural": "die Kurse",
+      "akkusativPlural": "die Kurse",
+      "dativPlural": "den Kursen"
+    }
   },
   {
     "word": "Deutschkurs",
@@ -1193,17 +1938,15 @@
     "plural": "Deutschkurse",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "German course"
-  },
-  {
-    "word": "Maus",
-    "article": "die",
-    "plural": "Mäuse",
-    "pluralArticle": "die",
-    "category": "Lernen",
-    "type": "noun",
-    "english": "mouse"
+    "english": "German course",
+    "kasus": {
+      "nominativ": "der Deutschkurs",
+      "akkusativ": "den Deutschkurs",
+      "dativ": "dem Deutschkurs",
+      "nominativPlural": "die Deutschkurse",
+      "akkusativPlural": "die Deutschkurse",
+      "dativPlural": "den Deutschkursen"
+    }
   },
   {
     "word": "Bibliothek",
@@ -1211,8 +1954,15 @@
     "plural": "Bibliotheken",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "library"
+    "english": "library",
+    "kasus": {
+      "nominativ": "die Bibliothek",
+      "akkusativ": "die Bibliothek",
+      "dativ": "der Bibliothek",
+      "nominativPlural": "die Bibliotheken",
+      "akkusativPlural": "die Bibliotheken",
+      "dativPlural": "den Bibliotheken"
+    }
   },
   {
     "word": "Vorlesung",
@@ -1220,8 +1970,15 @@
     "plural": "Volesungen",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "lecture"
+    "english": "lecture",
+    "kasus": {
+      "nominativ": "die Vorlesung",
+      "akkusativ": "die Vorlesung",
+      "dativ": "der Vorlesung",
+      "nominativPlural": "die Volesungen",
+      "akkusativPlural": "die Volesungen",
+      "dativPlural": "den Volesungen"
+    }
   },
   {
     "word": "Universität",
@@ -1229,8 +1986,15 @@
     "plural": "Universitäten",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "university"
+    "english": "university",
+    "kasus": {
+      "nominativ": "die Universität",
+      "akkusativ": "die Universität",
+      "dativ": "der Universität",
+      "nominativPlural": "die Universitäten",
+      "akkusativPlural": "die Universitäten",
+      "dativPlural": "den Universitäten"
+    }
   },
   {
     "word": "Universitätsbibliothek",
@@ -1238,8 +2002,15 @@
     "plural": "Universitätsbibliotheken",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "university library"
+    "english": "university library",
+    "kasus": {
+      "nominativ": "die Universitätsbibliothek",
+      "akkusativ": "die Universitätsbibliothek",
+      "dativ": "der Universitätsbibliothek",
+      "nominativPlural": "die Universitätsbibliotheken",
+      "akkusativPlural": "die Universitätsbibliotheken",
+      "dativPlural": "den Universitätsbibliotheken"
+    }
   },
   {
     "word": "Klausur",
@@ -1247,17 +2018,15 @@
     "plural": "Klausuren",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "exam"
-  },
-  {
-    "word": "Vorlesung",
-    "article": "die",
-    "plural": "Vorlesungen",
-    "pluralArticle": "die",
-    "category": "Lernen",
-    "type": "noun",
-    "english": "lecture"
+    "english": "exam",
+    "kasus": {
+      "nominativ": "die Klausur",
+      "akkusativ": "die Klausur",
+      "dativ": "der Klausur",
+      "nominativPlural": "die Klausuren",
+      "akkusativPlural": "die Klausuren",
+      "dativPlural": "den Klausuren"
+    }
   },
   {
     "word": "Buch",
@@ -1265,8 +2034,15 @@
     "plural": "Bücher",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "book"
+    "english": "book",
+    "kasus": {
+      "nominativ": "das Buch",
+      "akkusativ": "das Buch",
+      "dativ": "dem Buch",
+      "nominativPlural": "die Bücher",
+      "akkusativPlural": "die Bücher",
+      "dativPlural": "den Büchern"
+    }
   },
   {
     "word": "Radiergummi",
@@ -1274,8 +2050,15 @@
     "plural": "Radiergummis",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "eraser"
+    "english": "eraser",
+    "kasus": {
+      "nominativ": "das Radiergummi",
+      "akkusativ": "das Radiergummi",
+      "dativ": "dem Radiergummi",
+      "nominativPlural": "die Radiergummis",
+      "akkusativPlural": "die Radiergummis",
+      "dativPlural": "den Radiergummis"
+    }
   },
   {
     "word": "Kuli",
@@ -1283,8 +2066,15 @@
     "plural": "Kulis",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "pen"
+    "english": "pen",
+    "kasus": {
+      "nominativ": "der Kuli",
+      "akkusativ": "den Kuli",
+      "dativ": "dem Kuli",
+      "nominativPlural": "die Kulis",
+      "akkusativPlural": "die Kulis",
+      "dativPlural": "den Kulis"
+    }
   },
   {
     "word": "Test",
@@ -1292,8 +2082,15 @@
     "plural": "Tests",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "test"
+    "english": "test",
+    "kasus": {
+      "nominativ": "der Test",
+      "akkusativ": "den Test",
+      "dativ": "dem Test",
+      "nominativPlural": "die Tests",
+      "akkusativPlural": "die Tests",
+      "dativPlural": "den Tests"
+    }
   },
   {
     "word": "Abschlusstest",
@@ -1301,8 +2098,15 @@
     "plural": "Abschlusstests",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "final test"
+    "english": "final test",
+    "kasus": {
+      "nominativ": "der Abschlusstest",
+      "akkusativ": "den Abschlusstest",
+      "dativ": "dem Abschlusstest",
+      "nominativPlural": "die Abschlusstests",
+      "akkusativPlural": "die Abschlusstests",
+      "dativPlural": "den Abschlusstests"
+    }
   },
   {
     "word": "Kugelschreiber",
@@ -1310,8 +2114,15 @@
     "plural": "Kugelschreiber",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "ballpoint pen"
+    "english": "ballpoint pen",
+    "kasus": {
+      "nominativ": "der Kugelschreiber",
+      "akkusativ": "den Kugelschreiber",
+      "dativ": "dem Kugelschreiber",
+      "nominativPlural": "die Kugelschreiber",
+      "akkusativPlural": "die Kugelschreiber",
+      "dativPlural": "den Kugelschreibern"
+    }
   },
   {
     "word": "Computer",
@@ -1319,8 +2130,15 @@
     "plural": "Computer",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "computer"
+    "english": "computer",
+    "kasus": {
+      "nominativ": "der Computer",
+      "akkusativ": "den Computer",
+      "dativ": "dem Computer",
+      "nominativPlural": "die Computer",
+      "akkusativPlural": "die Computer",
+      "dativPlural": "den Computern"
+    }
   },
   {
     "word": "Textmarker",
@@ -1328,8 +2146,15 @@
     "plural": "Textmarker",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "highlighter"
+    "english": "highlighter",
+    "kasus": {
+      "nominativ": "der Textmarker",
+      "akkusativ": "den Textmarker",
+      "dativ": "dem Textmarker",
+      "nominativPlural": "die Textmarker",
+      "akkusativPlural": "die Textmarker",
+      "dativPlural": "den Textmarkern"
+    }
   },
   {
     "word": "Anspitzer",
@@ -1337,8 +2162,15 @@
     "plural": "Anspitzer",
     "pluralArticle": "die",
     "category": "Lernen",
-    "type": "noun",
-    "english": "pencil sharpener"
+    "english": "pencil sharpener",
+    "kasus": {
+      "nominativ": "der Anspitzer",
+      "akkusativ": "den Anspitzer",
+      "dativ": "dem Anspitzer",
+      "nominativPlural": "die Anspitzer",
+      "akkusativPlural": "die Anspitzer",
+      "dativPlural": "den Anspitzern"
+    }
   },
   {
     "word": "Studium",
@@ -1346,8 +2178,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Lernen",
-    "type": "noun",
-    "english": "studies"
+    "english": "studies",
+    "kasus": {
+      "nominativ": "das Studium",
+      "akkusativ": "das Studium",
+      "dativ": "dem Studium"
+    }
   },
   {
     "word": "Unterricht",
@@ -1355,17 +2191,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Lernen",
-    "type": "noun",
-    "english": "lesson / class"
-  },
-  {
-    "word": "Kugelschreiber",
-    "article": "der",
-    "plural": "Kugelschreiber",
-    "pluralArticle": "die",
-    "category": "Lernen",
-    "type": "noun",
-    "english": "ballpoint pen"
+    "english": "lesson / class",
+    "kasus": {
+      "nominativ": "der Unterricht",
+      "akkusativ": "den Unterricht",
+      "dativ": "dem Unterricht"
+    }
   },
   {
     "word": "Wochenende",
@@ -1373,8 +2204,15 @@
     "plural": "Wochenenden",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "weekend"
+    "english": "weekend",
+    "kasus": {
+      "nominativ": "das Wochenende",
+      "akkusativ": "das Wochenende",
+      "dativ": "dem Wochenende",
+      "nominativPlural": "die Wochenenden",
+      "akkusativPlural": "die Wochenenden",
+      "dativPlural": "den Wochenenden"
+    }
   },
   {
     "word": "Jahr",
@@ -1382,8 +2220,15 @@
     "plural": "Jahre",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "year"
+    "english": "year",
+    "kasus": {
+      "nominativ": "das Jahr",
+      "akkusativ": "das Jahr",
+      "dativ": "dem Jahr",
+      "nominativPlural": "die Jahre",
+      "akkusativPlural": "die Jahre",
+      "dativPlural": "den Jahren"
+    }
   },
   {
     "word": "Datum",
@@ -1391,8 +2236,15 @@
     "plural": "Daten",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "date"
+    "english": "date",
+    "kasus": {
+      "nominativ": "das Datum",
+      "akkusativ": "das Datum",
+      "dativ": "dem Datum",
+      "nominativPlural": "die Daten",
+      "akkusativPlural": "die Daten",
+      "dativPlural": "den Daten"
+    }
   },
   {
     "word": "Tag",
@@ -1400,8 +2252,15 @@
     "plural": "Tage",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "day"
+    "english": "day",
+    "kasus": {
+      "nominativ": "der Tag",
+      "akkusativ": "den Tag",
+      "dativ": "dem Tag",
+      "nominativPlural": "die Tage",
+      "akkusativPlural": "die Tage",
+      "dativPlural": "den Tagen"
+    }
   },
   {
     "word": "Monat",
@@ -1409,8 +2268,15 @@
     "plural": "Monate",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "month"
+    "english": "month",
+    "kasus": {
+      "nominativ": "der Monat",
+      "akkusativ": "den Monat",
+      "dativ": "dem Monat",
+      "nominativPlural": "die Monate",
+      "akkusativPlural": "die Monate",
+      "dativPlural": "den Monaten"
+    }
   },
   {
     "word": "Frühling",
@@ -1418,8 +2284,15 @@
     "plural": "Frühlinge",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "spring"
+    "english": "spring",
+    "kasus": {
+      "nominativ": "der Frühling",
+      "akkusativ": "den Frühling",
+      "dativ": "dem Frühling",
+      "nominativPlural": "die Frühlinge",
+      "akkusativPlural": "die Frühlinge",
+      "dativPlural": "den Frühlingen"
+    }
   },
   {
     "word": "Herbst",
@@ -1427,8 +2300,15 @@
     "plural": "Herbste",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "autumn / fall"
+    "english": "autumn / fall",
+    "kasus": {
+      "nominativ": "der Herbst",
+      "akkusativ": "den Herbst",
+      "dativ": "dem Herbst",
+      "nominativPlural": "die Herbste",
+      "akkusativPlural": "die Herbste",
+      "dativPlural": "den Herbsten"
+    }
   },
   {
     "word": "Vormittag",
@@ -1436,8 +2316,15 @@
     "plural": "Vormittage",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "morning (late)"
+    "english": "morning (late)",
+    "kasus": {
+      "nominativ": "der Vormittag",
+      "akkusativ": "den Vormittag",
+      "dativ": "dem Vormittag",
+      "nominativPlural": "die Vormittage",
+      "akkusativPlural": "die Vormittage",
+      "dativPlural": "den Vormittagen"
+    }
   },
   {
     "word": "Nachmittag",
@@ -1445,8 +2332,15 @@
     "plural": "Nachmittage",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "afternoon"
+    "english": "afternoon",
+    "kasus": {
+      "nominativ": "der Nachmittag",
+      "akkusativ": "den Nachmittag",
+      "dativ": "dem Nachmittag",
+      "nominativPlural": "die Nachmittage",
+      "akkusativPlural": "die Nachmittage",
+      "dativPlural": "den Nachmittagen"
+    }
   },
   {
     "word": "Abend",
@@ -1454,17 +2348,15 @@
     "plural": "Abende",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "evening"
-  },
-  {
-    "word": "Geburtstag",
-    "article": "der",
-    "plural": "Geburtstage",
-    "pluralArticle": "die",
-    "category": "Zeit",
-    "type": "noun",
-    "english": "birthday"
+    "english": "evening",
+    "kasus": {
+      "nominativ": "der Abend",
+      "akkusativ": "den Abend",
+      "dativ": "dem Abend",
+      "nominativPlural": "die Abende",
+      "akkusativPlural": "die Abende",
+      "dativPlural": "den Abenden"
+    }
   },
   {
     "word": "Sommer",
@@ -1472,8 +2364,15 @@
     "plural": "Sommer",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "summer"
+    "english": "summer",
+    "kasus": {
+      "nominativ": "der Sommer",
+      "akkusativ": "den Sommer",
+      "dativ": "dem Sommer",
+      "nominativPlural": "die Sommer",
+      "akkusativPlural": "die Sommer",
+      "dativPlural": "den Sommern"
+    }
   },
   {
     "word": "Winter",
@@ -1481,8 +2380,15 @@
     "plural": "Winter",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "winter"
+    "english": "winter",
+    "kasus": {
+      "nominativ": "der Winter",
+      "akkusativ": "den Winter",
+      "dativ": "dem Winter",
+      "nominativPlural": "die Winter",
+      "akkusativPlural": "die Winter",
+      "dativPlural": "den Wintern"
+    }
   },
   {
     "word": "Morgen",
@@ -1490,8 +2396,15 @@
     "plural": "Morgen",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "morning"
+    "english": "morning",
+    "kasus": {
+      "nominativ": "der Morgen",
+      "akkusativ": "den Morgen",
+      "dativ": "dem Morgen",
+      "nominativPlural": "die Morgen",
+      "akkusativPlural": "die Morgen",
+      "dativPlural": "den Morgen"
+    }
   },
   {
     "word": "Woche",
@@ -1499,8 +2412,15 @@
     "plural": "Wochen",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "week"
+    "english": "week",
+    "kasus": {
+      "nominativ": "die Woche",
+      "akkusativ": "die Woche",
+      "dativ": "der Woche",
+      "nominativPlural": "die Wochen",
+      "akkusativPlural": "die Wochen",
+      "dativPlural": "den Wochen"
+    }
   },
   {
     "word": "Stunde",
@@ -1508,8 +2428,15 @@
     "plural": "Stunden",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "hour"
+    "english": "hour",
+    "kasus": {
+      "nominativ": "die Stunde",
+      "akkusativ": "die Stunde",
+      "dativ": "der Stunde",
+      "nominativPlural": "die Stunden",
+      "akkusativPlural": "die Stunden",
+      "dativPlural": "den Stunden"
+    }
   },
   {
     "word": "Minute",
@@ -1517,8 +2444,15 @@
     "plural": "Minuten",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "minute"
+    "english": "minute",
+    "kasus": {
+      "nominativ": "die Minute",
+      "akkusativ": "die Minute",
+      "dativ": "der Minute",
+      "nominativPlural": "die Minuten",
+      "akkusativPlural": "die Minuten",
+      "dativPlural": "den Minuten"
+    }
   },
   {
     "word": "Sekunde",
@@ -1526,8 +2460,15 @@
     "plural": "Sekunden",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "second"
+    "english": "second",
+    "kasus": {
+      "nominativ": "die Sekunde",
+      "akkusativ": "die Sekunde",
+      "dativ": "der Sekunde",
+      "nominativPlural": "die Sekunden",
+      "akkusativPlural": "die Sekunden",
+      "dativPlural": "den Sekunden"
+    }
   },
   {
     "word": "Nacht",
@@ -1535,8 +2476,15 @@
     "plural": "Nächte",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "night"
+    "english": "night",
+    "kasus": {
+      "nominativ": "die Nacht",
+      "akkusativ": "die Nacht",
+      "dativ": "der Nacht",
+      "nominativPlural": "die Nächte",
+      "akkusativPlural": "die Nächte",
+      "dativPlural": "den Nächten"
+    }
   },
   {
     "word": "Jahreszeit",
@@ -1544,8 +2492,15 @@
     "plural": "Jahreszeiten",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "season"
+    "english": "season",
+    "kasus": {
+      "nominativ": "die Jahreszeit",
+      "akkusativ": "die Jahreszeit",
+      "dativ": "der Jahreszeit",
+      "nominativPlural": "die Jahreszeiten",
+      "akkusativPlural": "die Jahreszeiten",
+      "dativPlural": "den Jahreszeiten"
+    }
   },
   {
     "word": "Uhrzeit",
@@ -1553,8 +2508,15 @@
     "plural": "Uhrzeiten",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "time (of day)"
+    "english": "time (of day)",
+    "kasus": {
+      "nominativ": "die Uhrzeit",
+      "akkusativ": "die Uhrzeit",
+      "dativ": "der Uhrzeit",
+      "nominativPlural": "die Uhrzeiten",
+      "akkusativPlural": "die Uhrzeiten",
+      "dativPlural": "den Uhrzeiten"
+    }
   },
   {
     "word": "Zeit",
@@ -1562,134 +2524,233 @@
     "plural": "Zeiten",
     "pluralArticle": "die",
     "category": "Zeit",
-    "type": "noun",
-    "english": "time"
+    "english": "time",
+    "kasus": {
+      "nominativ": "die Zeit",
+      "akkusativ": "die Zeit",
+      "dativ": "der Zeit",
+      "nominativPlural": "die Zeiten",
+      "akkusativPlural": "die Zeiten",
+      "dativPlural": "den Zeiten"
+    }
   },
   {
     "word": "Mond",
     "article": "der",
     "plural": "Monde",
     "pluralArticle": "die",
-    "category": "Welt",
-    "type": "noun",
-    "english": "moon"
+    "category": "Natur & Welt",
+    "english": "moon",
+    "kasus": {
+      "nominativ": "der Mond",
+      "akkusativ": "den Mond",
+      "dativ": "dem Mond",
+      "nominativPlural": "die Monde",
+      "akkusativPlural": "die Monde",
+      "dativPlural": "den Monden"
+    }
   },
   {
     "word": "Erde",
     "article": "die",
     "plural": "",
     "pluralArticle": "",
-    "category": "Welt",
-    "type": "noun",
-    "english": "earth"
+    "category": "Natur & Welt",
+    "english": "earth",
+    "kasus": {
+      "nominativ": "die Erde",
+      "akkusativ": "die Erde",
+      "dativ": "der Erde"
+    }
   },
   {
     "word": "Sonne",
     "article": "die",
     "plural": "Sonnen",
     "pluralArticle": "die",
-    "category": "Welt",
-    "type": "noun",
-    "english": "sun"
+    "category": "Natur & Welt",
+    "english": "sun",
+    "kasus": {
+      "nominativ": "die Sonne",
+      "akkusativ": "die Sonne",
+      "dativ": "der Sonne",
+      "nominativPlural": "die Sonnen",
+      "akkusativPlural": "die Sonnen",
+      "dativPlural": "den Sonnen"
+    }
   },
   {
     "word": "Galaxie",
     "article": "die",
     "plural": "Galaxien",
     "pluralArticle": "die",
-    "category": "Welt",
-    "type": "noun",
-    "english": "galaxy"
+    "category": "Natur & Welt",
+    "english": "galaxy",
+    "kasus": {
+      "nominativ": "die Galaxie",
+      "akkusativ": "die Galaxie",
+      "dativ": "der Galaxie",
+      "nominativPlural": "die Galaxien",
+      "akkusativPlural": "die Galaxien",
+      "dativPlural": "den Galaxien"
+    }
   },
   {
     "word": "Statue",
     "article": "die",
     "plural": "Statuen",
     "pluralArticle": "die",
-    "category": "Welt",
-    "type": "noun",
-    "english": "statue"
+    "category": "Natur & Welt",
+    "english": "statue",
+    "kasus": {
+      "nominativ": "die Statue",
+      "akkusativ": "die Statue",
+      "dativ": "der Statue",
+      "nominativPlural": "die Statuen",
+      "akkusativPlural": "die Statuen",
+      "dativPlural": "den Statuen"
+    }
   },
   {
     "word": "Land",
     "article": "das",
     "plural": "Länder",
     "pluralArticle": "die",
-    "category": "Welt",
-    "type": "noun",
-    "english": "country / land"
+    "category": "Natur & Welt",
+    "english": "country / land",
+    "kasus": {
+      "nominativ": "das Land",
+      "akkusativ": "das Land",
+      "dativ": "dem Land",
+      "nominativPlural": "die Länder",
+      "akkusativPlural": "die Länder",
+      "dativPlural": "den Ländern"
+    }
   },
   {
     "word": "Berg",
     "article": "der",
     "plural": "Berge",
     "pluralArticle": "die",
-    "category": "Welt",
-    "type": "noun",
-    "english": "mountain"
+    "category": "Natur & Welt",
+    "english": "mountain",
+    "kasus": {
+      "nominativ": "der Berg",
+      "akkusativ": "den Berg",
+      "dativ": "dem Berg",
+      "nominativPlural": "die Berge",
+      "akkusativPlural": "die Berge",
+      "dativPlural": "den Bergen"
+    }
   },
   {
     "word": "Mars",
     "article": "der",
     "plural": "",
     "pluralArticle": "",
-    "category": "Welt",
-    "type": "noun",
-    "english": "Mars"
+    "category": "Natur & Welt",
+    "english": "Mars",
+    "kasus": {
+      "nominativ": "der Mars",
+      "akkusativ": "den Mars",
+      "dativ": "dem Mars"
+    }
   },
   {
     "word": "Staat",
     "article": "der",
     "plural": "Staaten",
     "pluralArticle": "die",
-    "category": "Welt",
-    "type": "noun",
-    "english": "state"
+    "category": "Natur & Welt",
+    "english": "state",
+    "kasus": {
+      "nominativ": "der Staat",
+      "akkusativ": "den Staat",
+      "dativ": "dem Staat",
+      "nominativPlural": "die Staaten",
+      "akkusativPlural": "die Staaten",
+      "dativPlural": "den Staaten"
+    }
   },
   {
     "word": "Fluss",
     "article": "der",
     "plural": "Flüsse",
     "pluralArticle": "die",
-    "category": "Welt",
-    "type": "noun",
-    "english": "river"
+    "category": "Natur & Welt",
+    "english": "river",
+    "kasus": {
+      "nominativ": "der Fluss",
+      "akkusativ": "den Fluss",
+      "dativ": "dem Fluss",
+      "nominativPlural": "die Flüsse",
+      "akkusativPlural": "die Flüsse",
+      "dativPlural": "den Flüssen"
+    }
   },
   {
     "word": "Stern",
     "article": "der",
     "plural": "Sterne",
     "pluralArticle": "die",
-    "category": "Welt",
-    "type": "noun",
-    "english": "star"
+    "category": "Natur & Welt",
+    "english": "star",
+    "kasus": {
+      "nominativ": "der Stern",
+      "akkusativ": "den Stern",
+      "dativ": "dem Stern",
+      "nominativPlural": "die Sterne",
+      "akkusativPlural": "die Sterne",
+      "dativPlural": "den Sternen"
+    }
   },
   {
     "word": "Vulkan",
     "article": "der",
     "plural": "Vulkane",
     "pluralArticle": "die",
-    "category": "Welt",
-    "type": "noun",
-    "english": "volcano"
+    "category": "Natur & Welt",
+    "english": "volcano",
+    "kasus": {
+      "nominativ": "der Vulkan",
+      "akkusativ": "den Vulkan",
+      "dativ": "dem Vulkan",
+      "nominativPlural": "die Vulkane",
+      "akkusativPlural": "die Vulkane",
+      "dativPlural": "den Vulkanen"
+    }
   },
   {
     "word": "Meer",
     "article": "das",
     "plural": "Meere",
     "pluralArticle": "die",
-    "category": "Welt",
-    "type": "noun",
-    "english": "sea"
+    "category": "Natur & Welt",
+    "english": "sea",
+    "kasus": {
+      "nominativ": "das Meer",
+      "akkusativ": "das Meer",
+      "dativ": "dem Meer",
+      "nominativPlural": "die Meere",
+      "akkusativPlural": "die Meere",
+      "dativPlural": "den Meeren"
+    }
   },
   {
     "word": "See",
     "article": "der",
     "plural": "Seen",
     "pluralArticle": "die",
-    "category": "Welt",
-    "type": "noun",
-    "english": "lake"
+    "category": "Natur & Welt",
+    "english": "lake",
+    "kasus": {
+      "nominativ": "der See",
+      "akkusativ": "den See",
+      "dativ": "dem See",
+      "nominativPlural": "die Seen",
+      "akkusativPlural": "die Seen",
+      "dativPlural": "den Seen"
+    }
   },
   {
     "word": "Wetter",
@@ -1697,8 +2758,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Wetter",
-    "type": "noun",
-    "english": "weather"
+    "english": "weather",
+    "kasus": {
+      "nominativ": "das Wetter",
+      "akkusativ": "das Wetter",
+      "dativ": "dem Wetter"
+    }
   },
   {
     "word": "Klima",
@@ -1706,8 +2771,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Wetter",
-    "type": "noun",
-    "english": "climate"
+    "english": "climate",
+    "kasus": {
+      "nominativ": "das Klima",
+      "akkusativ": "das Klima",
+      "dativ": "dem Klima"
+    }
   },
   {
     "word": "Gewitter",
@@ -1715,17 +2784,15 @@
     "plural": "Gewitter",
     "pluralArticle": "die",
     "category": "Wetter",
-    "type": "noun",
-    "english": "thunderstorm"
-  },
-  {
-    "word": "Mond",
-    "article": "der",
-    "plural": "Monde",
-    "pluralArticle": "die",
-    "category": "Wetter",
-    "type": "noun",
-    "english": "moon"
+    "english": "thunderstorm",
+    "kasus": {
+      "nominativ": "das Gewitter",
+      "akkusativ": "das Gewitter",
+      "dativ": "dem Gewitter",
+      "nominativPlural": "die Gewitter",
+      "akkusativPlural": "die Gewitter",
+      "dativPlural": "den Gewittern"
+    }
   },
   {
     "word": "Regen",
@@ -1733,8 +2800,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Wetter",
-    "type": "noun",
-    "english": "rain"
+    "english": "rain",
+    "kasus": {
+      "nominativ": "der Regen",
+      "akkusativ": "den Regen",
+      "dativ": "dem Regen"
+    }
   },
   {
     "word": "Nebel",
@@ -1742,8 +2813,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Wetter",
-    "type": "noun",
-    "english": "fog"
+    "english": "fog",
+    "kasus": {
+      "nominativ": "der Nebel",
+      "akkusativ": "den Nebel",
+      "dativ": "dem Nebel"
+    }
   },
   {
     "word": "Blitz",
@@ -1751,8 +2826,15 @@
     "plural": "Blitze",
     "pluralArticle": "die",
     "category": "Wetter",
-    "type": "noun",
-    "english": "lightning"
+    "english": "lightning",
+    "kasus": {
+      "nominativ": "der Blitz",
+      "akkusativ": "den Blitz",
+      "dativ": "dem Blitz",
+      "nominativPlural": "die Blitze",
+      "akkusativPlural": "die Blitze",
+      "dativPlural": "den Blitzen"
+    }
   },
   {
     "word": "Donner",
@@ -1760,8 +2842,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Wetter",
-    "type": "noun",
-    "english": "thunder"
+    "english": "thunder",
+    "kasus": {
+      "nominativ": "der Donner",
+      "akkusativ": "den Donner",
+      "dativ": "dem Donner"
+    }
   },
   {
     "word": "Schnee",
@@ -1769,8 +2855,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Wetter",
-    "type": "noun",
-    "english": "snow"
+    "english": "snow",
+    "kasus": {
+      "nominativ": "der Schnee",
+      "akkusativ": "den Schnee",
+      "dativ": "dem Schnee"
+    }
   },
   {
     "word": "Anzug",
@@ -1778,8 +2868,15 @@
     "plural": "Anzüge",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "suit"
+    "english": "suit",
+    "kasus": {
+      "nominativ": "der Anzug",
+      "akkusativ": "den Anzug",
+      "dativ": "dem Anzug",
+      "nominativPlural": "die Anzüge",
+      "akkusativPlural": "die Anzüge",
+      "dativPlural": "den Anzügen"
+    }
   },
   {
     "word": "Bluse",
@@ -1787,8 +2884,15 @@
     "plural": "Blusen",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "blouse"
+    "english": "blouse",
+    "kasus": {
+      "nominativ": "die Bluse",
+      "akkusativ": "die Bluse",
+      "dativ": "der Bluse",
+      "nominativPlural": "die Blusen",
+      "akkusativPlural": "die Blusen",
+      "dativPlural": "den Blusen"
+    }
   },
   {
     "word": "Halskette",
@@ -1796,8 +2900,15 @@
     "plural": "Halsketten",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "necklace"
+    "english": "necklace",
+    "kasus": {
+      "nominativ": "die Halskette",
+      "akkusativ": "die Halskette",
+      "dativ": "der Halskette",
+      "nominativPlural": "die Halsketten",
+      "akkusativPlural": "die Halsketten",
+      "dativPlural": "den Halsketten"
+    }
   },
   {
     "word": "Hose",
@@ -1805,17 +2916,15 @@
     "plural": "Hosen",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "pants / trousers"
-  },
-  {
-    "word": "Jacke",
-    "article": "die",
-    "plural": "Jacken",
-    "pluralArticle": "die",
-    "category": "Kleidung",
-    "type": "noun",
-    "english": "jacket"
+    "english": "pants / trousers",
+    "kasus": {
+      "nominativ": "die Hose",
+      "akkusativ": "die Hose",
+      "dativ": "der Hose",
+      "nominativPlural": "die Hosen",
+      "akkusativPlural": "die Hosen",
+      "dativPlural": "den Hosen"
+    }
   },
   {
     "word": "Jeans",
@@ -1823,8 +2932,15 @@
     "plural": "Jeans",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "jeans"
+    "english": "jeans",
+    "kasus": {
+      "nominativ": "die Jeans",
+      "akkusativ": "die Jeans",
+      "dativ": "der Jeans",
+      "nominativPlural": "die Jeans",
+      "akkusativPlural": "die Jeans",
+      "dativPlural": "den Jeans"
+    }
   },
   {
     "word": "Kleid",
@@ -1832,8 +2948,15 @@
     "plural": "Kleider",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "dress"
+    "english": "dress",
+    "kasus": {
+      "nominativ": "das Kleid",
+      "akkusativ": "das Kleid",
+      "dativ": "dem Kleid",
+      "nominativPlural": "die Kleider",
+      "akkusativPlural": "die Kleider",
+      "dativPlural": "den Kleidern"
+    }
   },
   {
     "word": "Krawatte",
@@ -1841,8 +2964,15 @@
     "plural": "Krawatten",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "tie"
+    "english": "tie",
+    "kasus": {
+      "nominativ": "die Krawatte",
+      "akkusativ": "die Krawatte",
+      "dativ": "der Krawatte",
+      "nominativPlural": "die Krawatten",
+      "akkusativPlural": "die Krawatten",
+      "dativPlural": "den Krawatten"
+    }
   },
   {
     "word": "Mantel",
@@ -1850,17 +2980,15 @@
     "plural": "Mäntel",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "coat"
-  },
-  {
-    "word": "Pullover",
-    "article": "der",
-    "plural": "Pullover",
-    "pluralArticle": "die",
-    "category": "Kleidung",
-    "type": "noun",
-    "english": "sweater"
+    "english": "coat",
+    "kasus": {
+      "nominativ": "der Mantel",
+      "akkusativ": "den Mantel",
+      "dativ": "dem Mantel",
+      "nominativPlural": "die Mäntel",
+      "akkusativPlural": "die Mäntel",
+      "dativPlural": "den Mänteln"
+    }
   },
   {
     "word": "Ring",
@@ -1868,8 +2996,15 @@
     "plural": "Ringe",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "ring"
+    "english": "ring",
+    "kasus": {
+      "nominativ": "der Ring",
+      "akkusativ": "den Ring",
+      "dativ": "dem Ring",
+      "nominativPlural": "die Ringe",
+      "akkusativPlural": "die Ringe",
+      "dativPlural": "den Ringen"
+    }
   },
   {
     "word": "Rock",
@@ -1877,8 +3012,15 @@
     "plural": "Röcke",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "skirt"
+    "english": "skirt",
+    "kasus": {
+      "nominativ": "der Rock",
+      "akkusativ": "den Rock",
+      "dativ": "dem Rock",
+      "nominativPlural": "die Röcke",
+      "akkusativPlural": "die Röcke",
+      "dativPlural": "den Röcken"
+    }
   },
   {
     "word": "Schmuck",
@@ -1886,17 +3028,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "jewelry"
-  },
-  {
-    "word": "Schuh",
-    "article": "der",
-    "plural": "Schuhe",
-    "pluralArticle": "die",
-    "category": "Kleidung",
-    "type": "noun",
-    "english": "shoe"
+    "english": "jewelry",
+    "kasus": {
+      "nominativ": "der Schmuck",
+      "akkusativ": "den Schmuck",
+      "dativ": "dem Schmuck"
+    }
   },
   {
     "word": "Stiefel",
@@ -1904,8 +3041,15 @@
     "plural": "Stiefel",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "boot"
+    "english": "boot",
+    "kasus": {
+      "nominativ": "der Stiefel",
+      "akkusativ": "den Stiefel",
+      "dativ": "dem Stiefel",
+      "nominativPlural": "die Stiefel",
+      "akkusativPlural": "die Stiefel",
+      "dativPlural": "den Stiefeln"
+    }
   },
   {
     "word": "Strumpf",
@@ -1913,8 +3057,15 @@
     "plural": "Strümpfe",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "stocking"
+    "english": "stocking",
+    "kasus": {
+      "nominativ": "der Strumpf",
+      "akkusativ": "den Strumpf",
+      "dativ": "dem Strumpf",
+      "nominativPlural": "die Strümpfe",
+      "akkusativPlural": "die Strümpfe",
+      "dativPlural": "den Strümpfen"
+    }
   },
   {
     "word": "T-Shirt",
@@ -1922,8 +3073,15 @@
     "plural": "T-Shirts",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "t-shirt"
+    "english": "t-shirt",
+    "kasus": {
+      "nominativ": "das T-Shirt",
+      "akkusativ": "das T-Shirt",
+      "dativ": "dem T-Shirt",
+      "nominativPlural": "die T-Shirts",
+      "akkusativPlural": "die T-Shirts",
+      "dativPlural": "den T-Shirts"
+    }
   },
   {
     "word": "Hut",
@@ -1931,8 +3089,15 @@
     "plural": "Hüte",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "hat"
+    "english": "hat",
+    "kasus": {
+      "nominativ": "der Hut",
+      "akkusativ": "den Hut",
+      "dativ": "dem Hut",
+      "nominativPlural": "die Hüte",
+      "akkusativPlural": "die Hüte",
+      "dativPlural": "den Hüten"
+    }
   },
   {
     "word": "Mütze",
@@ -1940,575 +3105,831 @@
     "plural": "Mützen",
     "pluralArticle": "die",
     "category": "Kleidung",
-    "type": "noun",
-    "english": "cap / beanie"
+    "english": "cap / beanie",
+    "kasus": {
+      "nominativ": "die Mütze",
+      "akkusativ": "die Mütze",
+      "dativ": "der Mütze",
+      "nominativPlural": "die Mützen",
+      "akkusativPlural": "die Mützen",
+      "dativPlural": "den Mützen"
+    }
   },
   {
     "word": "Arm",
     "article": "der",
     "plural": "Arme",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "arm"
-  },
-  {
-    "word": "Auge",
-    "article": "das",
-    "plural": "Augen",
-    "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "eye"
+    "category": "Körper & Gesundheit",
+    "english": "arm",
+    "kasus": {
+      "nominativ": "der Arm",
+      "akkusativ": "den Arm",
+      "dativ": "dem Arm",
+      "nominativPlural": "die Arme",
+      "akkusativPlural": "die Arme",
+      "dativPlural": "den Armen"
+    }
   },
   {
     "word": "Bauch",
     "article": "der",
     "plural": "Bäuche",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "belly / stomach"
+    "category": "Körper & Gesundheit",
+    "english": "belly / stomach",
+    "kasus": {
+      "nominativ": "der Bauch",
+      "akkusativ": "den Bauch",
+      "dativ": "dem Bauch",
+      "nominativPlural": "die Bäuche",
+      "akkusativPlural": "die Bäuche",
+      "dativPlural": "den Bäuchen"
+    }
   },
   {
     "word": "Bein",
     "article": "das",
     "plural": "Beine",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "leg"
+    "category": "Körper & Gesundheit",
+    "english": "leg",
+    "kasus": {
+      "nominativ": "das Bein",
+      "akkusativ": "das Bein",
+      "dativ": "dem Bein",
+      "nominativPlural": "die Beine",
+      "akkusativPlural": "die Beine",
+      "dativPlural": "den Beinen"
+    }
   },
   {
     "word": "Daumen",
     "article": "der",
     "plural": "Daumen",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "thumb"
+    "category": "Körper & Gesundheit",
+    "english": "thumb",
+    "kasus": {
+      "nominativ": "der Daumen",
+      "akkusativ": "den Daumen",
+      "dativ": "dem Daumen",
+      "nominativPlural": "die Daumen",
+      "akkusativPlural": "die Daumen",
+      "dativPlural": "den Daumen"
+    }
   },
   {
     "word": "Finger",
     "article": "der",
     "plural": "Finger",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "finger"
+    "category": "Körper & Gesundheit",
+    "english": "finger",
+    "kasus": {
+      "nominativ": "der Finger",
+      "akkusativ": "den Finger",
+      "dativ": "dem Finger",
+      "nominativPlural": "die Finger",
+      "akkusativPlural": "die Finger",
+      "dativPlural": "den Fingern"
+    }
   },
   {
     "word": "Fuß",
     "article": "der",
     "plural": "Füße",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "foot"
+    "category": "Körper & Gesundheit",
+    "english": "foot",
+    "kasus": {
+      "nominativ": "der Fuß",
+      "akkusativ": "den Fuß",
+      "dativ": "dem Fuß",
+      "nominativPlural": "die Füße",
+      "akkusativPlural": "die Füße",
+      "dativPlural": "den Füßen"
+    }
   },
   {
     "word": "Haar",
     "article": "das",
     "plural": "Haare",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "hair"
+    "category": "Körper & Gesundheit",
+    "english": "hair",
+    "kasus": {
+      "nominativ": "das Haar",
+      "akkusativ": "das Haar",
+      "dativ": "dem Haar",
+      "nominativPlural": "die Haare",
+      "akkusativPlural": "die Haare",
+      "dativPlural": "den Haaren"
+    }
   },
   {
     "word": "Hals",
     "article": "der",
     "plural": "Hälse",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "neck / throat"
+    "category": "Körper & Gesundheit",
+    "english": "neck / throat",
+    "kasus": {
+      "nominativ": "der Hals",
+      "akkusativ": "den Hals",
+      "dativ": "dem Hals",
+      "nominativPlural": "die Hälse",
+      "akkusativPlural": "die Hälse",
+      "dativPlural": "den Hälsen"
+    }
   },
   {
     "word": "Knie",
     "article": "das",
     "plural": "Kniee",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "knee"
+    "category": "Körper & Gesundheit",
+    "english": "knee",
+    "kasus": {
+      "nominativ": "das Knie",
+      "akkusativ": "das Knie",
+      "dativ": "dem Knie",
+      "nominativPlural": "die Kniee",
+      "akkusativPlural": "die Kniee",
+      "dativPlural": "den Knieen"
+    }
   },
   {
     "word": "Kopf",
     "article": "der",
     "plural": "Köpfe",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "head"
+    "category": "Körper & Gesundheit",
+    "english": "head",
+    "kasus": {
+      "nominativ": "der Kopf",
+      "akkusativ": "den Kopf",
+      "dativ": "dem Kopf",
+      "nominativPlural": "die Köpfe",
+      "akkusativPlural": "die Köpfe",
+      "dativPlural": "den Köpfen"
+    }
   },
   {
     "word": "Mund",
     "article": "der",
     "plural": "Münder",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "mouth"
+    "category": "Körper & Gesundheit",
+    "english": "mouth",
+    "kasus": {
+      "nominativ": "der Mund",
+      "akkusativ": "den Mund",
+      "dativ": "dem Mund",
+      "nominativPlural": "die Münder",
+      "akkusativPlural": "die Münder",
+      "dativPlural": "den Mündern"
+    }
   },
   {
     "word": "Nase",
     "article": "die",
     "plural": "Nasen",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "nose"
-  },
-  {
-    "word": "Ohr",
-    "article": "das",
-    "plural": "Ohren",
-    "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "ear"
+    "category": "Körper & Gesundheit",
+    "english": "nose",
+    "kasus": {
+      "nominativ": "die Nase",
+      "akkusativ": "die Nase",
+      "dativ": "der Nase",
+      "nominativPlural": "die Nasen",
+      "akkusativPlural": "die Nasen",
+      "dativPlural": "den Nasen"
+    }
   },
   {
     "word": "Po",
     "article": "der",
     "plural": "Pos",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "bottom / butt"
+    "category": "Körper & Gesundheit",
+    "english": "bottom / butt",
+    "kasus": {
+      "nominativ": "der Po",
+      "akkusativ": "den Po",
+      "dativ": "dem Po",
+      "nominativPlural": "die Pos",
+      "akkusativPlural": "die Pos",
+      "dativPlural": "den Pos"
+    }
   },
   {
     "word": "Rücken",
     "article": "der",
     "plural": "Rücken",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "back"
+    "category": "Körper & Gesundheit",
+    "english": "back",
+    "kasus": {
+      "nominativ": "der Rücken",
+      "akkusativ": "den Rücken",
+      "dativ": "dem Rücken",
+      "nominativPlural": "die Rücken",
+      "akkusativPlural": "die Rücken",
+      "dativPlural": "den Rücken"
+    }
   },
   {
     "word": "Schulter",
     "article": "die",
     "plural": "Schultern",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "shoulder"
+    "category": "Körper & Gesundheit",
+    "english": "shoulder",
+    "kasus": {
+      "nominativ": "die Schulter",
+      "akkusativ": "die Schulter",
+      "dativ": "der Schulter",
+      "nominativPlural": "die Schultern",
+      "akkusativPlural": "die Schultern",
+      "dativPlural": "den Schultern"
+    }
   },
   {
     "word": "Stirn",
     "article": "die",
     "plural": "Stirne",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "forehead"
+    "category": "Körper & Gesundheit",
+    "english": "forehead",
+    "kasus": {
+      "nominativ": "die Stirn",
+      "akkusativ": "die Stirn",
+      "dativ": "der Stirn",
+      "nominativPlural": "die Stirne",
+      "akkusativPlural": "die Stirne",
+      "dativPlural": "den Stirnen"
+    }
   },
   {
     "word": "Zahn",
     "article": "der",
     "plural": "Zähne",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "tooth"
+    "category": "Körper & Gesundheit",
+    "english": "tooth",
+    "kasus": {
+      "nominativ": "der Zahn",
+      "akkusativ": "den Zahn",
+      "dativ": "dem Zahn",
+      "nominativPlural": "die Zähne",
+      "akkusativPlural": "die Zähne",
+      "dativPlural": "den Zähnen"
+    }
   },
   {
     "word": "Zeh",
     "article": "der",
     "plural": "Zehen",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "toe"
+    "category": "Körper & Gesundheit",
+    "english": "toe",
+    "kasus": {
+      "nominativ": "der Zeh",
+      "akkusativ": "den Zeh",
+      "dativ": "dem Zeh",
+      "nominativPlural": "die Zehen",
+      "akkusativPlural": "die Zehen",
+      "dativPlural": "den Zehen"
+    }
   },
   {
     "word": "Schmerz",
     "article": "der",
     "plural": "Schmerzen",
     "pluralArticle": "die",
-    "category": "Körper",
-    "type": "noun",
-    "english": "pain"
+    "category": "Körper & Gesundheit",
+    "english": "pain",
+    "kasus": {
+      "nominativ": "der Schmerz",
+      "akkusativ": "den Schmerz",
+      "dativ": "dem Schmerz",
+      "nominativPlural": "die Schmerzen",
+      "akkusativPlural": "die Schmerzen",
+      "dativPlural": "den Schmerzen"
+    }
   },
   {
     "word": "Apotheke",
     "article": "die",
     "plural": "Apotheken",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "pharmacy"
-  },
-  {
-    "word": "Bahnhof",
-    "article": "der",
-    "plural": "Bahnhöfe",
-    "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "train station"
-  },
-  {
-    "word": "Bibliothek",
-    "article": "die",
-    "plural": "Bibliotheken",
-    "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "library"
+    "category": "Orte & Verkehr",
+    "english": "pharmacy",
+    "kasus": {
+      "nominativ": "die Apotheke",
+      "akkusativ": "die Apotheke",
+      "dativ": "der Apotheke",
+      "nominativPlural": "die Apotheken",
+      "akkusativPlural": "die Apotheken",
+      "dativPlural": "den Apotheken"
+    }
   },
   {
     "word": "Büro",
     "article": "das",
     "plural": "Büros",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "office"
+    "category": "Orte & Verkehr",
+    "english": "office",
+    "kasus": {
+      "nominativ": "das Büro",
+      "akkusativ": "das Büro",
+      "dativ": "dem Büro",
+      "nominativPlural": "die Büros",
+      "akkusativPlural": "die Büros",
+      "dativPlural": "den Büros"
+    }
   },
   {
     "word": "Bus",
     "article": "der",
     "plural": "Busse",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "bus"
+    "category": "Orte & Verkehr",
+    "english": "bus",
+    "kasus": {
+      "nominativ": "der Bus",
+      "akkusativ": "den Bus",
+      "dativ": "dem Bus",
+      "nominativPlural": "die Busse",
+      "akkusativPlural": "die Busse",
+      "dativPlural": "den Bussen"
+    }
   },
   {
     "word": "Café",
     "article": "das",
     "plural": "Cafés",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "café"
+    "category": "Orte & Verkehr",
+    "english": "café",
+    "kasus": {
+      "nominativ": "das Café",
+      "akkusativ": "das Café",
+      "dativ": "dem Café",
+      "nominativPlural": "die Cafés",
+      "akkusativPlural": "die Cafés",
+      "dativPlural": "den Cafés"
+    }
   },
   {
     "word": "Fitness-Studio",
     "article": "das",
     "plural": "Fitnesse-Studios",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "gym"
+    "category": "Orte & Verkehr",
+    "english": "gym",
+    "kasus": {
+      "nominativ": "das Fitness-Studio",
+      "akkusativ": "das Fitness-Studio",
+      "dativ": "dem Fitness-Studio",
+      "nominativPlural": "die Fitnesse-Studios",
+      "akkusativPlural": "die Fitnesse-Studios",
+      "dativPlural": "den Fitnesse-Studios"
+    }
   },
   {
     "word": "Kino",
     "article": "das",
     "plural": "Kinos",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "cinema"
+    "category": "Orte & Verkehr",
+    "english": "cinema",
+    "kasus": {
+      "nominativ": "das Kino",
+      "akkusativ": "das Kino",
+      "dativ": "dem Kino",
+      "nominativPlural": "die Kinos",
+      "akkusativPlural": "die Kinos",
+      "dativPlural": "den Kinos"
+    }
   },
   {
     "word": "Mensa",
     "article": "die",
     "plural": "Mensen",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "cafeteria"
+    "category": "Orte & Verkehr",
+    "english": "cafeteria",
+    "kasus": {
+      "nominativ": "die Mensa",
+      "akkusativ": "die Mensa",
+      "dativ": "der Mensa",
+      "nominativPlural": "die Mensen",
+      "akkusativPlural": "die Mensen",
+      "dativPlural": "den Mensen"
+    }
   },
   {
     "word": "Museum",
     "article": "das",
     "plural": "Museen",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "museum"
+    "category": "Orte & Verkehr",
+    "english": "museum",
+    "kasus": {
+      "nominativ": "das Museum",
+      "akkusativ": "das Museum",
+      "dativ": "dem Museum",
+      "nominativPlural": "die Museen",
+      "akkusativPlural": "die Museen",
+      "dativPlural": "den Museen"
+    }
   },
   {
     "word": "Park",
     "article": "der",
     "plural": "Parks",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "park"
+    "category": "Orte & Verkehr",
+    "english": "park",
+    "kasus": {
+      "nominativ": "der Park",
+      "akkusativ": "den Park",
+      "dativ": "dem Park",
+      "nominativPlural": "die Parks",
+      "akkusativPlural": "die Parks",
+      "dativPlural": "den Parks"
+    }
   },
   {
     "word": "Restaurant",
     "article": "das",
     "plural": "Restaurants",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "restaurant"
+    "category": "Orte & Verkehr",
+    "english": "restaurant",
+    "kasus": {
+      "nominativ": "das Restaurant",
+      "akkusativ": "das Restaurant",
+      "dativ": "dem Restaurant",
+      "nominativPlural": "die Restaurants",
+      "akkusativPlural": "die Restaurants",
+      "dativPlural": "den Restaurants"
+    }
   },
   {
     "word": "Supermarkt",
     "article": "der",
     "plural": "Supermärkte",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "supermarket"
+    "category": "Orte & Verkehr",
+    "english": "supermarket",
+    "kasus": {
+      "nominativ": "der Supermarkt",
+      "akkusativ": "den Supermarkt",
+      "dativ": "dem Supermarkt",
+      "nominativPlural": "die Supermärkte",
+      "akkusativPlural": "die Supermärkte",
+      "dativPlural": "den Supermärkten"
+    }
   },
   {
     "word": "Theater",
     "article": "das",
     "plural": "Theater",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "theater"
+    "category": "Orte & Verkehr",
+    "english": "theater",
+    "kasus": {
+      "nominativ": "das Theater",
+      "akkusativ": "das Theater",
+      "dativ": "dem Theater",
+      "nominativPlural": "die Theater",
+      "akkusativPlural": "die Theater",
+      "dativPlural": "den Theatern"
+    }
   },
   {
     "word": "U-Bahn",
     "article": "die",
     "plural": "U-Bahnen",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "subway"
+    "category": "Orte & Verkehr",
+    "english": "subway",
+    "kasus": {
+      "nominativ": "die U-Bahn",
+      "akkusativ": "die U-Bahn",
+      "dativ": "der U-Bahn",
+      "nominativPlural": "die U-Bahnen",
+      "akkusativPlural": "die U-Bahnen",
+      "dativPlural": "den U-Bahnen"
+    }
   },
   {
     "word": "Wald",
     "article": "der",
     "plural": "Wälder",
     "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "forest"
-  },
-  {
-    "word": "Zug",
-    "article": "der",
-    "plural": "Züge",
-    "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "train"
-  },
-  {
-    "word": "Haus",
-    "article": "das",
-    "plural": "Häuser",
-    "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "house"
-  },
-  {
-    "word": "Straße",
-    "article": "die",
-    "plural": "Straßen",
-    "pluralArticle": "die",
-    "category": "Orte",
-    "type": "noun",
-    "english": "street"
+    "category": "Orte & Verkehr",
+    "english": "forest",
+    "kasus": {
+      "nominativ": "der Wald",
+      "akkusativ": "den Wald",
+      "dativ": "dem Wald",
+      "nominativPlural": "die Wälder",
+      "akkusativPlural": "die Wälder",
+      "dativPlural": "den Wäldern"
+    }
   },
   {
     "word": "Küche",
     "article": "die",
     "plural": "Küchen",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "kitchen"
-  },
-  {
-    "word": "Lampe",
-    "article": "die",
-    "plural": "Lampen",
-    "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "lamp"
+    "category": "Haus & Wohnen",
+    "english": "kitchen",
+    "kasus": {
+      "nominativ": "die Küche",
+      "akkusativ": "die Küche",
+      "dativ": "der Küche",
+      "nominativPlural": "die Küchen",
+      "akkusativPlural": "die Küchen",
+      "dativPlural": "den Küchen"
+    }
   },
   {
     "word": "Waschmaschine",
     "article": "die",
     "plural": "Waschmaschinen",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "washing machine"
+    "category": "Haus & Wohnen",
+    "english": "washing machine",
+    "kasus": {
+      "nominativ": "die Waschmaschine",
+      "akkusativ": "die Waschmaschine",
+      "dativ": "der Waschmaschine",
+      "nominativPlural": "die Waschmaschinen",
+      "akkusativPlural": "die Waschmaschinen",
+      "dativPlural": "den Waschmaschinen"
+    }
   },
   {
     "word": "Bücherregal",
     "article": "das",
     "plural": "Bücherregale",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "bookshelf"
+    "category": "Haus & Wohnen",
+    "english": "bookshelf",
+    "kasus": {
+      "nominativ": "das Bücherregal",
+      "akkusativ": "das Bücherregal",
+      "dativ": "dem Bücherregal",
+      "nominativPlural": "die Bücherregale",
+      "akkusativPlural": "die Bücherregale",
+      "dativPlural": "den Bücherregalen"
+    }
   },
   {
     "word": "Regal",
     "article": "das",
     "plural": "Regale",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "shelf"
+    "category": "Haus & Wohnen",
+    "english": "shelf",
+    "kasus": {
+      "nominativ": "das Regal",
+      "akkusativ": "das Regal",
+      "dativ": "dem Regal",
+      "nominativPlural": "die Regale",
+      "akkusativPlural": "die Regale",
+      "dativPlural": "den Regalen"
+    }
   },
   {
     "word": "Kühlschrank",
     "article": "der",
     "plural": "Kühlschränke",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "refrigerator"
+    "category": "Haus & Wohnen",
+    "english": "refrigerator",
+    "kasus": {
+      "nominativ": "der Kühlschrank",
+      "akkusativ": "den Kühlschrank",
+      "dativ": "dem Kühlschrank",
+      "nominativPlural": "die Kühlschränke",
+      "akkusativPlural": "die Kühlschränke",
+      "dativPlural": "den Kühlschränken"
+    }
   },
   {
     "word": "Schrank",
     "article": "der",
     "plural": "Schränke",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "cabinet / closet"
+    "category": "Haus & Wohnen",
+    "english": "cabinet / closet",
+    "kasus": {
+      "nominativ": "der Schrank",
+      "akkusativ": "den Schrank",
+      "dativ": "dem Schrank",
+      "nominativPlural": "die Schränke",
+      "akkusativPlural": "die Schränke",
+      "dativPlural": "den Schränken"
+    }
   },
   {
     "word": "Stuhl",
     "article": "der",
     "plural": "Stühle",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "chair"
+    "category": "Haus & Wohnen",
+    "english": "chair",
+    "kasus": {
+      "nominativ": "der Stuhl",
+      "akkusativ": "den Stuhl",
+      "dativ": "dem Stuhl",
+      "nominativPlural": "die Stühle",
+      "akkusativPlural": "die Stühle",
+      "dativPlural": "den Stühlen"
+    }
   },
   {
     "word": "Teppich",
     "article": "der",
     "plural": "Teppiche",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "carpet"
+    "category": "Haus & Wohnen",
+    "english": "carpet",
+    "kasus": {
+      "nominativ": "der Teppich",
+      "akkusativ": "den Teppich",
+      "dativ": "dem Teppich",
+      "nominativPlural": "die Teppiche",
+      "akkusativPlural": "die Teppiche",
+      "dativPlural": "den Teppichen"
+    }
   },
   {
     "word": "Tisch",
     "article": "der",
     "plural": "Tische",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "table"
-  },
-  {
-    "word": "Schreibtisch",
-    "article": "der",
-    "plural": "Schreibtische",
-    "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "desk"
+    "category": "Haus & Wohnen",
+    "english": "table",
+    "kasus": {
+      "nominativ": "der Tisch",
+      "akkusativ": "den Tisch",
+      "dativ": "dem Tisch",
+      "nominativPlural": "die Tische",
+      "akkusativPlural": "die Tische",
+      "dativPlural": "den Tischen"
+    }
   },
   {
     "word": "Wand",
     "article": "die",
     "plural": "Wände",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "wall"
+    "category": "Haus & Wohnen",
+    "english": "wall",
+    "kasus": {
+      "nominativ": "die Wand",
+      "akkusativ": "die Wand",
+      "dativ": "der Wand",
+      "nominativPlural": "die Wände",
+      "akkusativPlural": "die Wände",
+      "dativPlural": "den Wänden"
+    }
   },
   {
     "word": "Bett",
     "article": "das",
     "plural": "Betten",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "bed"
+    "category": "Haus & Wohnen",
+    "english": "bed",
+    "kasus": {
+      "nominativ": "das Bett",
+      "akkusativ": "das Bett",
+      "dativ": "dem Bett",
+      "nominativPlural": "die Betten",
+      "akkusativPlural": "die Betten",
+      "dativPlural": "den Betten"
+    }
   },
   {
     "word": "Heizung",
     "article": "die",
     "plural": "Heizungen",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "heating"
-  },
-  {
-    "word": "Tür",
-    "article": "die",
-    "plural": "Türen",
-    "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "door"
+    "category": "Haus & Wohnen",
+    "english": "heating",
+    "kasus": {
+      "nominativ": "die Heizung",
+      "akkusativ": "die Heizung",
+      "dativ": "der Heizung",
+      "nominativPlural": "die Heizungen",
+      "akkusativPlural": "die Heizungen",
+      "dativPlural": "den Heizungen"
+    }
   },
   {
     "word": "Wohnung",
     "article": "die",
     "plural": "Wohnungen",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "apartment"
+    "category": "Haus & Wohnen",
+    "english": "apartment",
+    "kasus": {
+      "nominativ": "die Wohnung",
+      "akkusativ": "die Wohnung",
+      "dativ": "der Wohnung",
+      "nominativPlural": "die Wohnungen",
+      "akkusativPlural": "die Wohnungen",
+      "dativPlural": "den Wohnungen"
+    }
   },
   {
     "word": "Bild",
     "article": "das",
     "plural": "Bilder",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "picture"
+    "category": "Haus & Wohnen",
+    "english": "picture",
+    "kasus": {
+      "nominativ": "das Bild",
+      "akkusativ": "das Bild",
+      "dativ": "dem Bild",
+      "nominativPlural": "die Bilder",
+      "akkusativPlural": "die Bilder",
+      "dativPlural": "den Bildern"
+    }
   },
   {
     "word": "Appartement",
     "article": "das",
     "plural": "Appartements",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "apartment"
+    "category": "Haus & Wohnen",
+    "english": "apartment",
+    "kasus": {
+      "nominativ": "das Appartement",
+      "akkusativ": "das Appartement",
+      "dativ": "dem Appartement",
+      "nominativPlural": "die Appartements",
+      "akkusativPlural": "die Appartements",
+      "dativPlural": "den Appartements"
+    }
   },
   {
     "word": "Sofa",
     "article": "das",
     "plural": "Sofas",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "sofa"
-  },
-  {
-    "word": "Fenster",
-    "article": "das",
-    "plural": "Fenster",
-    "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "window"
+    "category": "Haus & Wohnen",
+    "english": "sofa",
+    "kasus": {
+      "nominativ": "das Sofa",
+      "akkusativ": "das Sofa",
+      "dativ": "dem Sofa",
+      "nominativPlural": "die Sofas",
+      "akkusativPlural": "die Sofas",
+      "dativPlural": "den Sofas"
+    }
   },
   {
     "word": "Zimmer",
     "article": "das",
     "plural": "Zimmer",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "room"
-  },
-  {
-    "word": "Fernseher",
-    "article": "der",
-    "plural": "Fernseher",
-    "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "TV set"
+    "category": "Haus & Wohnen",
+    "english": "room",
+    "kasus": {
+      "nominativ": "das Zimmer",
+      "akkusativ": "das Zimmer",
+      "dativ": "dem Zimmer",
+      "nominativPlural": "die Zimmer",
+      "akkusativPlural": "die Zimmer",
+      "dativPlural": "den Zimmern"
+    }
   },
   {
     "word": "Sessel",
     "article": "der",
     "plural": "Sessel",
     "pluralArticle": "die",
-    "category": "Wohnen",
-    "type": "noun",
-    "english": "armchair"
+    "category": "Haus & Wohnen",
+    "english": "armchair",
+    "kasus": {
+      "nominativ": "der Sessel",
+      "akkusativ": "den Sessel",
+      "dativ": "dem Sessel",
+      "nominativPlural": "die Sessel",
+      "akkusativPlural": "die Sessel",
+      "dativPlural": "den Sesseln"
+    }
   },
   {
     "word": "China",
@@ -2519,7 +3940,6 @@
       "Chinesisch"
     ],
     "category": "Länder",
-    "type": "country",
     "english": "China"
   },
   {
@@ -2531,7 +3951,6 @@
       "Deutsch"
     ],
     "category": "Länder",
-    "type": "country",
     "english": "Germany"
   },
   {
@@ -2543,7 +3962,6 @@
       "Französisch"
     ],
     "category": "Länder",
-    "type": "country",
     "english": "France"
   },
   {
@@ -2557,7 +3975,6 @@
       "Malayalam"
     ],
     "category": "Länder",
-    "type": "country",
     "english": "India"
   },
   {
@@ -2570,8 +3987,12 @@
       "Kurdisch"
     ],
     "category": "Länder",
-    "type": "country",
-    "english": "Iraq"
+    "english": "Iraq",
+    "kasus": {
+      "nominativ": "der Irak",
+      "akkusativ": "den Irak",
+      "dativ": "dem Irak"
+    }
   },
   {
     "word": "Iran",
@@ -2582,8 +4003,12 @@
       "Farsi"
     ],
     "category": "Länder",
-    "type": "country",
-    "english": "Iran"
+    "english": "Iran",
+    "kasus": {
+      "nominativ": "der Iran",
+      "akkusativ": "den Iran",
+      "dativ": "dem Iran"
+    }
   },
   {
     "word": "Japan",
@@ -2594,7 +4019,6 @@
       "Japanisch"
     ],
     "category": "Länder",
-    "type": "country",
     "english": "Japan"
   },
   {
@@ -2607,7 +4031,6 @@
       "Englisch"
     ],
     "category": "Länder",
-    "type": "country",
     "english": "Pakistan"
   },
   {
@@ -2619,7 +4042,6 @@
       "Russisch"
     ],
     "category": "Länder",
-    "type": "country",
     "english": "Russia"
   },
   {
@@ -2633,8 +4055,12 @@
       "Italienisch"
     ],
     "category": "Länder",
-    "type": "country",
-    "english": "Switzerland"
+    "english": "Switzerland",
+    "kasus": {
+      "nominativ": "die Schweiz",
+      "akkusativ": "die Schweiz",
+      "dativ": "der Schweiz"
+    }
   },
   {
     "word": "Spanien",
@@ -2645,7 +4071,6 @@
       "Spanisch"
     ],
     "category": "Länder",
-    "type": "country",
     "english": "Spain"
   },
   {
@@ -2657,8 +4082,12 @@
       "Türkisch"
     ],
     "category": "Länder",
-    "type": "country",
-    "english": "Turkey"
+    "english": "Turkey",
+    "kasus": {
+      "nominativ": "die Türkei",
+      "akkusativ": "die Türkei",
+      "dativ": "der Türkei"
+    }
   },
   {
     "word": "USA",
@@ -2669,7 +4098,6 @@
       "Englisch"
     ],
     "category": "Länder",
-    "type": "country",
     "english": "USA"
   },
   {
@@ -2678,8 +4106,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "mathematics"
+    "english": "mathematics",
+    "kasus": {
+      "nominativ": "die Mathematik",
+      "akkusativ": "die Mathematik",
+      "dativ": "der Mathematik"
+    }
   },
   {
     "word": "Philosophie",
@@ -2687,8 +4119,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "philosophy"
+    "english": "philosophy",
+    "kasus": {
+      "nominativ": "die Philosophie",
+      "akkusativ": "die Philosophie",
+      "dativ": "der Philosophie"
+    }
   },
   {
     "word": "Germanistik",
@@ -2696,8 +4132,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "German studies"
+    "english": "German studies",
+    "kasus": {
+      "nominativ": "die Germanistik",
+      "akkusativ": "die Germanistik",
+      "dativ": "der Germanistik"
+    }
   },
   {
     "word": "Maschinenbau",
@@ -2705,8 +4145,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "mechanical engineering"
+    "english": "mechanical engineering",
+    "kasus": {
+      "nominativ": "der Maschinenbau",
+      "akkusativ": "den Maschinenbau",
+      "dativ": "dem Maschinenbau"
+    }
   },
   {
     "word": "Elektrotechnik",
@@ -2714,8 +4158,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "electrical engineering"
+    "english": "electrical engineering",
+    "kasus": {
+      "nominativ": "die Elektrotechnik",
+      "akkusativ": "die Elektrotechnik",
+      "dativ": "der Elektrotechnik"
+    }
   },
   {
     "word": "Mechatronik",
@@ -2723,8 +4171,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "mechatronics"
+    "english": "mechatronics",
+    "kasus": {
+      "nominativ": "die Mechatronik",
+      "akkusativ": "die Mechatronik",
+      "dativ": "der Mechatronik"
+    }
   },
   {
     "word": "Chemie",
@@ -2732,8 +4184,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "chemistry"
+    "english": "chemistry",
+    "kasus": {
+      "nominativ": "die Chemie",
+      "akkusativ": "die Chemie",
+      "dativ": "der Chemie"
+    }
   },
   {
     "word": "Physik",
@@ -2741,8 +4197,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "physics"
+    "english": "physics",
+    "kasus": {
+      "nominativ": "die Physik",
+      "akkusativ": "die Physik",
+      "dativ": "der Physik"
+    }
   },
   {
     "word": "Wirtschaft",
@@ -2750,8 +4210,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "economics"
+    "english": "economics",
+    "kasus": {
+      "nominativ": "die Wirtschaft",
+      "akkusativ": "die Wirtschaft",
+      "dativ": "der Wirtschaft"
+    }
   },
   {
     "word": "Biologie",
@@ -2759,8 +4223,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "biology"
+    "english": "biology",
+    "kasus": {
+      "nominativ": "die Biologie",
+      "akkusativ": "die Biologie",
+      "dativ": "der Biologie"
+    }
   },
   {
     "word": "Communicational Engineering",
@@ -2768,8 +4236,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "communications engineering"
+    "english": "communications engineering",
+    "kasus": {
+      "nominativ": "das Communicational Engineering",
+      "akkusativ": "das Communicational Engineering",
+      "dativ": "dem Communicational Engineering"
+    }
   },
   {
     "word": "Informatik",
@@ -2777,8 +4249,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "computer science"
+    "english": "computer science",
+    "kasus": {
+      "nominativ": "die Informatik",
+      "akkusativ": "die Informatik",
+      "dativ": "der Informatik"
+    }
   },
   {
     "word": "Werkstoffwissenschaften",
@@ -2786,7 +4262,6 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
     "english": "materials science"
   },
   {
@@ -2795,8 +4270,12 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Studienfächer",
-    "type": "noun",
-    "english": "engineering"
+    "english": "engineering",
+    "kasus": {
+      "nominativ": "das Ingenieurwesen",
+      "akkusativ": "das Ingenieurwesen",
+      "dativ": "dem Ingenieurwesen"
+    }
   },
   {
     "word": "sein",
@@ -2812,7 +4291,6 @@
     },
     "partizip": "gewesen",
     "category": "Verben",
-    "type": "verb",
     "english": "to be"
   },
   {
@@ -2829,7 +4307,6 @@
     },
     "partizip": "gegangen",
     "category": "Verben",
-    "type": "verb",
     "english": "to go"
   },
   {
@@ -2846,7 +4323,6 @@
     },
     "partizip": "verstanden",
     "category": "Verben",
-    "type": "verb",
     "english": "to understand"
   },
   {
@@ -2863,7 +4339,6 @@
     },
     "partizip": "weggeworfen",
     "category": "Verben",
-    "type": "verb",
     "english": "to throw away"
   },
   {
@@ -2880,7 +4355,6 @@
     },
     "partizip": "gesprochen",
     "category": "Verben",
-    "type": "verb",
     "english": "to speak"
   },
   {
@@ -2897,7 +4371,6 @@
     },
     "partizip": "getroffen",
     "category": "Verben",
-    "type": "verb",
     "english": "to meet"
   },
   {
@@ -2914,7 +4387,6 @@
     },
     "partizip": "geworden",
     "category": "Verben",
-    "type": "verb",
     "english": "to become"
   },
   {
@@ -2931,7 +4403,6 @@
     },
     "partizip": "unternommen",
     "category": "Verben",
-    "type": "verb",
     "english": "to undertake"
   },
   {
@@ -2948,7 +4419,6 @@
     },
     "partizip": "geschrieben",
     "category": "Verben",
-    "type": "verb",
     "english": "to write"
   },
   {
@@ -2965,7 +4435,6 @@
     },
     "partizip": "geschwommen",
     "category": "Verben",
-    "type": "verb",
     "english": "to swim"
   },
   {
@@ -2982,7 +4451,6 @@
     },
     "partizip": "begonnen",
     "category": "Verben",
-    "type": "verb",
     "english": "to begin"
   },
   {
@@ -2999,7 +4467,6 @@
     },
     "partizip": "gefunden",
     "category": "Verben",
-    "type": "verb",
     "english": "to find"
   },
   {
@@ -3016,7 +4483,6 @@
     },
     "partizip": "geklungen",
     "category": "Verben",
-    "type": "verb",
     "english": "to sound"
   },
   {
@@ -3033,7 +4499,6 @@
     },
     "partizip": "gesungen",
     "category": "Verben",
-    "type": "verb",
     "english": "to sing"
   },
   {
@@ -3050,7 +4515,6 @@
     },
     "partizip": "getrunken",
     "category": "Verben",
-    "type": "verb",
     "english": "to drink"
   },
   {
@@ -3067,7 +4531,6 @@
     },
     "partizip": "angezogen",
     "category": "Verben",
-    "type": "verb",
     "english": "to put on / dress"
   },
   {
@@ -3084,7 +4547,6 @@
     },
     "partizip": "ausgezogen",
     "category": "Verben",
-    "type": "verb",
     "english": "to take off / undress"
   },
   {
@@ -3101,7 +4563,6 @@
     },
     "partizip": "geschlossen",
     "category": "Verben",
-    "type": "verb",
     "english": "to close"
   },
   {
@@ -3118,7 +4579,6 @@
     },
     "partizip": "abgefahren",
     "category": "Verben",
-    "type": "verb",
     "english": "to depart"
   },
   {
@@ -3135,7 +4595,6 @@
     },
     "partizip": "angefangen",
     "category": "Verben",
-    "type": "verb",
     "english": "to start"
   },
   {
@@ -3152,7 +4611,6 @@
     },
     "partizip": "angekommen",
     "category": "Verben",
-    "type": "verb",
     "english": "to arrive"
   },
   {
@@ -3169,7 +4627,6 @@
     },
     "partizip": "angerufen",
     "category": "Verben",
-    "type": "verb",
     "english": "to call (phone)"
   },
   {
@@ -3186,7 +4643,6 @@
     },
     "partizip": "eingeladen",
     "category": "Verben",
-    "type": "verb",
     "english": "to invite"
   },
   {
@@ -3203,7 +4659,6 @@
     },
     "partizip": "mitgefahren",
     "category": "Verben",
-    "type": "verb",
     "english": "to ride along"
   },
   {
@@ -3220,7 +4675,6 @@
     },
     "partizip": "gebacken",
     "category": "Verben",
-    "type": "verb",
     "english": "to bake"
   },
   {
@@ -3237,7 +4691,6 @@
     },
     "partizip": "gegessen",
     "category": "Verben",
-    "type": "verb",
     "english": "to eat"
   },
   {
@@ -3254,7 +4707,6 @@
     },
     "partizip": "gefahren",
     "category": "Verben",
-    "type": "verb",
     "english": "to drive / go"
   },
   {
@@ -3271,7 +4723,6 @@
     },
     "partizip": "geheißen",
     "category": "Verben",
-    "type": "verb",
     "english": "to be called"
   },
   {
@@ -3288,7 +4739,6 @@
     },
     "partizip": "gekommen",
     "category": "Verben",
-    "type": "verb",
     "english": "to come"
   },
   {
@@ -3305,7 +4755,6 @@
     },
     "partizip": "gelaufen",
     "category": "Verben",
-    "type": "verb",
     "english": "to run / walk"
   },
   {
@@ -3322,7 +4771,6 @@
     },
     "partizip": "geschlafen",
     "category": "Verben",
-    "type": "verb",
     "english": "to sleep"
   },
   {
@@ -3339,7 +4787,6 @@
     },
     "partizip": "gesehen",
     "category": "Verben",
-    "type": "verb",
     "english": "to see"
   },
   {
@@ -3356,7 +4803,6 @@
     },
     "partizip": "getragen",
     "category": "Verben",
-    "type": "verb",
     "english": "to wear / carry"
   },
   {
@@ -3373,7 +4819,6 @@
     },
     "partizip": "bekommen",
     "category": "Verben",
-    "type": "verb",
     "english": "to receive"
   },
   {
@@ -3390,7 +4835,6 @@
     },
     "partizip": "gekannt",
     "category": "Verben",
-    "type": "verb",
     "english": "to know (person)"
   },
   {
@@ -3407,7 +4851,6 @@
     },
     "partizip": "mitgebracht",
     "category": "Verben",
-    "type": "verb",
     "english": "to bring along"
   },
   {
@@ -3424,7 +4867,6 @@
     },
     "partizip": "gewusst",
     "category": "Verben",
-    "type": "verb",
     "english": "to know (fact)"
   },
   {
@@ -3441,7 +4883,6 @@
     },
     "partizip": "(gekonnt)",
     "category": "Verben",
-    "type": "verb",
     "english": "can / to be able"
   },
   {
@@ -3458,7 +4899,6 @@
     },
     "partizip": "(gemocht)",
     "category": "Verben",
-    "type": "verb",
     "english": "to like"
   },
   {
@@ -3475,7 +4915,6 @@
     },
     "partizip": "(gedurft)",
     "category": "Verben",
-    "type": "verb",
     "english": "may / to be allowed"
   },
   {
@@ -3492,7 +4931,6 @@
     },
     "partizip": "(gemusst)",
     "category": "Verben",
-    "type": "verb",
     "english": "must / to have to"
   },
   {
@@ -3509,7 +4947,6 @@
     },
     "partizip": "angemacht",
     "category": "Verben",
-    "type": "verb",
     "english": "to turn on"
   },
   {
@@ -3526,7 +4963,6 @@
     },
     "partizip": "angezündet",
     "category": "Verben",
-    "type": "verb",
     "english": "to light"
   },
   {
@@ -3543,7 +4979,6 @@
     },
     "partizip": "aufgehört",
     "category": "Verben",
-    "type": "verb",
     "english": "to stop"
   },
   {
@@ -3560,7 +4995,6 @@
     },
     "partizip": "aufgemacht",
     "category": "Verben",
-    "type": "verb",
     "english": "to open"
   },
   {
@@ -3577,7 +5011,6 @@
     },
     "partizip": "ausgeatmet",
     "category": "Verben",
-    "type": "verb",
     "english": "to exhale"
   },
   {
@@ -3594,7 +5027,6 @@
     },
     "partizip": "ausgemacht",
     "category": "Verben",
-    "type": "verb",
     "english": "to turn off"
   },
   {
@@ -3611,7 +5043,6 @@
     },
     "partizip": "ausgepackt",
     "category": "Verben",
-    "type": "verb",
     "english": "to unpack"
   },
   {
@@ -3628,7 +5059,6 @@
     },
     "partizip": "ausgepustet",
     "category": "Verben",
-    "type": "verb",
     "english": "to blow out"
   },
   {
@@ -3645,7 +5075,6 @@
     },
     "partizip": "eingeatmet",
     "category": "Verben",
-    "type": "verb",
     "english": "to inhale"
   },
   {
@@ -3662,7 +5091,6 @@
     },
     "partizip": "eingepackt",
     "category": "Verben",
-    "type": "verb",
     "english": "to pack"
   },
   {
@@ -3679,7 +5107,6 @@
     },
     "partizip": "mitgemacht",
     "category": "Verben",
-    "type": "verb",
     "english": "to participate"
   },
   {
@@ -3696,7 +5123,6 @@
     },
     "partizip": "weggepackt",
     "category": "Verben",
-    "type": "verb",
     "english": "to put away"
   },
   {
@@ -3713,7 +5139,6 @@
     },
     "partizip": "weitergemacht",
     "category": "Verben",
-    "type": "verb",
     "english": "to continue"
   },
   {
@@ -3730,7 +5155,6 @@
     },
     "partizip": "zugehört",
     "category": "Verben",
-    "type": "verb",
     "english": "to listen"
   },
   {
@@ -3747,7 +5171,6 @@
     },
     "partizip": "zugemacht",
     "category": "Verben",
-    "type": "verb",
     "english": "to close"
   },
   {
@@ -3764,7 +5187,6 @@
     },
     "partizip": "gearbeitet",
     "category": "Verben",
-    "type": "verb",
     "english": "to work"
   },
   {
@@ -3781,7 +5203,6 @@
     },
     "partizip": "gebraucht",
     "category": "Verben",
-    "type": "verb",
     "english": "to need"
   },
   {
@@ -3798,7 +5219,6 @@
     },
     "partizip": "geendet",
     "category": "Verben",
-    "type": "verb",
     "english": "to end"
   },
   {
@@ -3815,7 +5235,6 @@
     },
     "partizip": "gefühlt",
     "category": "Verben",
-    "type": "verb",
     "english": "to feel"
   },
   {
@@ -3832,7 +5251,6 @@
     },
     "partizip": "geglaubt",
     "category": "Verben",
-    "type": "verb",
     "english": "to believe"
   },
   {
@@ -3849,7 +5267,6 @@
     },
     "partizip": "geguckt",
     "category": "Verben",
-    "type": "verb",
     "english": "to look"
   },
   {
@@ -3866,7 +5283,6 @@
     },
     "partizip": "gehabt",
     "category": "Verben",
-    "type": "verb",
     "english": "to have"
   },
   {
@@ -3883,7 +5299,6 @@
     },
     "partizip": "gehört",
     "category": "Verben",
-    "type": "verb",
     "english": "to hear"
   },
   {
@@ -3900,7 +5315,6 @@
     },
     "partizip": "gejoggt",
     "category": "Verben",
-    "type": "verb",
     "english": "to jog"
   },
   {
@@ -3917,7 +5331,6 @@
     },
     "partizip": "gekocht",
     "category": "Verben",
-    "type": "verb",
     "english": "to cook"
   },
   {
@@ -3934,7 +5347,6 @@
     },
     "partizip": "gelacht",
     "category": "Verben",
-    "type": "verb",
     "english": "to laugh"
   },
   {
@@ -3951,7 +5363,6 @@
     },
     "partizip": "gelebt",
     "category": "Verben",
-    "type": "verb",
     "english": "to live"
   },
   {
@@ -3968,7 +5379,6 @@
     },
     "partizip": "gelernt",
     "category": "Verben",
-    "type": "verb",
     "english": "to learn"
   },
   {
@@ -3985,7 +5395,6 @@
     },
     "partizip": "gelesen",
     "category": "Verben",
-    "type": "verb",
     "english": "to read"
   },
   {
@@ -4002,7 +5411,6 @@
     },
     "partizip": "geliebt",
     "category": "Verben",
-    "type": "verb",
     "english": "to love"
   },
   {
@@ -4019,7 +5427,6 @@
     },
     "partizip": "gemacht",
     "category": "Verben",
-    "type": "verb",
     "english": "to make / do"
   },
   {
@@ -4036,7 +5443,6 @@
     },
     "partizip": "gemalt",
     "category": "Verben",
-    "type": "verb",
     "english": "to paint"
   },
   {
@@ -4053,7 +5459,6 @@
     },
     "partizip": "geöffnet",
     "category": "Verben",
-    "type": "verb",
     "english": "to open"
   },
   {
@@ -4070,7 +5475,6 @@
     },
     "partizip": "gepasst",
     "category": "Verben",
-    "type": "verb",
     "english": "to fit"
   },
   {
@@ -4087,7 +5491,6 @@
     },
     "partizip": "gepuzzelt",
     "category": "Verben",
-    "type": "verb",
     "english": "to do puzzles"
   },
   {
@@ -4104,7 +5507,6 @@
     },
     "partizip": "geraucht",
     "category": "Verben",
-    "type": "verb",
     "english": "to smoke"
   },
   {
@@ -4121,7 +5523,6 @@
     },
     "partizip": "gesagt",
     "category": "Verben",
-    "type": "verb",
     "english": "to say"
   },
   {
@@ -4138,7 +5539,6 @@
     },
     "partizip": "gespielt",
     "category": "Verben",
-    "type": "verb",
     "english": "to play"
   },
   {
@@ -4155,7 +5555,6 @@
     },
     "partizip": "gespürt",
     "category": "Verben",
-    "type": "verb",
     "english": "to sense"
   },
   {
@@ -4172,7 +5571,6 @@
     },
     "partizip": "gestimmt",
     "category": "Verben",
-    "type": "verb",
     "english": "to be correct"
   },
   {
@@ -4189,7 +5587,6 @@
     },
     "partizip": "getanzt",
     "category": "Verben",
-    "type": "verb",
     "english": "to dance"
   },
   {
@@ -4206,7 +5603,6 @@
     },
     "partizip": "gewandert",
     "category": "Verben",
-    "type": "verb",
     "english": "to hike"
   },
   {
@@ -4223,7 +5619,6 @@
     },
     "partizip": "gewohnt",
     "category": "Verben",
-    "type": "verb",
     "english": "to live (reside)"
   },
   {
@@ -4240,7 +5635,6 @@
     },
     "partizip": "(gewollt)",
     "category": "Verben",
-    "type": "verb",
     "english": "to want"
   },
   {
@@ -4257,7 +5651,6 @@
     },
     "partizip": "gezeigt",
     "category": "Verben",
-    "type": "verb",
     "english": "to show"
   },
   {
@@ -4274,7 +5667,6 @@
     },
     "partizip": "buchstabiert",
     "category": "Verben",
-    "type": "verb",
     "english": "to spell"
   },
   {
@@ -4291,7 +5683,6 @@
     },
     "partizip": "fotografiert",
     "category": "Verben",
-    "type": "verb",
     "english": "to photograph"
   },
   {
@@ -4308,7 +5699,6 @@
     },
     "partizip": "passiert",
     "category": "Verben",
-    "type": "verb",
     "english": "to happen"
   },
   {
@@ -4325,7 +5715,6 @@
     },
     "partizip": "probiert",
     "category": "Verben",
-    "type": "verb",
     "english": "to try"
   },
   {
@@ -4342,7 +5731,6 @@
     },
     "partizip": "studiert",
     "category": "Verben",
-    "type": "verb",
     "english": "to study"
   },
   {
@@ -4359,7 +5747,6 @@
     },
     "partizip": "telefoniert",
     "category": "Verben",
-    "type": "verb",
     "english": "to phone"
   },
   {
@@ -4375,8 +5762,7 @@
       "ihr": "x"
     },
     "partizip": "geblitzt",
-    "category": "Verben",
-    "type": "verb",
+    "category": "Wetter",
     "english": "to lightning"
   },
   {
@@ -4392,8 +5778,7 @@
       "ihr": "x"
     },
     "partizip": "geregnet",
-    "category": "Verben",
-    "type": "verb",
+    "category": "Wetter",
     "english": "to rain"
   },
   {
@@ -4409,8 +5794,7 @@
       "ihr": "x"
     },
     "partizip": "gedonnert",
-    "category": "Verben",
-    "type": "verb",
+    "category": "Wetter",
     "english": "to thunder"
   },
   {
@@ -4426,8 +5810,7 @@
       "ihr": "x"
     },
     "partizip": "geschneit",
-    "category": "Verben",
-    "type": "verb",
+    "category": "Wetter",
     "english": "to snow"
   },
   {
@@ -4443,8 +5826,7 @@
       "ihr": "x"
     },
     "partizip": "geschienen",
-    "category": "Verben",
-    "type": "verb",
+    "category": "Wetter",
     "english": "to shine / seem"
   },
   {
@@ -4461,7 +5843,6 @@
     },
     "partizip": "gefehlt",
     "category": "Verben",
-    "type": "verb",
     "english": "to be missing"
   },
   {
@@ -4478,7 +5859,6 @@
     },
     "partizip": "gepasst",
     "category": "Verben",
-    "type": "verb",
     "english": "to suit"
   },
   {
@@ -4495,7 +5875,6 @@
     },
     "partizip": "gestanden",
     "category": "Verben",
-    "type": "verb",
     "english": "to suit (clothing)"
   },
   {
@@ -4512,7 +5891,6 @@
     },
     "partizip": "gefallen",
     "category": "Verben",
-    "type": "verb",
     "english": "to please"
   },
   {
@@ -4529,7 +5907,6 @@
     },
     "partizip": "geholfen",
     "category": "Verben",
-    "type": "verb",
     "english": "to help"
   },
   {
@@ -4546,7 +5923,6 @@
     },
     "partizip": "gewartet",
     "category": "Verben",
-    "type": "verb",
     "english": "to wait"
   },
   {
@@ -4563,7 +5939,6 @@
     },
     "partizip": "gesucht",
     "category": "Verben",
-    "type": "verb",
     "english": "to search"
   },
   {
@@ -4574,7 +5949,6 @@
     "komparativ": "älter",
     "superlativ": "am ältesten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "old"
   },
   {
@@ -4585,7 +5959,6 @@
     "komparativ": "anstrengender",
     "superlativ": "am anstrengendsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "exhausting"
   },
   {
@@ -4596,7 +5969,6 @@
     "komparativ": "chaotischer",
     "superlativ": "am chaotischsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "chaotic"
   },
   {
@@ -4607,7 +5979,6 @@
     "komparativ": "echter",
     "superlativ": "am echtesten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "real / really"
   },
   {
@@ -4618,7 +5989,6 @@
     "komparativ": "furchtbarer",
     "superlativ": "am furchtbarsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "terrible"
   },
   {
@@ -4629,7 +5999,6 @@
     "komparativ": "größer",
     "superlativ": "am größten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "big / tall"
   },
   {
@@ -4640,7 +6009,6 @@
     "komparativ": "interessanter",
     "superlativ": "am interessantesten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "interesting"
   },
   {
@@ -4651,7 +6019,6 @@
     "komparativ": "kaputter",
     "superlativ": "am kaputtesten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "broken"
   },
   {
@@ -4662,7 +6029,6 @@
     "komparativ": "kleiner",
     "superlativ": "am kleinsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "small"
   },
   {
@@ -4673,7 +6039,6 @@
     "komparativ": "langweiliger",
     "superlativ": "am langweiligsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "boring"
   },
   {
@@ -4684,7 +6049,6 @@
     "komparativ": "leckerer",
     "superlativ": "am leckersten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "delicious"
   },
   {
@@ -4695,7 +6059,6 @@
     "komparativ": "nerviger",
     "superlativ": "am nervigsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "annoying"
   },
   {
@@ -4706,7 +6069,6 @@
     "komparativ": "höher",
     "superlativ": "am höchsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "high"
   },
   {
@@ -4717,7 +6079,6 @@
     "komparativ": "neuer",
     "superlativ": "am neusten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "new"
   },
   {
@@ -4728,7 +6089,6 @@
     "komparativ": "phantastischer",
     "superlativ": "am phantastisch",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "fantastic"
   },
   {
@@ -4739,7 +6099,6 @@
     "komparativ": "schwieriger",
     "superlativ": "am schwierigsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "difficult"
   },
   {
@@ -4750,7 +6109,6 @@
     "komparativ": "spannender",
     "superlativ": "am spannendsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "exciting"
   },
   {
@@ -4761,7 +6119,6 @@
     "komparativ": "stiller",
     "superlativ": "am stillsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "quiet"
   },
   {
@@ -4772,7 +6129,6 @@
     "komparativ": "stressiger",
     "superlativ": "am stressigsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "stressful"
   },
   {
@@ -4783,7 +6139,6 @@
     "komparativ": "x",
     "superlativ": "x",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "super / great"
   },
   {
@@ -4794,7 +6149,6 @@
     "komparativ": "teurer",
     "superlativ": "am teuersten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "expensive"
   },
   {
@@ -4805,7 +6159,6 @@
     "komparativ": "toller",
     "superlativ": "am tollsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "great"
   },
   {
@@ -4816,7 +6169,6 @@
     "komparativ": "vorsichtiger",
     "superlativ": "am vorsichtigsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "careful"
   },
   {
@@ -4827,7 +6179,6 @@
     "komparativ": "wunderbarer",
     "superlativ": "am wunderbarsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "wonderful"
   },
   {
@@ -4837,8 +6188,7 @@
     "pluralArticle": "",
     "komparativ": "röter (roter)",
     "superlativ": "am rötesten (rotesten)",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "red"
   },
   {
@@ -4848,8 +6198,7 @@
     "pluralArticle": "",
     "komparativ": "blauer",
     "superlativ": "am blauesten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "blue"
   },
   {
@@ -4859,8 +6208,7 @@
     "pluralArticle": "",
     "komparativ": "grüner",
     "superlativ": "am grünsten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "green"
   },
   {
@@ -4870,8 +6218,7 @@
     "pluralArticle": "",
     "komparativ": "gelber",
     "superlativ": "am gelbsten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "yellow"
   },
   {
@@ -4881,8 +6228,7 @@
     "pluralArticle": "",
     "komparativ": "?",
     "superlativ": "?",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "orange"
   },
   {
@@ -4892,8 +6238,7 @@
     "pluralArticle": "",
     "komparativ": "violetter",
     "superlativ": "am violettesten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "violet"
   },
   {
@@ -4903,8 +6248,7 @@
     "pluralArticle": "",
     "komparativ": "x",
     "superlativ": "x",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "purple"
   },
   {
@@ -4914,8 +6258,7 @@
     "pluralArticle": "",
     "komparativ": "schwärzer",
     "superlativ": "am schwärzesten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "black"
   },
   {
@@ -4925,8 +6268,7 @@
     "pluralArticle": "",
     "komparativ": "weißer",
     "superlativ": "am weißesten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "white"
   },
   {
@@ -4936,8 +6278,7 @@
     "pluralArticle": "",
     "komparativ": "grauer",
     "superlativ": "am grauesten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "gray"
   },
   {
@@ -4947,8 +6288,7 @@
     "pluralArticle": "",
     "komparativ": "brauner",
     "superlativ": "am braunsten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "brown"
   },
   {
@@ -4958,8 +6298,7 @@
     "pluralArticle": "",
     "komparativ": "x",
     "superlativ": "x",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "pink"
   },
   {
@@ -4969,8 +6308,7 @@
     "pluralArticle": "",
     "komparativ": "?",
     "superlativ": "?",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "pink"
   },
   {
@@ -4980,8 +6318,7 @@
     "pluralArticle": "",
     "komparativ": "?",
     "superlativ": "?",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Farben",
     "english": "turquoise"
   },
   {
@@ -4991,8 +6328,7 @@
     "pluralArticle": "",
     "komparativ": "kränker",
     "superlativ": "am kränkesten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Körper & Gesundheit",
     "english": "sick"
   },
   {
@@ -5002,8 +6338,7 @@
     "pluralArticle": "",
     "komparativ": "gesünder",
     "superlativ": "am gesündesten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Körper & Gesundheit",
     "english": "healthy"
   },
   {
@@ -5013,8 +6348,7 @@
     "pluralArticle": "",
     "komparativ": "fitter",
     "superlativ": "am fittesten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Körper & Gesundheit",
     "english": "fit"
   },
   {
@@ -5024,8 +6358,7 @@
     "pluralArticle": "",
     "komparativ": "übler",
     "superlativ": "am übelsten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Körper & Gesundheit",
     "english": "nauseous"
   },
   {
@@ -5036,7 +6369,6 @@
     "komparativ": "schlechter",
     "superlativ": "am schlechtesten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "bad"
   },
   {
@@ -5046,8 +6378,7 @@
     "pluralArticle": "",
     "komparativ": "heißer",
     "superlativ": "am heißesten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Wetter",
     "english": "hot"
   },
   {
@@ -5057,8 +6388,7 @@
     "pluralArticle": "",
     "komparativ": "kälter",
     "superlativ": "am kältesten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Wetter",
     "english": "cold"
   },
   {
@@ -5068,8 +6398,7 @@
     "pluralArticle": "",
     "komparativ": "wärmer",
     "superlativ": "am wärmsten",
-    "category": "Adjektive",
-    "type": "adjective",
+    "category": "Wetter",
     "english": "warm"
   },
   {
@@ -5080,7 +6409,6 @@
     "komparativ": "x",
     "superlativ": "x",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "married"
   },
   {
@@ -5091,7 +6419,6 @@
     "komparativ": "x",
     "superlativ": "x",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "single"
   },
   {
@@ -5102,7 +6429,6 @@
     "komparativ": "x",
     "superlativ": "x",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "divorced"
   },
   {
@@ -5113,7 +6439,6 @@
     "komparativ": "mehr",
     "superlativ": "am meisten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "much / many"
   },
   {
@@ -5124,7 +6449,6 @@
     "komparativ": "lieber",
     "superlativ": "am liebsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "gladly"
   },
   {
@@ -5135,7 +6459,6 @@
     "komparativ": "weniger",
     "superlativ": "am wenigsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "little / few"
   },
   {
@@ -5146,7 +6469,6 @@
     "komparativ": "besser",
     "superlativ": "am besten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "good"
   },
   {
@@ -5157,7 +6479,6 @@
     "komparativ": "stärker",
     "superlativ": "am stärksten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "strong"
   },
   {
@@ -5168,7 +6489,6 @@
     "komparativ": "schwächer",
     "superlativ": "am schwächsten",
     "category": "Adjektive",
-    "type": "adjective",
     "english": "weak"
   },
   {
@@ -5178,7 +6498,6 @@
     "pluralArticle": "",
     "partikelType": "Zeit",
     "category": "Partikel",
-    "type": "particle",
     "english": "now"
   },
   {
@@ -5188,7 +6507,6 @@
     "pluralArticle": "",
     "partikelType": "Zeit",
     "category": "Partikel",
-    "type": "particle",
     "english": "already"
   },
   {
@@ -5198,7 +6516,6 @@
     "pluralArticle": "",
     "partikelType": "Zeit",
     "category": "Partikel",
-    "type": "particle",
     "english": "only / first"
   },
   {
@@ -5208,7 +6525,6 @@
     "pluralArticle": "",
     "partikelType": "Zeit",
     "category": "Partikel",
-    "type": "particle",
     "english": "yesterday"
   },
   {
@@ -5218,7 +6534,6 @@
     "pluralArticle": "",
     "partikelType": "Zeit",
     "category": "Partikel",
-    "type": "particle",
     "english": "tomorrow"
   },
   {
@@ -5228,7 +6543,6 @@
     "pluralArticle": "",
     "partikelType": "Zeit",
     "category": "Partikel",
-    "type": "particle",
     "english": "today"
   },
   {
@@ -5238,7 +6552,6 @@
     "pluralArticle": "",
     "partikelType": "Zeit",
     "category": "Partikel",
-    "type": "particle",
     "english": "day before yesterday"
   },
   {
@@ -5248,7 +6561,6 @@
     "pluralArticle": "",
     "partikelType": "Zeit",
     "category": "Partikel",
-    "type": "particle",
     "english": "day after tomorrow"
   },
   {
@@ -5258,7 +6570,6 @@
     "pluralArticle": "",
     "partikelType": "Zeit",
     "category": "Partikel",
-    "type": "particle",
     "english": "soon"
   },
   {
@@ -5268,7 +6579,6 @@
     "pluralArticle": "",
     "partikelType": "Präp.",
     "category": "Partikel",
-    "type": "particle",
     "english": "in"
   },
   {
@@ -5278,7 +6588,6 @@
     "pluralArticle": "",
     "partikelType": "Präp.",
     "category": "Partikel",
-    "type": "particle",
     "english": "out / from"
   },
   {
@@ -5288,7 +6597,6 @@
     "pluralArticle": "",
     "partikelType": "Präp.",
     "category": "Partikel",
-    "type": "particle",
     "english": "at / with"
   },
   {
@@ -5298,7 +6606,6 @@
     "pluralArticle": "",
     "partikelType": "Präp.",
     "category": "Partikel",
-    "type": "particle",
     "english": "from / of"
   },
   {
@@ -5308,7 +6615,6 @@
     "pluralArticle": "",
     "partikelType": "Präp.",
     "category": "Partikel",
-    "type": "particle",
     "english": "at / on"
   },
   {
@@ -5318,7 +6624,6 @@
     "pluralArticle": "",
     "partikelType": "Präp.",
     "category": "Partikel",
-    "type": "particle",
     "english": "with"
   },
   {
@@ -5328,7 +6633,6 @@
     "pluralArticle": "",
     "partikelType": "Präp.",
     "category": "Partikel",
-    "type": "particle",
     "english": "without"
   },
   {
@@ -5338,7 +6642,6 @@
     "pluralArticle": "",
     "partikelType": "Ort",
     "category": "Partikel",
-    "type": "particle",
     "english": "here"
   },
   {
@@ -5348,7 +6651,6 @@
     "pluralArticle": "",
     "partikelType": "Ort",
     "category": "Partikel",
-    "type": "particle",
     "english": "there"
   },
   {
@@ -5358,7 +6660,6 @@
     "pluralArticle": "",
     "partikelType": "Ort",
     "category": "Partikel",
-    "type": "particle",
     "english": "there / here"
   },
   {
@@ -5368,7 +6669,6 @@
     "pluralArticle": "",
     "partikelType": "Konj.",
     "category": "Partikel",
-    "type": "particle",
     "english": "and"
   },
   {
@@ -5378,7 +6678,6 @@
     "pluralArticle": "",
     "partikelType": "Konj.",
     "category": "Partikel",
-    "type": "particle",
     "english": "or"
   },
   {
@@ -5388,7 +6687,6 @@
     "pluralArticle": "",
     "partikelType": "Konj.",
     "category": "Partikel",
-    "type": "particle",
     "english": "but"
   },
   {
@@ -5398,7 +6696,6 @@
     "pluralArticle": "",
     "partikelType": "Frequenz",
     "category": "Partikel",
-    "type": "particle",
     "english": "always"
   },
   {
@@ -5408,7 +6705,6 @@
     "pluralArticle": "",
     "partikelType": "Frequenz",
     "category": "Partikel",
-    "type": "particle",
     "english": "often"
   },
   {
@@ -5418,7 +6714,6 @@
     "pluralArticle": "",
     "partikelType": "Frequenz",
     "category": "Partikel",
-    "type": "particle",
     "english": "never"
   },
   {
@@ -5428,7 +6723,6 @@
     "pluralArticle": "",
     "partikelType": "Frequenz",
     "category": "Partikel",
-    "type": "particle",
     "english": "rarely"
   },
   {
@@ -5438,7 +6732,6 @@
     "pluralArticle": "",
     "partikelType": "Frequenz",
     "category": "Partikel",
-    "type": "particle",
     "english": "sometimes"
   },
   {
@@ -5448,7 +6741,6 @@
     "pluralArticle": "",
     "partikelType": "",
     "category": "Partikel",
-    "type": "particle",
     "english": "also"
   },
   {
@@ -5458,7 +6750,6 @@
     "pluralArticle": "",
     "partikelType": "",
     "category": "Partikel",
-    "type": "particle",
     "english": "not"
   },
   {
@@ -5468,7 +6759,6 @@
     "pluralArticle": "",
     "partikelType": "",
     "category": "Partikel",
-    "type": "particle",
     "english": "quite"
   },
   {
@@ -5478,7 +6768,6 @@
     "pluralArticle": "",
     "partikelType": "",
     "category": "Partikel",
-    "type": "particle",
     "english": "a little bit"
   },
   {
@@ -5488,7 +6777,6 @@
     "pluralArticle": "",
     "partikelType": "",
     "category": "Partikel",
-    "type": "particle",
     "english": "maybe"
   },
   {
@@ -5498,7 +6786,6 @@
     "pluralArticle": "",
     "partikelType": "",
     "category": "Partikel",
-    "type": "particle",
     "english": "hopefully"
   },
   {
@@ -5508,7 +6795,6 @@
     "pluralArticle": "",
     "partikelType": "",
     "category": "Partikel",
-    "type": "particle",
     "english": "very"
   },
   {
@@ -5518,7 +6804,6 @@
     "pluralArticle": "",
     "partikelType": "",
     "category": "Partikel",
-    "type": "particle",
     "english": "probably"
   },
   {
@@ -5528,7 +6813,6 @@
     "pluralArticle": "",
     "partikelType": "",
     "category": "Partikel",
-    "type": "particle",
     "english": "gladly"
   },
   {
@@ -5538,7 +6822,6 @@
     "pluralArticle": "",
     "partikelType": "",
     "category": "Partikel",
-    "type": "particle",
     "english": "just / right now"
   },
   {
@@ -5553,7 +6836,6 @@
     "possessiv": "mein",
     "demonstrativ": "dieser",
     "category": "Artikel",
-    "type": "article_declension",
     "english": "the (masc.)"
   },
   {
@@ -5568,7 +6850,6 @@
     "possessiv": "mein",
     "demonstrativ": "dieses",
     "category": "Artikel",
-    "type": "article_declension",
     "english": "the (neut.)"
   },
   {
@@ -5583,7 +6864,6 @@
     "possessiv": "meine",
     "demonstrativ": "diese",
     "category": "Artikel",
-    "type": "article_declension",
     "english": "the (fem./pl.)"
   },
   {
@@ -5598,7 +6878,6 @@
     "possessiv": "meine",
     "demonstrativ": "diese",
     "category": "Artikel",
-    "type": "article_declension",
     "english": "the (fem./pl.)"
   },
   {
@@ -5613,7 +6892,6 @@
     "possessiv": "meinen",
     "demonstrativ": "diesen",
     "category": "Artikel",
-    "type": "article_declension",
     "english": "the (masc. acc.)"
   },
   {
@@ -5628,7 +6906,6 @@
     "possessiv": "mein",
     "demonstrativ": "dieses",
     "category": "Artikel",
-    "type": "article_declension",
     "english": "the (neut.)"
   },
   {
@@ -5643,7 +6920,6 @@
     "possessiv": "meine",
     "demonstrativ": "diese",
     "category": "Artikel",
-    "type": "article_declension",
     "english": "the (fem./pl.)"
   },
   {
@@ -5658,7 +6934,6 @@
     "possessiv": "meine",
     "demonstrativ": "diese",
     "category": "Artikel",
-    "type": "article_declension",
     "english": "the (fem./pl.)"
   },
   {
@@ -5673,7 +6948,6 @@
     "possessiv": "meinem",
     "demonstrativ": "diesem",
     "category": "Artikel",
-    "type": "article_declension",
     "english": "the (masc./neut. dat.)"
   },
   {
@@ -5688,7 +6962,6 @@
     "possessiv": "meinem",
     "demonstrativ": "diesem",
     "category": "Artikel",
-    "type": "article_declension",
     "english": "the (masc./neut. dat.)"
   },
   {
@@ -5703,7 +6976,6 @@
     "possessiv": "meiner",
     "demonstrativ": "dieser",
     "category": "Artikel",
-    "type": "article_declension",
     "english": "the (masc.)"
   },
   {
@@ -5718,7 +6990,6 @@
     "possessiv": "meinen",
     "demonstrativ": "diesen",
     "category": "Artikel",
-    "type": "article_declension",
     "english": "the (masc. acc.)"
   },
   {
@@ -5727,7 +6998,6 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Fragewörter",
-    "type": "question_word",
     "english": "where from"
   },
   {
@@ -5736,7 +7006,6 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Fragewörter",
-    "type": "question_word",
     "english": "what"
   },
   {
@@ -5745,7 +7014,6 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Fragewörter",
-    "type": "question_word",
     "english": "where"
   },
   {
@@ -5754,7 +7022,6 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Fragewörter",
-    "type": "question_word",
     "english": "how"
   },
   {
@@ -5763,7 +7030,6 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Fragewörter",
-    "type": "question_word",
     "english": "which"
   },
   {
@@ -5772,7 +7038,6 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Fragewörter",
-    "type": "question_word",
     "english": "who"
   },
   {
@@ -5781,7 +7046,6 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Fragewörter",
-    "type": "question_word",
     "english": "where to"
   },
   {
@@ -5790,7 +7054,6 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Fragewörter",
-    "type": "question_word",
     "english": "why"
   },
   {
@@ -5799,7 +7062,6 @@
     "plural": "",
     "pluralArticle": "",
     "category": "Fragewörter",
-    "type": "question_word",
     "english": "why"
   },
   {
@@ -5809,9 +7071,16 @@
     "pluralArticle": "die",
     "feminine": "Freundin",
     "femininePlural": "Freundinnen",
-    "category": "Personen",
-    "type": "noun",
-    "english": "friend"
+    "category": "Menschen",
+    "english": "friend",
+    "kasus": {
+      "nominativ": "der Freund",
+      "akkusativ": "den Freund",
+      "dativ": "dem Freund",
+      "nominativPlural": "die Freunde",
+      "akkusativPlural": "die Freunde",
+      "dativPlural": "den Freunden"
+    }
   },
   {
     "word": "Politiker",
@@ -5820,9 +7089,16 @@
     "pluralArticle": "die",
     "feminine": "Politikerin",
     "femininePlural": "Politikerinnen",
-    "category": "Personen",
-    "type": "noun",
-    "english": "politician"
+    "category": "Menschen",
+    "english": "politician",
+    "kasus": {
+      "nominativ": "der Politiker",
+      "akkusativ": "den Politiker",
+      "dativ": "dem Politiker",
+      "nominativPlural": "die Politiker",
+      "akkusativPlural": "die Politiker",
+      "dativPlural": "den Politikern"
+    }
   },
   {
     "word": "Vegetarier",
@@ -5831,9 +7107,16 @@
     "pluralArticle": "die",
     "feminine": "Vegetarierin",
     "femininePlural": "Vegetarierinnen",
-    "category": "Personen",
-    "type": "noun",
-    "english": "vegetarian"
+    "category": "Menschen",
+    "english": "vegetarian",
+    "kasus": {
+      "nominativ": "der Vegetarier",
+      "akkusativ": "den Vegetarier",
+      "dativ": "dem Vegetarier",
+      "nominativPlural": "die Vegetarier",
+      "akkusativPlural": "die Vegetarier",
+      "dativPlural": "den Vegetariern"
+    }
   },
   {
     "word": "Präsident",
@@ -5842,9 +7125,16 @@
     "pluralArticle": "die",
     "feminine": "Präsidentin",
     "femininePlural": "Präsidentinnen",
-    "category": "Personen",
-    "type": "noun",
-    "english": "president"
+    "category": "Menschen",
+    "english": "president",
+    "kasus": {
+      "nominativ": "der Präsident",
+      "akkusativ": "den Präsident",
+      "dativ": "dem Präsident",
+      "nominativPlural": "die Präsidenten",
+      "akkusativPlural": "die Präsidenten",
+      "dativPlural": "den Präsidenten"
+    }
   },
   {
     "word": "Bundeskanzler",
@@ -5853,9 +7143,16 @@
     "pluralArticle": "die",
     "feminine": "Bundeskanzlerin",
     "femininePlural": "Bundeskanzlerinnen",
-    "category": "Personen",
-    "type": "noun",
-    "english": "chancellor"
+    "category": "Menschen",
+    "english": "chancellor",
+    "kasus": {
+      "nominativ": "der Bundeskanzler",
+      "akkusativ": "den Bundeskanzler",
+      "dativ": "dem Bundeskanzler",
+      "nominativPlural": "die Bundeskanzler",
+      "akkusativPlural": "die Bundeskanzler",
+      "dativPlural": "den Bundeskanzlern"
+    }
   },
   {
     "word": "Student",
@@ -5864,9 +7161,16 @@
     "pluralArticle": "die",
     "feminine": "Studentin",
     "femininePlural": "Studentinnen",
-    "category": "Personen",
-    "type": "noun",
-    "english": "student"
+    "category": "Menschen",
+    "english": "student",
+    "kasus": {
+      "nominativ": "der Student",
+      "akkusativ": "den Student",
+      "dativ": "dem Student",
+      "nominativPlural": "die Studenten",
+      "akkusativPlural": "die Studenten",
+      "dativPlural": "den Studenten"
+    }
   },
   {
     "word": "Schüler",
@@ -5875,9 +7179,16 @@
     "pluralArticle": "die",
     "feminine": "Schülerin",
     "femininePlural": "Schülerinnen",
-    "category": "Personen",
-    "type": "noun",
-    "english": "pupil"
+    "category": "Menschen",
+    "english": "pupil",
+    "kasus": {
+      "nominativ": "der Schüler",
+      "akkusativ": "den Schüler",
+      "dativ": "dem Schüler",
+      "nominativPlural": "die Schüler",
+      "akkusativPlural": "die Schüler",
+      "dativPlural": "den Schülern"
+    }
   },
   {
     "word": "Pilot",
@@ -5886,9 +7197,16 @@
     "pluralArticle": "die",
     "feminine": "Pilotin",
     "femininePlural": "Pilotinnen",
-    "category": "Berufe",
-    "type": "noun",
-    "english": "pilot"
+    "category": "Menschen",
+    "english": "pilot",
+    "kasus": {
+      "nominativ": "der Pilot",
+      "akkusativ": "den Pilot",
+      "dativ": "dem Pilot",
+      "nominativPlural": "die Piloten",
+      "akkusativPlural": "die Piloten",
+      "dativPlural": "den Piloten"
+    }
   },
   {
     "word": "Polizist",
@@ -5897,9 +7215,16 @@
     "pluralArticle": "die",
     "feminine": "Polizistin",
     "femininePlural": "Polizistinnen",
-    "category": "Berufe",
-    "type": "noun",
-    "english": "police officer"
+    "category": "Menschen",
+    "english": "police officer",
+    "kasus": {
+      "nominativ": "der Polizist",
+      "akkusativ": "den Polizist",
+      "dativ": "dem Polizist",
+      "nominativPlural": "die Polizisten",
+      "akkusativPlural": "die Polizisten",
+      "dativPlural": "den Polizisten"
+    }
   },
   {
     "word": "Koch",
@@ -5908,9 +7233,16 @@
     "pluralArticle": "die",
     "feminine": "Köchin",
     "femininePlural": "Köchinnen",
-    "category": "Berufe",
-    "type": "noun",
-    "english": "cook / chef"
+    "category": "Menschen",
+    "english": "cook / chef",
+    "kasus": {
+      "nominativ": "der Koch",
+      "akkusativ": "den Koch",
+      "dativ": "dem Koch",
+      "nominativPlural": "die Köche",
+      "akkusativPlural": "die Köche",
+      "dativPlural": "den Köchen"
+    }
   },
   {
     "word": "Arzt",
@@ -5919,9 +7251,16 @@
     "pluralArticle": "die",
     "feminine": "Ärztin",
     "femininePlural": "Ärztinnen",
-    "category": "Berufe",
-    "type": "noun",
-    "english": "doctor"
+    "category": "Menschen",
+    "english": "doctor",
+    "kasus": {
+      "nominativ": "der Arzt",
+      "akkusativ": "den Arzt",
+      "dativ": "dem Arzt",
+      "nominativPlural": "die Ärzte",
+      "akkusativPlural": "die Ärzte",
+      "dativPlural": "den Ärzten"
+    }
   },
   {
     "word": "Chemiker",
@@ -5930,9 +7269,16 @@
     "pluralArticle": "die",
     "feminine": "Chemikerin",
     "femininePlural": "Chemikerinnen",
-    "category": "Berufe",
-    "type": "noun",
-    "english": "chemist"
+    "category": "Menschen",
+    "english": "chemist",
+    "kasus": {
+      "nominativ": "der Chemiker",
+      "akkusativ": "den Chemiker",
+      "dativ": "dem Chemiker",
+      "nominativPlural": "die Chemiker",
+      "akkusativPlural": "die Chemiker",
+      "dativPlural": "den Chemikern"
+    }
   },
   {
     "word": "Busfahrer",
@@ -5941,9 +7287,16 @@
     "pluralArticle": "die",
     "feminine": "Busfahrerin",
     "femininePlural": "Busfahrerinnen",
-    "category": "Berufe",
-    "type": "noun",
-    "english": "bus driver"
+    "category": "Menschen",
+    "english": "bus driver",
+    "kasus": {
+      "nominativ": "der Busfahrer",
+      "akkusativ": "den Busfahrer",
+      "dativ": "dem Busfahrer",
+      "nominativPlural": "die Busfahrer",
+      "akkusativPlural": "die Busfahrer",
+      "dativPlural": "den Busfahrern"
+    }
   },
   {
     "word": "Lehrer",
@@ -5952,9 +7305,16 @@
     "pluralArticle": "die",
     "feminine": "Lehrerin",
     "femininePlural": "Lehrerinnen",
-    "category": "Berufe",
-    "type": "noun",
-    "english": "teacher"
+    "category": "Menschen",
+    "english": "teacher",
+    "kasus": {
+      "nominativ": "der Lehrer",
+      "akkusativ": "den Lehrer",
+      "dativ": "dem Lehrer",
+      "nominativPlural": "die Lehrer",
+      "akkusativPlural": "die Lehrer",
+      "dativPlural": "den Lehrern"
+    }
   },
   {
     "word": "Frisör",
@@ -5963,9 +7323,16 @@
     "pluralArticle": "die",
     "feminine": "Frisörin",
     "femininePlural": "Frisörinnen",
-    "category": "Berufe",
-    "type": "noun",
-    "english": "hairdresser"
+    "category": "Menschen",
+    "english": "hairdresser",
+    "kasus": {
+      "nominativ": "der Frisör",
+      "akkusativ": "den Frisör",
+      "dativ": "dem Frisör",
+      "nominativPlural": "die Frisöre",
+      "akkusativPlural": "die Frisöre",
+      "dativPlural": "den Frisören"
+    }
   },
   {
     "word": "Ehemann",
@@ -5975,8 +7342,15 @@
     "feminine": "Ehefrau",
     "femininePlural": "Ehefrauen",
     "category": "Familie",
-    "type": "noun",
-    "english": "husband"
+    "english": "husband",
+    "kasus": {
+      "nominativ": "der Ehemann",
+      "akkusativ": "den Ehemann",
+      "dativ": "dem Ehemann",
+      "nominativPlural": "die Ehemänner",
+      "akkusativPlural": "die Ehemänner",
+      "dativPlural": "den Ehemännern"
+    }
   },
   {
     "word": "Kind",
@@ -5984,8 +7358,15 @@
     "plural": "Kinder",
     "pluralArticle": "die",
     "category": "Familie",
-    "type": "noun",
-    "english": "child"
+    "english": "child",
+    "kasus": {
+      "nominativ": "das Kind",
+      "akkusativ": "das Kind",
+      "dativ": "dem Kind",
+      "nominativPlural": "die Kinder",
+      "akkusativPlural": "die Kinder",
+      "dativPlural": "den Kindern"
+    }
   },
   {
     "word": "Eltern",
@@ -5993,7 +7374,6 @@
     "plural": "Eltern",
     "pluralArticle": "die",
     "category": "Familie",
-    "type": "noun",
     "english": "parents"
   },
   {
@@ -6004,8 +7384,15 @@
     "feminine": "Mutter",
     "femininePlural": "Mütter",
     "category": "Familie",
-    "type": "noun",
-    "english": "father"
+    "english": "father",
+    "kasus": {
+      "nominativ": "der Vater",
+      "akkusativ": "den Vater",
+      "dativ": "dem Vater",
+      "nominativPlural": "die Väter",
+      "akkusativPlural": "die Väter",
+      "dativPlural": "den Vätern"
+    }
   },
   {
     "word": "Enkelkind",
@@ -6013,8 +7400,15 @@
     "plural": "Enkelkinder",
     "pluralArticle": "die",
     "category": "Familie",
-    "type": "noun",
-    "english": "grandchild"
+    "english": "grandchild",
+    "kasus": {
+      "nominativ": "das Enkelkind",
+      "akkusativ": "das Enkelkind",
+      "dativ": "dem Enkelkind",
+      "nominativPlural": "die Enkelkinder",
+      "akkusativPlural": "die Enkelkinder",
+      "dativPlural": "den Enkelkindern"
+    }
   },
   {
     "word": "Großeltern",
@@ -6022,7 +7416,6 @@
     "plural": "Großeltern",
     "pluralArticle": "die",
     "category": "Familie",
-    "type": "noun",
     "english": "grandparents"
   },
   {
@@ -6033,8 +7426,15 @@
     "feminine": "Tochter",
     "femininePlural": "Töchter",
     "category": "Familie",
-    "type": "noun",
-    "english": "son"
+    "english": "son",
+    "kasus": {
+      "nominativ": "der Sohn",
+      "akkusativ": "den Sohn",
+      "dativ": "dem Sohn",
+      "nominativPlural": "die Söhne",
+      "akkusativPlural": "die Söhne",
+      "dativPlural": "den Söhnen"
+    }
   },
   {
     "word": "Geschwister",
@@ -6042,7 +7442,6 @@
     "plural": "Geschwister",
     "pluralArticle": "die",
     "category": "Familie",
-    "type": "noun",
     "english": "siblings"
   },
   {
@@ -6053,8 +7452,15 @@
     "feminine": "Schwester",
     "femininePlural": "Schwestern",
     "category": "Familie",
-    "type": "noun",
-    "english": "brother"
+    "english": "brother",
+    "kasus": {
+      "nominativ": "der Bruder",
+      "akkusativ": "den Bruder",
+      "dativ": "dem Bruder",
+      "nominativPlural": "die Brüder",
+      "akkusativPlural": "die Brüder",
+      "dativPlural": "den Brüdern"
+    }
   },
   {
     "word": "Großvater",
@@ -6064,8 +7470,15 @@
     "feminine": "Großmutter",
     "femininePlural": "Großmütter",
     "category": "Familie",
-    "type": "noun",
-    "english": "grandfather"
+    "english": "grandfather",
+    "kasus": {
+      "nominativ": "der Großvater",
+      "akkusativ": "den Großvater",
+      "dativ": "dem Großvater",
+      "nominativPlural": "die Großväter",
+      "akkusativPlural": "die Großväter",
+      "dativPlural": "den Großvätern"
+    }
   },
   {
     "word": "Opa",
@@ -6075,8 +7488,15 @@
     "feminine": "Oma",
     "femininePlural": "Omas",
     "category": "Familie",
-    "type": "noun",
-    "english": "grandpa"
+    "english": "grandpa",
+    "kasus": {
+      "nominativ": "der Opa",
+      "akkusativ": "den Opa",
+      "dativ": "dem Opa",
+      "nominativPlural": "die Opas",
+      "akkusativPlural": "die Opas",
+      "dativPlural": "den Opas"
+    }
   },
   {
     "word": "Enkel",
@@ -6086,8 +7506,15 @@
     "feminine": "Enkelin",
     "femininePlural": "Enkelinnen",
     "category": "Familie",
-    "type": "noun",
-    "english": "grandson"
+    "english": "grandson",
+    "kasus": {
+      "nominativ": "der Enkel",
+      "akkusativ": "den Enkel",
+      "dativ": "dem Enkel",
+      "nominativPlural": "die Enkel",
+      "akkusativPlural": "die Enkel",
+      "dativPlural": "den Enkeln"
+    }
   },
   {
     "word": "Onkel",
@@ -6097,8 +7524,15 @@
     "feminine": "Tante",
     "femininePlural": "Tanten",
     "category": "Familie",
-    "type": "noun",
-    "english": "uncle"
+    "english": "uncle",
+    "kasus": {
+      "nominativ": "der Onkel",
+      "akkusativ": "den Onkel",
+      "dativ": "dem Onkel",
+      "nominativPlural": "die Onkel",
+      "akkusativPlural": "die Onkel",
+      "dativPlural": "den Onkeln"
+    }
   },
   {
     "word": "Neffe",
@@ -6108,8 +7542,15 @@
     "feminine": "Nichte",
     "femininePlural": "Nichten",
     "category": "Familie",
-    "type": "noun",
-    "english": "nephew"
+    "english": "nephew",
+    "kasus": {
+      "nominativ": "der Neffe",
+      "akkusativ": "den Neffe",
+      "dativ": "dem Neffe",
+      "nominativPlural": "die Neffen",
+      "akkusativPlural": "die Neffen",
+      "dativPlural": "den Neffen"
+    }
   },
   {
     "word": "Cousin",
@@ -6119,8 +7560,15 @@
     "feminine": "Cousine",
     "femininePlural": "Cousinen",
     "category": "Familie",
-    "type": "noun",
-    "english": "cousin (male)"
+    "english": "cousin (male)",
+    "kasus": {
+      "nominativ": "der Cousin",
+      "akkusativ": "den Cousin",
+      "dativ": "dem Cousin",
+      "nominativPlural": "die Cousins",
+      "akkusativPlural": "die Cousins",
+      "dativPlural": "den Cousins"
+    }
   },
   {
     "word": "Schwiegervater",
@@ -6130,8 +7578,15 @@
     "feminine": "Schwiegermutter",
     "femininePlural": "Schwiegermütter",
     "category": "Familie",
-    "type": "noun",
-    "english": "father-in-law"
+    "english": "father-in-law",
+    "kasus": {
+      "nominativ": "der Schwiegervater",
+      "akkusativ": "den Schwiegervater",
+      "dativ": "dem Schwiegervater",
+      "nominativPlural": "die Schwiegerväter",
+      "akkusativPlural": "die Schwiegerväter",
+      "dativPlural": "den Schwiegervätern"
+    }
   },
   {
     "word": "Schwieger …",
@@ -6141,8 +7596,12 @@
     "feminine": "Schwieger …",
     "femininePlural": "",
     "category": "Familie",
-    "type": "noun",
-    "english": "in-law"
+    "english": "in-law",
+    "kasus": {
+      "nominativ": "der Schwieger …",
+      "akkusativ": "den Schwieger …",
+      "dativ": "dem Schwieger …"
+    }
   },
   {
     "word": "ich",
@@ -6151,7 +7610,6 @@
     "pluralArticle": "",
     "possessive": "mein",
     "category": "Pronomen",
-    "type": "pronoun",
     "english": "I"
   },
   {
@@ -6161,7 +7619,6 @@
     "pluralArticle": "",
     "possessive": "dein",
     "category": "Pronomen",
-    "type": "pronoun",
     "english": "you (informal)"
   },
   {
@@ -6171,7 +7628,6 @@
     "pluralArticle": "",
     "possessive": "Ihr",
     "category": "Pronomen",
-    "type": "pronoun",
     "english": "you (formal)"
   },
   {
@@ -6181,7 +7637,6 @@
     "pluralArticle": "",
     "possessive": "sein",
     "category": "Pronomen",
-    "type": "pronoun",
     "english": "he"
   },
   {
@@ -6191,7 +7646,6 @@
     "pluralArticle": "",
     "possessive": "ihr",
     "category": "Pronomen",
-    "type": "pronoun",
     "english": "she / they"
   },
   {
@@ -6201,7 +7655,6 @@
     "pluralArticle": "",
     "possessive": "sein",
     "category": "Pronomen",
-    "type": "pronoun",
     "english": "it"
   },
   {
@@ -6211,7 +7664,6 @@
     "pluralArticle": "",
     "possessive": "sein",
     "category": "Pronomen",
-    "type": "pronoun",
     "english": "one / you (general)"
   },
   {
@@ -6221,7 +7673,6 @@
     "pluralArticle": "",
     "possessive": "unser",
     "category": "Pronomen",
-    "type": "pronoun",
     "english": "we"
   },
   {
@@ -6231,7 +7682,6 @@
     "pluralArticle": "",
     "possessive": "euer",
     "category": "Pronomen",
-    "type": "pronoun",
     "english": "you (plural)"
   },
   {
@@ -6241,7 +7691,6 @@
     "pluralArticle": "",
     "possessive": "Ihr",
     "category": "Pronomen",
-    "type": "pronoun",
     "english": "you (formal)"
   },
   {
@@ -6251,7 +7700,6 @@
     "pluralArticle": "",
     "possessive": "ihr",
     "category": "Pronomen",
-    "type": "pronoun",
     "english": "she / they"
   }
 ]
