@@ -1,0 +1,6257 @@
+[
+  {
+    "word": "Auge",
+    "article": "das",
+    "plural": "Augen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "eye"
+  },
+  {
+    "word": "Fahrrad",
+    "article": "das",
+    "plural": "Fahrräder",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "bicycle"
+  },
+  {
+    "word": "Fenster",
+    "article": "das",
+    "plural": "Fenster",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "window"
+  },
+  {
+    "word": "Foto",
+    "article": "das",
+    "plural": "Fotos",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "photo"
+  },
+  {
+    "word": "Gebäude",
+    "article": "das",
+    "plural": "Gebäude",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "building"
+  },
+  {
+    "word": "Geschenk",
+    "article": "das",
+    "plural": "Geschenke",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "gift"
+  },
+  {
+    "word": "Handy",
+    "article": "das",
+    "plural": "Handys",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "cell phone"
+  },
+  {
+    "word": "Haus",
+    "article": "das",
+    "plural": "Häuser",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "house"
+  },
+  {
+    "word": "Licht",
+    "article": "das",
+    "plural": "Lichter",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "light"
+  },
+  {
+    "word": "Ohr",
+    "article": "das",
+    "plural": "Ohren",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "ear"
+  },
+  {
+    "word": "Problem",
+    "article": "das",
+    "plural": "Probleme",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "problem"
+  },
+  {
+    "word": "Rad",
+    "article": "das",
+    "plural": "Räder",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "wheel"
+  },
+  {
+    "word": "Schild",
+    "article": "das",
+    "plural": "Schilder",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "sign"
+  },
+  {
+    "word": "Zentrum",
+    "article": "das",
+    "plural": "Zentren",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "center"
+  },
+  {
+    "word": "Spray",
+    "article": "das",
+    "plural": "Sprays",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "spray"
+  },
+  {
+    "word": "Rezept",
+    "article": "das",
+    "plural": "Rezepte",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "recipe / prescription"
+  },
+  {
+    "word": "Fernsehen",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "television"
+  },
+  {
+    "word": "Feuer",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "fire"
+  },
+  {
+    "word": "Schach",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "chess"
+  },
+  {
+    "word": "Toilettenpapier",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "toilet paper"
+  },
+  {
+    "word": "Klopapier",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "toilet paper"
+  },
+  {
+    "word": "Heimweh",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "homesickness"
+  },
+  {
+    "word": "Abfall",
+    "article": "der",
+    "plural": "Abfälle",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "waste / garbage"
+  },
+  {
+    "word": "Bahnhof",
+    "article": "der",
+    "plural": "Bahnhöfe",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "train station"
+  },
+  {
+    "word": "Buchstabe",
+    "article": "der",
+    "plural": "Buchstaben",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "letter (alphabet)"
+  },
+  {
+    "word": "Dom",
+    "article": "der",
+    "plural": "Dome",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "cathedral"
+  },
+  {
+    "word": "Fernseher",
+    "article": "der",
+    "plural": "Fernseher",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "TV set"
+  },
+  {
+    "word": "Geburtstag",
+    "article": "der",
+    "plural": "Geburtstage",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "birthday"
+  },
+  {
+    "word": "Handschuh",
+    "article": "der",
+    "plural": "Handschuhe",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "glove"
+  },
+  {
+    "word": "Helm",
+    "article": "der",
+    "plural": "Helme",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "helmet"
+  },
+  {
+    "word": "ICE",
+    "article": "der",
+    "plural": "ICEs",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "high-speed train"
+  },
+  {
+    "word": "Ohrschützer",
+    "article": "der",
+    "plural": "Ohrschützer",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "ear muffs"
+  },
+  {
+    "word": "Platz",
+    "article": "der",
+    "plural": "Plätze",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "place / square"
+  },
+  {
+    "word": "Pullover",
+    "article": "der",
+    "plural": "Pullover",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "sweater"
+  },
+  {
+    "word": "Schlüssel",
+    "article": "der",
+    "plural": "Schlüssel",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "key"
+  },
+  {
+    "word": "Schuh",
+    "article": "der",
+    "plural": "Schuhe",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "shoe"
+  },
+  {
+    "word": "Spaziergang",
+    "article": "der",
+    "plural": "Spziergänge",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "walk / stroll"
+  },
+  {
+    "word": "Urlaub",
+    "article": "der",
+    "plural": "Urlaube",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "vacation"
+  },
+  {
+    "word": "Zug",
+    "article": "der",
+    "plural": "Züge",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "train"
+  },
+  {
+    "word": "Saft",
+    "article": "der",
+    "plural": "Säfte",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "juice"
+  },
+  {
+    "word": "Tropfen",
+    "article": "der",
+    "plural": "Tropfen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "drop"
+  },
+  {
+    "word": "Müll",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "garbage / trash"
+  },
+  {
+    "word": "Brille",
+    "article": "die",
+    "plural": "Brillen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "glasses"
+  },
+  {
+    "word": "Burg",
+    "article": "die",
+    "plural": "Burgen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "castle"
+  },
+  {
+    "word": "FAU-Karte",
+    "article": "die",
+    "plural": "FAU-Karten",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "university card"
+  },
+  {
+    "word": "Information",
+    "article": "die",
+    "plural": "Informationen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "information"
+  },
+  {
+    "word": "Jacke",
+    "article": "die",
+    "plural": "Jacken",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "jacket"
+  },
+  {
+    "word": "Karte",
+    "article": "die",
+    "plural": "Karten",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "card / map"
+  },
+  {
+    "word": "Kerze",
+    "article": "die",
+    "plural": "Kerzen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "candle"
+  },
+  {
+    "word": "Kirche",
+    "article": "die",
+    "plural": "Kirchen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "church"
+  },
+  {
+    "word": "Lampe",
+    "article": "die",
+    "plural": "Lampen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "lamp"
+  },
+  {
+    "word": "Maske",
+    "article": "die",
+    "plural": "Masken",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "mask"
+  },
+  {
+    "word": "Maus",
+    "article": "die",
+    "plural": "Mäuse",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "mouse"
+  },
+  {
+    "word": "Party",
+    "article": "die",
+    "plural": "Partys",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "party"
+  },
+  {
+    "word": "Pyramide",
+    "article": "die",
+    "plural": "Pyramiden",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "pyramid"
+  },
+  {
+    "word": "Sprache",
+    "article": "die",
+    "plural": "Sprachen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "language"
+  },
+  {
+    "word": "Stadt",
+    "article": "die",
+    "plural": "Städte",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "city"
+  },
+  {
+    "word": "Straße",
+    "article": "die",
+    "plural": "Straßen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "street"
+  },
+  {
+    "word": "Tasche",
+    "article": "die",
+    "plural": "Taschen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "bag"
+  },
+  {
+    "word": "Tür",
+    "article": "die",
+    "plural": "Türen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "door"
+  },
+  {
+    "word": "Uhr",
+    "article": "die",
+    "plural": "Uhren",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "clock / watch"
+  },
+  {
+    "word": "Zahl",
+    "article": "die",
+    "plural": "Zahlen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "number"
+  },
+  {
+    "word": "Salbe",
+    "article": "die",
+    "plural": "Salben",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "ointment"
+  },
+  {
+    "word": "Tablette",
+    "article": "die",
+    "plural": "Tabletten",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "pill / tablet"
+  },
+  {
+    "word": "Sprechstundenhilfe",
+    "article": "die",
+    "plural": "Sprechstundenhilfen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "receptionist (medical)"
+  },
+  {
+    "word": "Pause",
+    "article": "die",
+    "plural": "Pausen",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "break / pause"
+  },
+  {
+    "word": "Luft",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Nomen",
+    "type": "noun",
+    "english": "air"
+  },
+  {
+    "word": "û",
+    "article": "û",
+    "plural": "Beschwerden",
+    "pluralArticle": "die",
+    "category": "Nomen",
+    "type": "noun",
+    "english": ""
+  },
+  {
+    "word": "Gabel",
+    "article": "die",
+    "plural": "Gabeln",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "fork"
+  },
+  {
+    "word": "Tasse",
+    "article": "die",
+    "plural": "Tassen",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "cup"
+  },
+  {
+    "word": "Flasche",
+    "article": "die",
+    "plural": "Flaschen",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "bottle"
+  },
+  {
+    "word": "Schüssel",
+    "article": "die",
+    "plural": "Schüsseln",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "bowl"
+  },
+  {
+    "word": "Schale",
+    "article": "die",
+    "plural": "Schalen",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "bowl / peel"
+  },
+  {
+    "word": "Flasche",
+    "article": "die",
+    "plural": "Flaschen",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "bottle"
+  },
+  {
+    "word": "Suppe",
+    "article": "die",
+    "plural": "Suppen",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "soup"
+  },
+  {
+    "word": "Tomate",
+    "article": "die",
+    "plural": "Tomaten",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "tomato"
+  },
+  {
+    "word": "Banane",
+    "article": "die",
+    "plural": "Bananen",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "banana"
+  },
+  {
+    "word": "Zitrone",
+    "article": "die",
+    "plural": "Zitronen",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "lemon"
+  },
+  {
+    "word": "Kartoffel",
+    "article": "die",
+    "plural": "Kartoffeln",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "potato"
+  },
+  {
+    "word": "Nudel",
+    "article": "die",
+    "plural": "Nudeln",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "noodle / pasta"
+  },
+  {
+    "word": "Besteck",
+    "article": "das",
+    "plural": "Bestecke",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "cutlery"
+  },
+  {
+    "word": "Brot",
+    "article": "das",
+    "plural": "Brote",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "bread"
+  },
+  {
+    "word": "Topf",
+    "article": "der",
+    "plural": "Töpfe",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "pot"
+  },
+  {
+    "word": "Salat",
+    "article": "der",
+    "plural": "Salate",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "salad"
+  },
+  {
+    "word": "Fisch",
+    "article": "der",
+    "plural": "Fische",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "fish"
+  },
+  {
+    "word": "Glas",
+    "article": "das",
+    "plural": "Gläser",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "glass"
+  },
+  {
+    "word": "Ei",
+    "article": "das",
+    "plural": "Eier",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "egg"
+  },
+  {
+    "word": "Pizza",
+    "article": "die",
+    "plural": "Pizzas (auch: Pizzen)",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "pizza"
+  },
+  {
+    "word": "Messer",
+    "article": "das",
+    "plural": "Messer",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "knife"
+  },
+  {
+    "word": "Essstäbchen",
+    "article": "das",
+    "plural": "Essstäbchen",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "chopsticks"
+  },
+  {
+    "word": "Brötchen",
+    "article": "das",
+    "plural": "Brötchen",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "bread roll"
+  },
+  {
+    "word": "Löffel",
+    "article": "der",
+    "plural": "Löffel",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "spoon"
+  },
+  {
+    "word": "Teller",
+    "article": "der",
+    "plural": "Teller",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "plate"
+  },
+  {
+    "word": "Becher",
+    "article": "der",
+    "plural": "Becher",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "cup / mug"
+  },
+  {
+    "word": "Hamburger",
+    "article": "der",
+    "plural": "Hamburger",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "hamburger"
+  },
+  {
+    "word": "Apfel",
+    "article": "der",
+    "plural": "Äpfel",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "apple"
+  },
+  {
+    "word": "Kuchen",
+    "article": "der",
+    "plural": "Kuchen",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "cake"
+  },
+  {
+    "word": "Geschirr",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "dishes"
+  },
+  {
+    "word": "Salz",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "salt"
+  },
+  {
+    "word": "Obst",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "fruit"
+  },
+  {
+    "word": "Gemüse",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "vegetables"
+  },
+  {
+    "word": "Fleisch",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "meat"
+  },
+  {
+    "word": "Eis",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "ice / ice cream"
+  },
+  {
+    "word": "Wasser",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "water"
+  },
+  {
+    "word": "Bier",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "beer"
+  },
+  {
+    "word": "Zucker",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "sugar"
+  },
+  {
+    "word": "Senf",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "mustard"
+  },
+  {
+    "word": "Käse",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "cheese"
+  },
+  {
+    "word": "Ketchup",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "ketchup"
+  },
+  {
+    "word": "Reis",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "rice"
+  },
+  {
+    "word": "Tofu",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "tofu"
+  },
+  {
+    "word": "Honig",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "honey"
+  },
+  {
+    "word": "Tee",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "tea"
+  },
+  {
+    "word": "Kaffee",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "coffee"
+  },
+  {
+    "word": "Saft",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "juice"
+  },
+  {
+    "word": "Orangensaft",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "orange juice"
+  },
+  {
+    "word": "Wein",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "wine"
+  },
+  {
+    "word": "Rotwein",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "red wine"
+  },
+  {
+    "word": "Weißwein",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "white wine"
+  },
+  {
+    "word": "Saft",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "juice"
+  },
+  {
+    "word": "Sahne",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "cream"
+  },
+  {
+    "word": "Mayonnaise",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "mayonnaise"
+  },
+  {
+    "word": "Cola",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "cola"
+  },
+  {
+    "word": "Milch",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": "milk"
+  },
+  {
+    "word": "û",
+    "article": "û",
+    "plural": "Pommes",
+    "pluralArticle": "die",
+    "category": "Essen & Trinken",
+    "type": "noun",
+    "english": ""
+  },
+  {
+    "word": "Schule",
+    "article": "die",
+    "plural": "Schulen",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "school"
+  },
+  {
+    "word": "Heft",
+    "article": "das",
+    "plural": "Hefte",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "notebook"
+  },
+  {
+    "word": "Lineal",
+    "article": "das",
+    "plural": "Lineale",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "ruler"
+  },
+  {
+    "word": "Seminar",
+    "article": "das",
+    "plural": "Seminare",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "seminar"
+  },
+  {
+    "word": "Bleistift",
+    "article": "der",
+    "plural": "Bleistifte",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "pencil"
+  },
+  {
+    "word": "Schreibtisch",
+    "article": "der",
+    "plural": "Schreibtische",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "desk"
+  },
+  {
+    "word": "Kurs",
+    "article": "der",
+    "plural": "Kurse",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "course"
+  },
+  {
+    "word": "Deutschkurs",
+    "article": "der",
+    "plural": "Deutschkurse",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "German course"
+  },
+  {
+    "word": "Maus",
+    "article": "die",
+    "plural": "Mäuse",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "mouse"
+  },
+  {
+    "word": "Bibliothek",
+    "article": "die",
+    "plural": "Bibliotheken",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "library"
+  },
+  {
+    "word": "Vorlesung",
+    "article": "die",
+    "plural": "Volesungen",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "lecture"
+  },
+  {
+    "word": "Universität",
+    "article": "die",
+    "plural": "Universitäten",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "university"
+  },
+  {
+    "word": "Universitätsbibliothek",
+    "article": "die",
+    "plural": "Universitätsbibliotheken",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "university library"
+  },
+  {
+    "word": "Klausur",
+    "article": "die",
+    "plural": "Klausuren",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "exam"
+  },
+  {
+    "word": "Vorlesung",
+    "article": "die",
+    "plural": "Vorlesungen",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "lecture"
+  },
+  {
+    "word": "Buch",
+    "article": "das",
+    "plural": "Bücher",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "book"
+  },
+  {
+    "word": "Radiergummi",
+    "article": "das",
+    "plural": "Radiergummis",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "eraser"
+  },
+  {
+    "word": "Kuli",
+    "article": "der",
+    "plural": "Kulis",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "pen"
+  },
+  {
+    "word": "Test",
+    "article": "der",
+    "plural": "Tests",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "test"
+  },
+  {
+    "word": "Abschlusstest",
+    "article": "der",
+    "plural": "Abschlusstests",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "final test"
+  },
+  {
+    "word": "Kugelschreiber",
+    "article": "der",
+    "plural": "Kugelschreiber",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "ballpoint pen"
+  },
+  {
+    "word": "Computer",
+    "article": "der",
+    "plural": "Computer",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "computer"
+  },
+  {
+    "word": "Textmarker",
+    "article": "der",
+    "plural": "Textmarker",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "highlighter"
+  },
+  {
+    "word": "Anspitzer",
+    "article": "der",
+    "plural": "Anspitzer",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "pencil sharpener"
+  },
+  {
+    "word": "Studium",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "studies"
+  },
+  {
+    "word": "Unterricht",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "lesson / class"
+  },
+  {
+    "word": "Kugelschreiber",
+    "article": "der",
+    "plural": "Kugelschreiber",
+    "pluralArticle": "die",
+    "category": "Lernen",
+    "type": "noun",
+    "english": "ballpoint pen"
+  },
+  {
+    "word": "Wochenende",
+    "article": "das",
+    "plural": "Wochenenden",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "weekend"
+  },
+  {
+    "word": "Jahr",
+    "article": "das",
+    "plural": "Jahre",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "year"
+  },
+  {
+    "word": "Datum",
+    "article": "das",
+    "plural": "Daten",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "date"
+  },
+  {
+    "word": "Tag",
+    "article": "der",
+    "plural": "Tage",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "day"
+  },
+  {
+    "word": "Monat",
+    "article": "der",
+    "plural": "Monate",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "month"
+  },
+  {
+    "word": "Frühling",
+    "article": "der",
+    "plural": "Frühlinge",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "spring"
+  },
+  {
+    "word": "Herbst",
+    "article": "der",
+    "plural": "Herbste",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "autumn / fall"
+  },
+  {
+    "word": "Vormittag",
+    "article": "der",
+    "plural": "Vormittage",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "morning (late)"
+  },
+  {
+    "word": "Nachmittag",
+    "article": "der",
+    "plural": "Nachmittage",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "afternoon"
+  },
+  {
+    "word": "Abend",
+    "article": "der",
+    "plural": "Abende",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "evening"
+  },
+  {
+    "word": "Geburtstag",
+    "article": "der",
+    "plural": "Geburtstage",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "birthday"
+  },
+  {
+    "word": "Sommer",
+    "article": "der",
+    "plural": "Sommer",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "summer"
+  },
+  {
+    "word": "Winter",
+    "article": "der",
+    "plural": "Winter",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "winter"
+  },
+  {
+    "word": "Morgen",
+    "article": "der",
+    "plural": "Morgen",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "morning"
+  },
+  {
+    "word": "Woche",
+    "article": "die",
+    "plural": "Wochen",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "week"
+  },
+  {
+    "word": "Stunde",
+    "article": "die",
+    "plural": "Stunden",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "hour"
+  },
+  {
+    "word": "Minute",
+    "article": "die",
+    "plural": "Minuten",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "minute"
+  },
+  {
+    "word": "Sekunde",
+    "article": "die",
+    "plural": "Sekunden",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "second"
+  },
+  {
+    "word": "Nacht",
+    "article": "die",
+    "plural": "Nächte",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "night"
+  },
+  {
+    "word": "Jahreszeit",
+    "article": "die",
+    "plural": "Jahreszeiten",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "season"
+  },
+  {
+    "word": "Uhrzeit",
+    "article": "die",
+    "plural": "Uhrzeiten",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "time (of day)"
+  },
+  {
+    "word": "Zeit",
+    "article": "die",
+    "plural": "Zeiten",
+    "pluralArticle": "die",
+    "category": "Zeit",
+    "type": "noun",
+    "english": "time"
+  },
+  {
+    "word": "Mond",
+    "article": "der",
+    "plural": "Monde",
+    "pluralArticle": "die",
+    "category": "Welt",
+    "type": "noun",
+    "english": "moon"
+  },
+  {
+    "word": "Erde",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Welt",
+    "type": "noun",
+    "english": "earth"
+  },
+  {
+    "word": "Sonne",
+    "article": "die",
+    "plural": "Sonnen",
+    "pluralArticle": "die",
+    "category": "Welt",
+    "type": "noun",
+    "english": "sun"
+  },
+  {
+    "word": "Galaxie",
+    "article": "die",
+    "plural": "Galaxien",
+    "pluralArticle": "die",
+    "category": "Welt",
+    "type": "noun",
+    "english": "galaxy"
+  },
+  {
+    "word": "Statue",
+    "article": "die",
+    "plural": "Statuen",
+    "pluralArticle": "die",
+    "category": "Welt",
+    "type": "noun",
+    "english": "statue"
+  },
+  {
+    "word": "Land",
+    "article": "das",
+    "plural": "Länder",
+    "pluralArticle": "die",
+    "category": "Welt",
+    "type": "noun",
+    "english": "country / land"
+  },
+  {
+    "word": "Berg",
+    "article": "der",
+    "plural": "Berge",
+    "pluralArticle": "die",
+    "category": "Welt",
+    "type": "noun",
+    "english": "mountain"
+  },
+  {
+    "word": "Mars",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Welt",
+    "type": "noun",
+    "english": "Mars"
+  },
+  {
+    "word": "Staat",
+    "article": "der",
+    "plural": "Staaten",
+    "pluralArticle": "die",
+    "category": "Welt",
+    "type": "noun",
+    "english": "state"
+  },
+  {
+    "word": "Fluss",
+    "article": "der",
+    "plural": "Flüsse",
+    "pluralArticle": "die",
+    "category": "Welt",
+    "type": "noun",
+    "english": "river"
+  },
+  {
+    "word": "Stern",
+    "article": "der",
+    "plural": "Sterne",
+    "pluralArticle": "die",
+    "category": "Welt",
+    "type": "noun",
+    "english": "star"
+  },
+  {
+    "word": "Vulkan",
+    "article": "der",
+    "plural": "Vulkane",
+    "pluralArticle": "die",
+    "category": "Welt",
+    "type": "noun",
+    "english": "volcano"
+  },
+  {
+    "word": "Meer",
+    "article": "das",
+    "plural": "Meere",
+    "pluralArticle": "die",
+    "category": "Welt",
+    "type": "noun",
+    "english": "sea"
+  },
+  {
+    "word": "See",
+    "article": "der",
+    "plural": "Seen",
+    "pluralArticle": "die",
+    "category": "Welt",
+    "type": "noun",
+    "english": "lake"
+  },
+  {
+    "word": "Wetter",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Wetter",
+    "type": "noun",
+    "english": "weather"
+  },
+  {
+    "word": "Klima",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Wetter",
+    "type": "noun",
+    "english": "climate"
+  },
+  {
+    "word": "Gewitter",
+    "article": "das",
+    "plural": "Gewitter",
+    "pluralArticle": "die",
+    "category": "Wetter",
+    "type": "noun",
+    "english": "thunderstorm"
+  },
+  {
+    "word": "Mond",
+    "article": "der",
+    "plural": "Monde",
+    "pluralArticle": "die",
+    "category": "Wetter",
+    "type": "noun",
+    "english": "moon"
+  },
+  {
+    "word": "Regen",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Wetter",
+    "type": "noun",
+    "english": "rain"
+  },
+  {
+    "word": "Nebel",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Wetter",
+    "type": "noun",
+    "english": "fog"
+  },
+  {
+    "word": "Blitz",
+    "article": "der",
+    "plural": "Blitze",
+    "pluralArticle": "die",
+    "category": "Wetter",
+    "type": "noun",
+    "english": "lightning"
+  },
+  {
+    "word": "Donner",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Wetter",
+    "type": "noun",
+    "english": "thunder"
+  },
+  {
+    "word": "Schnee",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Wetter",
+    "type": "noun",
+    "english": "snow"
+  },
+  {
+    "word": "Anzug",
+    "article": "der",
+    "plural": "Anzüge",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "suit"
+  },
+  {
+    "word": "Bluse",
+    "article": "die",
+    "plural": "Blusen",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "blouse"
+  },
+  {
+    "word": "Halskette",
+    "article": "die",
+    "plural": "Halsketten",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "necklace"
+  },
+  {
+    "word": "Hose",
+    "article": "die",
+    "plural": "Hosen",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "pants / trousers"
+  },
+  {
+    "word": "Jacke",
+    "article": "die",
+    "plural": "Jacken",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "jacket"
+  },
+  {
+    "word": "Jeans",
+    "article": "die",
+    "plural": "Jeans",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "jeans"
+  },
+  {
+    "word": "Kleid",
+    "article": "das",
+    "plural": "Kleider",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "dress"
+  },
+  {
+    "word": "Krawatte",
+    "article": "die",
+    "plural": "Krawatten",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "tie"
+  },
+  {
+    "word": "Mantel",
+    "article": "der",
+    "plural": "Mäntel",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "coat"
+  },
+  {
+    "word": "Pullover",
+    "article": "der",
+    "plural": "Pullover",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "sweater"
+  },
+  {
+    "word": "Ring",
+    "article": "der",
+    "plural": "Ringe",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "ring"
+  },
+  {
+    "word": "Rock",
+    "article": "der",
+    "plural": "Röcke",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "skirt"
+  },
+  {
+    "word": "Schmuck",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "jewelry"
+  },
+  {
+    "word": "Schuh",
+    "article": "der",
+    "plural": "Schuhe",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "shoe"
+  },
+  {
+    "word": "Stiefel",
+    "article": "der",
+    "plural": "Stiefel",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "boot"
+  },
+  {
+    "word": "Strumpf",
+    "article": "der",
+    "plural": "Strümpfe",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "stocking"
+  },
+  {
+    "word": "T-Shirt",
+    "article": "das",
+    "plural": "T-Shirts",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "t-shirt"
+  },
+  {
+    "word": "Hut",
+    "article": "der",
+    "plural": "Hüte",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "hat"
+  },
+  {
+    "word": "Mütze",
+    "article": "die",
+    "plural": "Mützen",
+    "pluralArticle": "die",
+    "category": "Kleidung",
+    "type": "noun",
+    "english": "cap / beanie"
+  },
+  {
+    "word": "Arm",
+    "article": "der",
+    "plural": "Arme",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "arm"
+  },
+  {
+    "word": "Auge",
+    "article": "das",
+    "plural": "Augen",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "eye"
+  },
+  {
+    "word": "Bauch",
+    "article": "der",
+    "plural": "Bäuche",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "belly / stomach"
+  },
+  {
+    "word": "Bein",
+    "article": "das",
+    "plural": "Beine",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "leg"
+  },
+  {
+    "word": "Daumen",
+    "article": "der",
+    "plural": "Daumen",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "thumb"
+  },
+  {
+    "word": "Finger",
+    "article": "der",
+    "plural": "Finger",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "finger"
+  },
+  {
+    "word": "Fuß",
+    "article": "der",
+    "plural": "Füße",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "foot"
+  },
+  {
+    "word": "Haar",
+    "article": "das",
+    "plural": "Haare",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "hair"
+  },
+  {
+    "word": "Hals",
+    "article": "der",
+    "plural": "Hälse",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "neck / throat"
+  },
+  {
+    "word": "Knie",
+    "article": "das",
+    "plural": "Kniee",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "knee"
+  },
+  {
+    "word": "Kopf",
+    "article": "der",
+    "plural": "Köpfe",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "head"
+  },
+  {
+    "word": "Mund",
+    "article": "der",
+    "plural": "Münder",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "mouth"
+  },
+  {
+    "word": "Nase",
+    "article": "die",
+    "plural": "Nasen",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "nose"
+  },
+  {
+    "word": "Ohr",
+    "article": "das",
+    "plural": "Ohren",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "ear"
+  },
+  {
+    "word": "Po",
+    "article": "der",
+    "plural": "Pos",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "bottom / butt"
+  },
+  {
+    "word": "Rücken",
+    "article": "der",
+    "plural": "Rücken",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "back"
+  },
+  {
+    "word": "Schulter",
+    "article": "die",
+    "plural": "Schultern",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "shoulder"
+  },
+  {
+    "word": "Stirn",
+    "article": "die",
+    "plural": "Stirne",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "forehead"
+  },
+  {
+    "word": "Zahn",
+    "article": "der",
+    "plural": "Zähne",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "tooth"
+  },
+  {
+    "word": "Zeh",
+    "article": "der",
+    "plural": "Zehen",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "toe"
+  },
+  {
+    "word": "Schmerz",
+    "article": "der",
+    "plural": "Schmerzen",
+    "pluralArticle": "die",
+    "category": "Körper",
+    "type": "noun",
+    "english": "pain"
+  },
+  {
+    "word": "Apotheke",
+    "article": "die",
+    "plural": "Apotheken",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "pharmacy"
+  },
+  {
+    "word": "Bahnhof",
+    "article": "der",
+    "plural": "Bahnhöfe",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "train station"
+  },
+  {
+    "word": "Bibliothek",
+    "article": "die",
+    "plural": "Bibliotheken",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "library"
+  },
+  {
+    "word": "Büro",
+    "article": "das",
+    "plural": "Büros",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "office"
+  },
+  {
+    "word": "Bus",
+    "article": "der",
+    "plural": "Busse",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "bus"
+  },
+  {
+    "word": "Café",
+    "article": "das",
+    "plural": "Cafés",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "café"
+  },
+  {
+    "word": "Fitness-Studio",
+    "article": "das",
+    "plural": "Fitnesse-Studios",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "gym"
+  },
+  {
+    "word": "Kino",
+    "article": "das",
+    "plural": "Kinos",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "cinema"
+  },
+  {
+    "word": "Mensa",
+    "article": "die",
+    "plural": "Mensen",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "cafeteria"
+  },
+  {
+    "word": "Museum",
+    "article": "das",
+    "plural": "Museen",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "museum"
+  },
+  {
+    "word": "Park",
+    "article": "der",
+    "plural": "Parks",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "park"
+  },
+  {
+    "word": "Restaurant",
+    "article": "das",
+    "plural": "Restaurants",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "restaurant"
+  },
+  {
+    "word": "Supermarkt",
+    "article": "der",
+    "plural": "Supermärkte",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "supermarket"
+  },
+  {
+    "word": "Theater",
+    "article": "das",
+    "plural": "Theater",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "theater"
+  },
+  {
+    "word": "U-Bahn",
+    "article": "die",
+    "plural": "U-Bahnen",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "subway"
+  },
+  {
+    "word": "Wald",
+    "article": "der",
+    "plural": "Wälder",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "forest"
+  },
+  {
+    "word": "Zug",
+    "article": "der",
+    "plural": "Züge",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "train"
+  },
+  {
+    "word": "Haus",
+    "article": "das",
+    "plural": "Häuser",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "house"
+  },
+  {
+    "word": "Straße",
+    "article": "die",
+    "plural": "Straßen",
+    "pluralArticle": "die",
+    "category": "Orte",
+    "type": "noun",
+    "english": "street"
+  },
+  {
+    "word": "Küche",
+    "article": "die",
+    "plural": "Küchen",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "kitchen"
+  },
+  {
+    "word": "Lampe",
+    "article": "die",
+    "plural": "Lampen",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "lamp"
+  },
+  {
+    "word": "Waschmaschine",
+    "article": "die",
+    "plural": "Waschmaschinen",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "washing machine"
+  },
+  {
+    "word": "Bücherregal",
+    "article": "das",
+    "plural": "Bücherregale",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "bookshelf"
+  },
+  {
+    "word": "Regal",
+    "article": "das",
+    "plural": "Regale",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "shelf"
+  },
+  {
+    "word": "Kühlschrank",
+    "article": "der",
+    "plural": "Kühlschränke",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "refrigerator"
+  },
+  {
+    "word": "Schrank",
+    "article": "der",
+    "plural": "Schränke",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "cabinet / closet"
+  },
+  {
+    "word": "Stuhl",
+    "article": "der",
+    "plural": "Stühle",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "chair"
+  },
+  {
+    "word": "Teppich",
+    "article": "der",
+    "plural": "Teppiche",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "carpet"
+  },
+  {
+    "word": "Tisch",
+    "article": "der",
+    "plural": "Tische",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "table"
+  },
+  {
+    "word": "Schreibtisch",
+    "article": "der",
+    "plural": "Schreibtische",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "desk"
+  },
+  {
+    "word": "Wand",
+    "article": "die",
+    "plural": "Wände",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "wall"
+  },
+  {
+    "word": "Bett",
+    "article": "das",
+    "plural": "Betten",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "bed"
+  },
+  {
+    "word": "Heizung",
+    "article": "die",
+    "plural": "Heizungen",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "heating"
+  },
+  {
+    "word": "Tür",
+    "article": "die",
+    "plural": "Türen",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "door"
+  },
+  {
+    "word": "Wohnung",
+    "article": "die",
+    "plural": "Wohnungen",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "apartment"
+  },
+  {
+    "word": "Bild",
+    "article": "das",
+    "plural": "Bilder",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "picture"
+  },
+  {
+    "word": "Appartement",
+    "article": "das",
+    "plural": "Appartements",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "apartment"
+  },
+  {
+    "word": "Sofa",
+    "article": "das",
+    "plural": "Sofas",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "sofa"
+  },
+  {
+    "word": "Fenster",
+    "article": "das",
+    "plural": "Fenster",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "window"
+  },
+  {
+    "word": "Zimmer",
+    "article": "das",
+    "plural": "Zimmer",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "room"
+  },
+  {
+    "word": "Fernseher",
+    "article": "der",
+    "plural": "Fernseher",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "TV set"
+  },
+  {
+    "word": "Sessel",
+    "article": "der",
+    "plural": "Sessel",
+    "pluralArticle": "die",
+    "category": "Wohnen",
+    "type": "noun",
+    "english": "armchair"
+  },
+  {
+    "word": "China",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Chinesisch"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "China"
+  },
+  {
+    "word": "Deutschland",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Deutsch"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "Germany"
+  },
+  {
+    "word": "Frankreich",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Französisch"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "France"
+  },
+  {
+    "word": "Indien",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Hindi",
+      "Englisch",
+      "Malayalam"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "India"
+  },
+  {
+    "word": "Irak",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Arabisch",
+      "Kurdisch"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "Iraq"
+  },
+  {
+    "word": "Iran",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Farsi"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "Iran"
+  },
+  {
+    "word": "Japan",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Japanisch"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "Japan"
+  },
+  {
+    "word": "Pakistan",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Urdu",
+      "Englisch"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "Pakistan"
+  },
+  {
+    "word": "Russland",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Russisch"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "Russia"
+  },
+  {
+    "word": "Schweiz",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Deutsch",
+      "Französisch",
+      "Italienisch"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "Switzerland"
+  },
+  {
+    "word": "Spanien",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Spanisch"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "Spain"
+  },
+  {
+    "word": "Türkei",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Türkisch"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "Turkey"
+  },
+  {
+    "word": "USA",
+    "article": "die (pl.)",
+    "plural": "",
+    "pluralArticle": "",
+    "languages": [
+      "Englisch"
+    ],
+    "category": "Länder",
+    "type": "country",
+    "english": "USA"
+  },
+  {
+    "word": "Mathematik",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "mathematics"
+  },
+  {
+    "word": "Philosophie",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "philosophy"
+  },
+  {
+    "word": "Germanistik",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "German studies"
+  },
+  {
+    "word": "Maschinenbau",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "mechanical engineering"
+  },
+  {
+    "word": "Elektrotechnik",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "electrical engineering"
+  },
+  {
+    "word": "Mechatronik",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "mechatronics"
+  },
+  {
+    "word": "Chemie",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "chemistry"
+  },
+  {
+    "word": "Physik",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "physics"
+  },
+  {
+    "word": "Wirtschaft",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "economics"
+  },
+  {
+    "word": "Biologie",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "biology"
+  },
+  {
+    "word": "Communicational Engineering",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "communications engineering"
+  },
+  {
+    "word": "Informatik",
+    "article": "die",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "computer science"
+  },
+  {
+    "word": "Werkstoffwissenschaften",
+    "article": "die (pl.)",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "materials science"
+  },
+  {
+    "word": "Ingenieurwesen",
+    "article": "das",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Studienfächer",
+    "type": "noun",
+    "english": "engineering"
+  },
+  {
+    "word": "sein",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "bin",
+      "du": "bist",
+      "er/sie/es/man": "ist",
+      "wir/Sie/sie (pl.)": "sind",
+      "ihr": "seid"
+    },
+    "partizip": "gewesen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to be"
+  },
+  {
+    "word": "gehen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "gehe",
+      "du": "gehst",
+      "er/sie/es/man": "geht",
+      "wir/Sie/sie (pl.)": "gehen",
+      "ihr": "geht"
+    },
+    "partizip": "gegangen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to go"
+  },
+  {
+    "word": "verstehen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "verstehe",
+      "du": "verstehst",
+      "er/sie/es/man": "versteht",
+      "wir/Sie/sie (pl.)": "verstehen",
+      "ihr": "versteht"
+    },
+    "partizip": "verstanden",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to understand"
+  },
+  {
+    "word": "wegwerfen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "werfe ... weg",
+      "du": "wirfts ... weg",
+      "er/sie/es/man": "wirft ... weg",
+      "wir/Sie/sie (pl.)": "werfen ... weg",
+      "ihr": "werft ... weg"
+    },
+    "partizip": "weggeworfen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to throw away"
+  },
+  {
+    "word": "sprechen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "spreche",
+      "du": "sprichst",
+      "er/sie/es/man": "spricht",
+      "wir/Sie/sie (pl.)": "sprechen",
+      "ihr": "sprecht"
+    },
+    "partizip": "gesprochen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to speak"
+  },
+  {
+    "word": "treffen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "treffe",
+      "du": "triffst",
+      "er/sie/es/man": "trifft",
+      "wir/Sie/sie (pl.)": "treffen",
+      "ihr": "trefft"
+    },
+    "partizip": "getroffen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to meet"
+  },
+  {
+    "word": "werden",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "werde",
+      "du": "wirst",
+      "er/sie/es/man": "wird",
+      "wir/Sie/sie (pl.)": "werden",
+      "ihr": "werdet"
+    },
+    "partizip": "geworden",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to become"
+  },
+  {
+    "word": "unternehmen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "unternehme",
+      "du": "unternimmst",
+      "er/sie/es/man": "unternimmt",
+      "wir/Sie/sie (pl.)": "unternehmen",
+      "ihr": "unternehmt"
+    },
+    "partizip": "unternommen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to undertake"
+  },
+  {
+    "word": "schreiben",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "schreibe",
+      "du": "schreibst",
+      "er/sie/es/man": "schreibt",
+      "wir/Sie/sie (pl.)": "schreiben",
+      "ihr": "schreibt"
+    },
+    "partizip": "geschrieben",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to write"
+  },
+  {
+    "word": "schwimmen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "schwimme",
+      "du": "schwimmst",
+      "er/sie/es/man": "schwimmt",
+      "wir/Sie/sie (pl.)": "schwimmen",
+      "ihr": "schwimmt"
+    },
+    "partizip": "geschwommen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to swim"
+  },
+  {
+    "word": "beginnen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "beginne",
+      "du": "beginnst",
+      "er/sie/es/man": "beginnt",
+      "wir/Sie/sie (pl.)": "beginnen",
+      "ihr": "beginnt"
+    },
+    "partizip": "begonnen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to begin"
+  },
+  {
+    "word": "finden",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "finde",
+      "du": "findest",
+      "er/sie/es/man": "findet",
+      "wir/Sie/sie (pl.)": "finden",
+      "ihr": "findet"
+    },
+    "partizip": "gefunden",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to find"
+  },
+  {
+    "word": "klingen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "klinge",
+      "du": "klingst",
+      "er/sie/es/man": "klingt",
+      "wir/Sie/sie (pl.)": "klingen",
+      "ihr": "klingt"
+    },
+    "partizip": "geklungen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to sound"
+  },
+  {
+    "word": "singen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "singe",
+      "du": "singst",
+      "er/sie/es/man": "singt",
+      "wir/Sie/sie (pl.)": "singen",
+      "ihr": "singt"
+    },
+    "partizip": "gesungen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to sing"
+  },
+  {
+    "word": "trinken",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "trinke",
+      "du": "trinkst",
+      "er/sie/es/man": "trinkt",
+      "wir/Sie/sie (pl.)": "trinken",
+      "ihr": "trinkt"
+    },
+    "partizip": "getrunken",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to drink"
+  },
+  {
+    "word": "anziehen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "ziehe ... an",
+      "du": "ziehst ... an",
+      "er/sie/es/man": "zieht ... an",
+      "wir/Sie/sie (pl.)": "ziehen ... an",
+      "ihr": "zieht ... an"
+    },
+    "partizip": "angezogen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to put on / dress"
+  },
+  {
+    "word": "ausziehen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "ziehe ... aus",
+      "du": "ziehst ... aus",
+      "er/sie/es/man": "zieht ... aus",
+      "wir/Sie/sie (pl.)": "ziehen ... aus",
+      "ihr": "zieht ... aus"
+    },
+    "partizip": "ausgezogen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to take off / undress"
+  },
+  {
+    "word": "schließen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "schließe",
+      "du": "schließt",
+      "er/sie/es/man": "schließt",
+      "wir/Sie/sie (pl.)": "schließen",
+      "ihr": "schließt"
+    },
+    "partizip": "geschlossen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to close"
+  },
+  {
+    "word": "abfahren",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "fahre … ab",
+      "du": "fährst … ab",
+      "er/sie/es/man": "fährt … ab",
+      "wir/Sie/sie (pl.)": "fahren … ab",
+      "ihr": "fahrt … ab"
+    },
+    "partizip": "abgefahren",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to depart"
+  },
+  {
+    "word": "anfangen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "fange … an",
+      "du": "fängst … an",
+      "er/sie/es/man": "fängt … an",
+      "wir/Sie/sie (pl.)": "fangen … an",
+      "ihr": "fangt … an"
+    },
+    "partizip": "angefangen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to start"
+  },
+  {
+    "word": "ankommen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "komme … an",
+      "du": "kommst … an",
+      "er/sie/es/man": "kommt … an",
+      "wir/Sie/sie (pl.)": "kommen … an",
+      "ihr": "kommt … an"
+    },
+    "partizip": "angekommen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to arrive"
+  },
+  {
+    "word": "anrufen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "rufe ... an",
+      "du": "rufst ... an",
+      "er/sie/es/man": "ruft ... an",
+      "wir/Sie/sie (pl.)": "rufen ... an",
+      "ihr": "ruft ... an"
+    },
+    "partizip": "angerufen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to call (phone)"
+  },
+  {
+    "word": "einladen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "lade ... ein",
+      "du": "lädst ... ein",
+      "er/sie/es/man": "lädt ... ein",
+      "wir/Sie/sie (pl.)": "laden ... ein",
+      "ihr": "ladet ... ein"
+    },
+    "partizip": "eingeladen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to invite"
+  },
+  {
+    "word": "mitfahren",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "fahre … mit",
+      "du": "fährst … mit",
+      "er/sie/es/man": "fährt … mit",
+      "wir/Sie/sie (pl.)": "fahren … mit",
+      "ihr": "fahrt … mit"
+    },
+    "partizip": "mitgefahren",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to ride along"
+  },
+  {
+    "word": "backen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "backe",
+      "du": "backst",
+      "er/sie/es/man": "backt",
+      "wir/Sie/sie (pl.)": "backen",
+      "ihr": "backt"
+    },
+    "partizip": "gebacken",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to bake"
+  },
+  {
+    "word": "essen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "esse",
+      "du": "isst",
+      "er/sie/es/man": "isst",
+      "wir/Sie/sie (pl.)": "essen",
+      "ihr": "esst"
+    },
+    "partizip": "gegessen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to eat"
+  },
+  {
+    "word": "fahren",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "fahre",
+      "du": "fährst",
+      "er/sie/es/man": "fährt",
+      "wir/Sie/sie (pl.)": "fahren",
+      "ihr": "fahrt"
+    },
+    "partizip": "gefahren",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to drive / go"
+  },
+  {
+    "word": "heißen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "heiße",
+      "du": "heißt",
+      "er/sie/es/man": "heißt",
+      "wir/Sie/sie (pl.)": "heißen",
+      "ihr": "heißt"
+    },
+    "partizip": "geheißen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to be called"
+  },
+  {
+    "word": "kommen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "komme",
+      "du": "kommst",
+      "er/sie/es/man": "kommt",
+      "wir/Sie/sie (pl.)": "kommen",
+      "ihr": "kommt"
+    },
+    "partizip": "gekommen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to come"
+  },
+  {
+    "word": "laufen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "laufe",
+      "du": "läufst",
+      "er/sie/es/man": "läuft",
+      "wir/Sie/sie (pl.)": "laufen",
+      "ihr": "lauft"
+    },
+    "partizip": "gelaufen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to run / walk"
+  },
+  {
+    "word": "schlafen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "schlafe",
+      "du": "schläfst",
+      "er/sie/es/man": "schläft",
+      "wir/Sie/sie (pl.)": "schlafen",
+      "ihr": "schlaft"
+    },
+    "partizip": "geschlafen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to sleep"
+  },
+  {
+    "word": "sehen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "sehe",
+      "du": "siehst",
+      "er/sie/es/man": "sieht",
+      "wir/Sie/sie (pl.)": "sehen",
+      "ihr": "seht"
+    },
+    "partizip": "gesehen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to see"
+  },
+  {
+    "word": "tragen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "trage",
+      "du": "trägst",
+      "er/sie/es/man": "trägt",
+      "wir/Sie/sie (pl.)": "tragen",
+      "ihr": "tragt"
+    },
+    "partizip": "getragen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to wear / carry"
+  },
+  {
+    "word": "bekommen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "bekomme",
+      "du": "bekommst",
+      "er/sie/es/man": "bekommt",
+      "wir/Sie/sie (pl.)": "bekommen",
+      "ihr": "bekommt"
+    },
+    "partizip": "bekommen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to receive"
+  },
+  {
+    "word": "kennen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "kenne",
+      "du": "kennst",
+      "er/sie/es/man": "kennt",
+      "wir/Sie/sie (pl.)": "kennen",
+      "ihr": "kennt"
+    },
+    "partizip": "gekannt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to know (person)"
+  },
+  {
+    "word": "mitbringen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "bringe ... mit",
+      "du": "bringst ... mit",
+      "er/sie/es/man": "bringt ... mit",
+      "wir/Sie/sie (pl.)": "bringen ... mit",
+      "ihr": "bringt ... mit"
+    },
+    "partizip": "mitgebracht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to bring along"
+  },
+  {
+    "word": "wissen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "weiß",
+      "du": "weißt",
+      "er/sie/es/man": "weiß",
+      "wir/Sie/sie (pl.)": "wissen",
+      "ihr": "wisst"
+    },
+    "partizip": "gewusst",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to know (fact)"
+  },
+  {
+    "word": "können",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "kann",
+      "du": "kannst",
+      "er/sie/es/man": "kann",
+      "wir/Sie/sie (pl.)": "können",
+      "ihr": "könnt"
+    },
+    "partizip": "(gekonnt)",
+    "category": "Verben",
+    "type": "verb",
+    "english": "can / to be able"
+  },
+  {
+    "word": "mögen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "mag",
+      "du": "magst",
+      "er/sie/es/man": "mag",
+      "wir/Sie/sie (pl.)": "mögen",
+      "ihr": "mögt"
+    },
+    "partizip": "(gemocht)",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to like"
+  },
+  {
+    "word": "dürfen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "darf",
+      "du": "darfst",
+      "er/sie/es/man": "darf",
+      "wir/Sie/sie (pl.)": "dürfen",
+      "ihr": "dürft"
+    },
+    "partizip": "(gedurft)",
+    "category": "Verben",
+    "type": "verb",
+    "english": "may / to be allowed"
+  },
+  {
+    "word": "müssen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "muss",
+      "du": "mussst",
+      "er/sie/es/man": "muss",
+      "wir/Sie/sie (pl.)": "müssen",
+      "ihr": "müsst"
+    },
+    "partizip": "(gemusst)",
+    "category": "Verben",
+    "type": "verb",
+    "english": "must / to have to"
+  },
+  {
+    "word": "anmachen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "mache … an",
+      "du": "machst … an",
+      "er/sie/es/man": "macht … an",
+      "wir/Sie/sie (pl.)": "machen … an",
+      "ihr": "macht … an"
+    },
+    "partizip": "angemacht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to turn on"
+  },
+  {
+    "word": "anzünden",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "zünde ... an",
+      "du": "zündest ... an",
+      "er/sie/es/man": "zündet ... an",
+      "wir/Sie/sie (pl.)": "zünden ... an",
+      "ihr": "zündet ... an"
+    },
+    "partizip": "angezündet",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to light"
+  },
+  {
+    "word": "aufhören",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "höre … auf",
+      "du": "hörst … auf",
+      "er/sie/es/man": "hört … auf",
+      "wir/Sie/sie (pl.)": "hören … auf",
+      "ihr": "hört … auf"
+    },
+    "partizip": "aufgehört",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to stop"
+  },
+  {
+    "word": "aufmachen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "mache … auf",
+      "du": "machst … auf",
+      "er/sie/es/man": "macht … auf",
+      "wir/Sie/sie (pl.)": "machen … auf",
+      "ihr": "macht … auf"
+    },
+    "partizip": "aufgemacht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to open"
+  },
+  {
+    "word": "ausatmen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "atme ... aus",
+      "du": "atmest ... aus",
+      "er/sie/es/man": "atmet ... aus",
+      "wir/Sie/sie (pl.)": "atmen ... aus",
+      "ihr": "atmet ... aus"
+    },
+    "partizip": "ausgeatmet",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to exhale"
+  },
+  {
+    "word": "ausmachen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "mache … aus",
+      "du": "machst … aus",
+      "er/sie/es/man": "macht … aus",
+      "wir/Sie/sie (pl.)": "machen … aus",
+      "ihr": "macht … aus"
+    },
+    "partizip": "ausgemacht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to turn off"
+  },
+  {
+    "word": "auspacken",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "packe ... aus",
+      "du": "packst ... aus",
+      "er/sie/es/man": "packt ... aus",
+      "wir/Sie/sie (pl.)": "packen ... aus",
+      "ihr": "packt ... aus"
+    },
+    "partizip": "ausgepackt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to unpack"
+  },
+  {
+    "word": "auspusten",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "puste ... aus",
+      "du": "pustest aus",
+      "er/sie/es/man": "pustet ... aus",
+      "wir/Sie/sie (pl.)": "pusten ... aus",
+      "ihr": "pustet ... aus"
+    },
+    "partizip": "ausgepustet",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to blow out"
+  },
+  {
+    "word": "einatmen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "atme ... ein",
+      "du": "atmest ... ein",
+      "er/sie/es/man": "atmet ... ein",
+      "wir/Sie/sie (pl.)": "atmen ... ein",
+      "ihr": "atmet ... ein"
+    },
+    "partizip": "eingeatmet",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to inhale"
+  },
+  {
+    "word": "einpacken",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "packe ... ein",
+      "du": "packst ... ein",
+      "er/sie/es/man": "packt ... ein",
+      "wir/Sie/sie (pl.)": "packen ... ein",
+      "ihr": "packt ... ein"
+    },
+    "partizip": "eingepackt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to pack"
+  },
+  {
+    "word": "mitmachen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "mache … mit",
+      "du": "machst … mit",
+      "er/sie/es/man": "macht … mit",
+      "wir/Sie/sie (pl.)": "machen … mit",
+      "ihr": "macht … mit"
+    },
+    "partizip": "mitgemacht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to participate"
+  },
+  {
+    "word": "wegpacken",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "packe ... weg",
+      "du": "packst ... weg",
+      "er/sie/es/man": "packt ... weg",
+      "wir/Sie/sie (pl.)": "packen ... weg",
+      "ihr": "packt ... weg"
+    },
+    "partizip": "weggepackt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to put away"
+  },
+  {
+    "word": "weitermachen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "mache … weiter",
+      "du": "machst … weiter",
+      "er/sie/es/man": "macht … weiter",
+      "wir/Sie/sie (pl.)": "machen … weiter",
+      "ihr": "macht … weiter"
+    },
+    "partizip": "weitergemacht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to continue"
+  },
+  {
+    "word": "zuhören",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "höre … zu",
+      "du": "hörst … zu",
+      "er/sie/es/man": "hört … zu",
+      "wir/Sie/sie (pl.)": "hören … zu",
+      "ihr": "hört … zu"
+    },
+    "partizip": "zugehört",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to listen"
+  },
+  {
+    "word": "zumachen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "mache … zu",
+      "du": "machst … zu",
+      "er/sie/es/man": "macht … zu",
+      "wir/Sie/sie (pl.)": "machen … zu",
+      "ihr": "macht … zu"
+    },
+    "partizip": "zugemacht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to close"
+  },
+  {
+    "word": "arbeiten",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "arbeite",
+      "du": "arbeitest",
+      "er/sie/es/man": "arbeitet",
+      "wir/Sie/sie (pl.)": "arbeiten",
+      "ihr": "arbeitet"
+    },
+    "partizip": "gearbeitet",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to work"
+  },
+  {
+    "word": "brauchen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "brauche",
+      "du": "brauchst",
+      "er/sie/es/man": "braucht",
+      "wir/Sie/sie (pl.)": "brauchen",
+      "ihr": "braucht"
+    },
+    "partizip": "gebraucht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to need"
+  },
+  {
+    "word": "enden",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "ende",
+      "du": "endest",
+      "er/sie/es/man": "endet",
+      "wir/Sie/sie (pl.)": "enden",
+      "ihr": "endet"
+    },
+    "partizip": "geendet",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to end"
+  },
+  {
+    "word": "fühlen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "fühle",
+      "du": "fühlst",
+      "er/sie/es/man": "fühlt",
+      "wir/Sie/sie (pl.)": "fühlen",
+      "ihr": "fühlt"
+    },
+    "partizip": "gefühlt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to feel"
+  },
+  {
+    "word": "glauben",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "glaube",
+      "du": "glaubst",
+      "er/sie/es/man": "glaubt",
+      "wir/Sie/sie (pl.)": "glauben",
+      "ihr": "glaubt"
+    },
+    "partizip": "geglaubt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to believe"
+  },
+  {
+    "word": "gucken",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "gucke",
+      "du": "guckst",
+      "er/sie/es/man": "guckt",
+      "wir/Sie/sie (pl.)": "gucken",
+      "ihr": "guckt"
+    },
+    "partizip": "geguckt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to look"
+  },
+  {
+    "word": "haben",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "habe",
+      "du": "hast",
+      "er/sie/es/man": "hat",
+      "wir/Sie/sie (pl.)": "haben",
+      "ihr": "habt"
+    },
+    "partizip": "gehabt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to have"
+  },
+  {
+    "word": "hören",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "höre",
+      "du": "hörst",
+      "er/sie/es/man": "hört",
+      "wir/Sie/sie (pl.)": "hören",
+      "ihr": "hört"
+    },
+    "partizip": "gehört",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to hear"
+  },
+  {
+    "word": "joggen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "jogge",
+      "du": "joggst",
+      "er/sie/es/man": "joggt",
+      "wir/Sie/sie (pl.)": "joggen",
+      "ihr": "joggt"
+    },
+    "partizip": "gejoggt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to jog"
+  },
+  {
+    "word": "kochen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "koche",
+      "du": "kochst",
+      "er/sie/es/man": "kocht",
+      "wir/Sie/sie (pl.)": "kochen",
+      "ihr": "kocht"
+    },
+    "partizip": "gekocht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to cook"
+  },
+  {
+    "word": "lachen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "lache",
+      "du": "lachst",
+      "er/sie/es/man": "lacht",
+      "wir/Sie/sie (pl.)": "lachen",
+      "ihr": "lacht"
+    },
+    "partizip": "gelacht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to laugh"
+  },
+  {
+    "word": "leben",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "lebe",
+      "du": "lebst",
+      "er/sie/es/man": "lebt",
+      "wir/Sie/sie (pl.)": "leben",
+      "ihr": "lebt"
+    },
+    "partizip": "gelebt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to live"
+  },
+  {
+    "word": "lernen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "lerne",
+      "du": "lernst",
+      "er/sie/es/man": "lernt",
+      "wir/Sie/sie (pl.)": "lernen",
+      "ihr": "lernt"
+    },
+    "partizip": "gelernt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to learn"
+  },
+  {
+    "word": "lesen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "lese",
+      "du": "liest",
+      "er/sie/es/man": "liest",
+      "wir/Sie/sie (pl.)": "lesen",
+      "ihr": "lest"
+    },
+    "partizip": "gelesen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to read"
+  },
+  {
+    "word": "lieben",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "liebe",
+      "du": "liebst",
+      "er/sie/es/man": "liebt",
+      "wir/Sie/sie (pl.)": "lieben",
+      "ihr": "liebt"
+    },
+    "partizip": "geliebt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to love"
+  },
+  {
+    "word": "machen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "mache",
+      "du": "machst",
+      "er/sie/es/man": "macht",
+      "wir/Sie/sie (pl.)": "machen",
+      "ihr": "macht"
+    },
+    "partizip": "gemacht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to make / do"
+  },
+  {
+    "word": "malen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "male",
+      "du": "malst",
+      "er/sie/es/man": "malt",
+      "wir/Sie/sie (pl.)": "malen",
+      "ihr": "malt"
+    },
+    "partizip": "gemalt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to paint"
+  },
+  {
+    "word": "öffnen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "öffne",
+      "du": "öffnest",
+      "er/sie/es/man": "öffnet",
+      "wir/Sie/sie (pl.)": "öffnen",
+      "ihr": "öffnet"
+    },
+    "partizip": "geöffnet",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to open"
+  },
+  {
+    "word": "passen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "passe",
+      "du": "passt",
+      "er/sie/es/man": "passt",
+      "wir/Sie/sie (pl.)": "passen",
+      "ihr": "passt"
+    },
+    "partizip": "gepasst",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to fit"
+  },
+  {
+    "word": "puzzeln",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "puzzele",
+      "du": "puzzelst",
+      "er/sie/es/man": "puzzelt",
+      "wir/Sie/sie (pl.)": "puzzeln",
+      "ihr": "puzzelt"
+    },
+    "partizip": "gepuzzelt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to do puzzles"
+  },
+  {
+    "word": "rauchen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "rauche",
+      "du": "rauchst",
+      "er/sie/es/man": "raucht",
+      "wir/Sie/sie (pl.)": "rauchen",
+      "ihr": "raucht"
+    },
+    "partizip": "geraucht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to smoke"
+  },
+  {
+    "word": "sagen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "sage",
+      "du": "sagst",
+      "er/sie/es/man": "sagt",
+      "wir/Sie/sie (pl.)": "sagen",
+      "ihr": "sagt"
+    },
+    "partizip": "gesagt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to say"
+  },
+  {
+    "word": "spielen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "spiele",
+      "du": "spielst",
+      "er/sie/es/man": "spielt",
+      "wir/Sie/sie (pl.)": "spielen",
+      "ihr": "spielt"
+    },
+    "partizip": "gespielt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to play"
+  },
+  {
+    "word": "spüren",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "spürst",
+      "du": "spürst",
+      "er/sie/es/man": "spürt",
+      "wir/Sie/sie (pl.)": "spüren",
+      "ihr": "spürt"
+    },
+    "partizip": "gespürt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to sense"
+  },
+  {
+    "word": "stimmen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "stimme",
+      "du": "stimmst",
+      "er/sie/es/man": "stimmt",
+      "wir/Sie/sie (pl.)": "stimmen",
+      "ihr": "stimmt"
+    },
+    "partizip": "gestimmt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to be correct"
+  },
+  {
+    "word": "tanzen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "tanze",
+      "du": "tanzt",
+      "er/sie/es/man": "tanzt",
+      "wir/Sie/sie (pl.)": "tanzen",
+      "ihr": "tanzt"
+    },
+    "partizip": "getanzt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to dance"
+  },
+  {
+    "word": "wandern",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "wandere",
+      "du": "wanderst",
+      "er/sie/es/man": "wandert",
+      "wir/Sie/sie (pl.)": "wandern",
+      "ihr": "wandert"
+    },
+    "partizip": "gewandert",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to hike"
+  },
+  {
+    "word": "wohnen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "wohne",
+      "du": "wohnst",
+      "er/sie/es/man": "wohnt",
+      "wir/Sie/sie (pl.)": "wohnen",
+      "ihr": "wohnt"
+    },
+    "partizip": "gewohnt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to live (reside)"
+  },
+  {
+    "word": "wollen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "will",
+      "du": "willst",
+      "er/sie/es/man": "will",
+      "wir/Sie/sie (pl.)": "wollen",
+      "ihr": "wollt"
+    },
+    "partizip": "(gewollt)",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to want"
+  },
+  {
+    "word": "zeigen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "zeige",
+      "du": "zeigst",
+      "er/sie/es/man": "zeigt",
+      "wir/Sie/sie (pl.)": "zeigen",
+      "ihr": "zeigt"
+    },
+    "partizip": "gezeigt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to show"
+  },
+  {
+    "word": "buchstabieren",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "buchstabiere",
+      "du": "buchstabierst",
+      "er/sie/es/man": "buchstabiert",
+      "wir/Sie/sie (pl.)": "buchstabieren",
+      "ihr": "buchstabiert"
+    },
+    "partizip": "buchstabiert",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to spell"
+  },
+  {
+    "word": "fotografieren",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "fotografiere",
+      "du": "fotografierst",
+      "er/sie/es/man": "fotografiert",
+      "wir/Sie/sie (pl.)": "fotografieren",
+      "ihr": "fotografiert"
+    },
+    "partizip": "fotografiert",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to photograph"
+  },
+  {
+    "word": "passieren",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "x",
+      "du": "x",
+      "er/sie/es/man": "passiert",
+      "wir/Sie/sie (pl.)": "x",
+      "ihr": "x"
+    },
+    "partizip": "passiert",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to happen"
+  },
+  {
+    "word": "probieren",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "probiere",
+      "du": "probierst",
+      "er/sie/es/man": "probiert",
+      "wir/Sie/sie (pl.)": "probieren",
+      "ihr": "probiert"
+    },
+    "partizip": "probiert",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to try"
+  },
+  {
+    "word": "studieren",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "studiere",
+      "du": "studierst",
+      "er/sie/es/man": "studiert",
+      "wir/Sie/sie (pl.)": "studieren",
+      "ihr": "studiert"
+    },
+    "partizip": "studiert",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to study"
+  },
+  {
+    "word": "telefonieren",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "telefoniere",
+      "du": "telefonierst",
+      "er/sie/es/man": "telefoniert",
+      "wir/Sie/sie (pl.)": "telefonieren",
+      "ihr": "telefoniert"
+    },
+    "partizip": "telefoniert",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to phone"
+  },
+  {
+    "word": "blitzen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "x",
+      "du": "x",
+      "er/sie/es/man": "blitzt",
+      "wir/Sie/sie (pl.)": "x",
+      "ihr": "x"
+    },
+    "partizip": "geblitzt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to lightning"
+  },
+  {
+    "word": "regnen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "x",
+      "du": "x",
+      "er/sie/es/man": "regnet",
+      "wir/Sie/sie (pl.)": "x",
+      "ihr": "x"
+    },
+    "partizip": "geregnet",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to rain"
+  },
+  {
+    "word": "donnern",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "x",
+      "du": "x",
+      "er/sie/es/man": "donnert",
+      "wir/Sie/sie (pl.)": "x",
+      "ihr": "x"
+    },
+    "partizip": "gedonnert",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to thunder"
+  },
+  {
+    "word": "schneien",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "x",
+      "du": "x",
+      "er/sie/es/man": "schneit",
+      "wir/Sie/sie (pl.)": "x",
+      "ihr": "x"
+    },
+    "partizip": "geschneit",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to snow"
+  },
+  {
+    "word": "scheinen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "x",
+      "du": "x",
+      "er/sie/es/man": "scheint",
+      "wir/Sie/sie (pl.)": "x",
+      "ihr": "x"
+    },
+    "partizip": "geschienen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to shine / seem"
+  },
+  {
+    "word": "fehlen (Dat.)",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "x",
+      "du": "x",
+      "er/sie/es/man": "fehlt",
+      "wir/Sie/sie (pl.)": "fehlen",
+      "ihr": "x"
+    },
+    "partizip": "gefehlt",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to be missing"
+  },
+  {
+    "word": "passen (Dat.)",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "x",
+      "du": "x",
+      "er/sie/es/man": "passt",
+      "wir/Sie/sie (pl.)": "passen",
+      "ihr": "x"
+    },
+    "partizip": "gepasst",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to suit"
+  },
+  {
+    "word": "stehen (Dat.)",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "x",
+      "du": "x",
+      "er/sie/es/man": "steht",
+      "wir/Sie/sie (pl.)": "stehen",
+      "ihr": "x"
+    },
+    "partizip": "gestanden",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to suit (clothing)"
+  },
+  {
+    "word": "gefallen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "gefalle",
+      "du": "gefällst",
+      "er/sie/es/man": "gefällt",
+      "wir/Sie/sie (pl.)": "gefallen",
+      "ihr": "gefallt"
+    },
+    "partizip": "gefallen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to please"
+  },
+  {
+    "word": "helfen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "helfe",
+      "du": "hilfst",
+      "er/sie/es/man": "hilft",
+      "wir/Sie/sie (pl.)": "helfen",
+      "ihr": "helft"
+    },
+    "partizip": "geholfen",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to help"
+  },
+  {
+    "word": "warten",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "warte",
+      "du": "wartest",
+      "er/sie/es/man": "wartet",
+      "wir/Sie/sie (pl.)": "warten",
+      "ihr": "wartet"
+    },
+    "partizip": "gewartet",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to wait"
+  },
+  {
+    "word": "suchen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "conjugations": {
+      "ich": "suche",
+      "du": "suchst",
+      "er/sie/es/man": "sucht",
+      "wir/Sie/sie (pl.)": "suchen",
+      "ihr": "sucht"
+    },
+    "partizip": "gesucht",
+    "category": "Verben",
+    "type": "verb",
+    "english": "to search"
+  },
+  {
+    "word": "alt",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "älter",
+    "superlativ": "am ältesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "old"
+  },
+  {
+    "word": "anstrengend",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "anstrengender",
+    "superlativ": "am anstrengendsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "exhausting"
+  },
+  {
+    "word": "chaotisch",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "chaotischer",
+    "superlativ": "am chaotischsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "chaotic"
+  },
+  {
+    "word": "echt",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "echter",
+    "superlativ": "am echtesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "real / really"
+  },
+  {
+    "word": "furchtbar",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "furchtbarer",
+    "superlativ": "am furchtbarsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "terrible"
+  },
+  {
+    "word": "groß",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "größer",
+    "superlativ": "am größten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "big / tall"
+  },
+  {
+    "word": "interessant",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "interessanter",
+    "superlativ": "am interessantesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "interesting"
+  },
+  {
+    "word": "kaputt",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "kaputter",
+    "superlativ": "am kaputtesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "broken"
+  },
+  {
+    "word": "klein",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "kleiner",
+    "superlativ": "am kleinsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "small"
+  },
+  {
+    "word": "langweilig",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "langweiliger",
+    "superlativ": "am langweiligsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "boring"
+  },
+  {
+    "word": "lecker",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "leckerer",
+    "superlativ": "am leckersten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "delicious"
+  },
+  {
+    "word": "nervig",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "nerviger",
+    "superlativ": "am nervigsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "annoying"
+  },
+  {
+    "word": "hoch",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "höher",
+    "superlativ": "am höchsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "high"
+  },
+  {
+    "word": "neu",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "neuer",
+    "superlativ": "am neusten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "new"
+  },
+  {
+    "word": "phantastisch",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "phantastischer",
+    "superlativ": "am phantastisch",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "fantastic"
+  },
+  {
+    "word": "schwierig",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "schwieriger",
+    "superlativ": "am schwierigsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "difficult"
+  },
+  {
+    "word": "spannend",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "spannender",
+    "superlativ": "am spannendsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "exciting"
+  },
+  {
+    "word": "still",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "stiller",
+    "superlativ": "am stillsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "quiet"
+  },
+  {
+    "word": "stressig",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "stressiger",
+    "superlativ": "am stressigsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "stressful"
+  },
+  {
+    "word": "super",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "x",
+    "superlativ": "x",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "super / great"
+  },
+  {
+    "word": "teuer",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "teurer",
+    "superlativ": "am teuersten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "expensive"
+  },
+  {
+    "word": "toll",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "toller",
+    "superlativ": "am tollsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "great"
+  },
+  {
+    "word": "vorsichtig",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "vorsichtiger",
+    "superlativ": "am vorsichtigsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "careful"
+  },
+  {
+    "word": "wunderbar",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "wunderbarer",
+    "superlativ": "am wunderbarsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "wonderful"
+  },
+  {
+    "word": "rot",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "röter (roter)",
+    "superlativ": "am rötesten (rotesten)",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "red"
+  },
+  {
+    "word": "blau",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "blauer",
+    "superlativ": "am blauesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "blue"
+  },
+  {
+    "word": "grün",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "grüner",
+    "superlativ": "am grünsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "green"
+  },
+  {
+    "word": "gelb",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "gelber",
+    "superlativ": "am gelbsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "yellow"
+  },
+  {
+    "word": "orange",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "?",
+    "superlativ": "?",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "orange"
+  },
+  {
+    "word": "violett",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "violetter",
+    "superlativ": "am violettesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "violet"
+  },
+  {
+    "word": "lila",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "x",
+    "superlativ": "x",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "purple"
+  },
+  {
+    "word": "schwarz",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "schwärzer",
+    "superlativ": "am schwärzesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "black"
+  },
+  {
+    "word": "weiß",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "weißer",
+    "superlativ": "am weißesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "white"
+  },
+  {
+    "word": "grau",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "grauer",
+    "superlativ": "am grauesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "gray"
+  },
+  {
+    "word": "braun",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "brauner",
+    "superlativ": "am braunsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "brown"
+  },
+  {
+    "word": "rosa",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "x",
+    "superlativ": "x",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "pink"
+  },
+  {
+    "word": "pink",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "?",
+    "superlativ": "?",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "pink"
+  },
+  {
+    "word": "türkis",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "?",
+    "superlativ": "?",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "turquoise"
+  },
+  {
+    "word": "krank",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "kränker",
+    "superlativ": "am kränkesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "sick"
+  },
+  {
+    "word": "gesund",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "gesünder",
+    "superlativ": "am gesündesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "healthy"
+  },
+  {
+    "word": "fit",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "fitter",
+    "superlativ": "am fittesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "fit"
+  },
+  {
+    "word": "übel",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "übler",
+    "superlativ": "am übelsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "nauseous"
+  },
+  {
+    "word": "schlecht",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "schlechter",
+    "superlativ": "am schlechtesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "bad"
+  },
+  {
+    "word": "heiß",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "heißer",
+    "superlativ": "am heißesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "hot"
+  },
+  {
+    "word": "kalt",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "kälter",
+    "superlativ": "am kältesten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "cold"
+  },
+  {
+    "word": "warm",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "wärmer",
+    "superlativ": "am wärmsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "warm"
+  },
+  {
+    "word": "verheiratet",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "x",
+    "superlativ": "x",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "married"
+  },
+  {
+    "word": "ledig",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "x",
+    "superlativ": "x",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "single"
+  },
+  {
+    "word": "geschieden",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "x",
+    "superlativ": "x",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "divorced"
+  },
+  {
+    "word": "viel",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "mehr",
+    "superlativ": "am meisten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "much / many"
+  },
+  {
+    "word": "gern",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "lieber",
+    "superlativ": "am liebsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "gladly"
+  },
+  {
+    "word": "wenig",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "weniger",
+    "superlativ": "am wenigsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "little / few"
+  },
+  {
+    "word": "gut",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "besser",
+    "superlativ": "am besten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "good"
+  },
+  {
+    "word": "stark",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "stärker",
+    "superlativ": "am stärksten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "strong"
+  },
+  {
+    "word": "schwach",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "komparativ": "schwächer",
+    "superlativ": "am schwächsten",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "weak"
+  },
+  {
+    "word": "jetzt",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Zeit",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "now"
+  },
+  {
+    "word": "schon",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Zeit",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "already"
+  },
+  {
+    "word": "erst",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Zeit",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "only / first"
+  },
+  {
+    "word": "gestern",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Zeit",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "yesterday"
+  },
+  {
+    "word": "morgen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Zeit",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "tomorrow"
+  },
+  {
+    "word": "heute",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Zeit",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "today"
+  },
+  {
+    "word": "vorgestern",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Zeit",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "day before yesterday"
+  },
+  {
+    "word": "übermorgen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Zeit",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "day after tomorrow"
+  },
+  {
+    "word": "bald",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Zeit",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "soon"
+  },
+  {
+    "word": "in",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Präp.",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "in"
+  },
+  {
+    "word": "aus",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Präp.",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "out / from"
+  },
+  {
+    "word": "bei",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Präp.",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "at / with"
+  },
+  {
+    "word": "von",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Präp.",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "from / of"
+  },
+  {
+    "word": "an",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Präp.",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "at / on"
+  },
+  {
+    "word": "mit",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Präp.",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "with"
+  },
+  {
+    "word": "ohne",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Präp.",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "without"
+  },
+  {
+    "word": "hier",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Ort",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "here"
+  },
+  {
+    "word": "dort",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Ort",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "there"
+  },
+  {
+    "word": "da",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Ort",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "there / here"
+  },
+  {
+    "word": "und",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Konj.",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "and"
+  },
+  {
+    "word": "oder",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Konj.",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "or"
+  },
+  {
+    "word": "aber",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Konj.",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "but"
+  },
+  {
+    "word": "immer",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Frequenz",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "always"
+  },
+  {
+    "word": "oft",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Frequenz",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "often"
+  },
+  {
+    "word": "nie",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Frequenz",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "never"
+  },
+  {
+    "word": "selten",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Frequenz",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "rarely"
+  },
+  {
+    "word": "manchmal",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "Frequenz",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "sometimes"
+  },
+  {
+    "word": "auch",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "also"
+  },
+  {
+    "word": "nicht",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "not"
+  },
+  {
+    "word": "ziemlich",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "quite"
+  },
+  {
+    "word": "ein bisschen",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "a little bit"
+  },
+  {
+    "word": "vielleicht",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "maybe"
+  },
+  {
+    "word": "hoffentlich",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "hopefully"
+  },
+  {
+    "word": "sehr",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "very"
+  },
+  {
+    "word": "wahrscheinlich",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "probably"
+  },
+  {
+    "word": "gern (e)",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "gladly"
+  },
+  {
+    "word": "gerade",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "partikelType": "",
+    "category": "Partikel",
+    "type": "particle",
+    "english": "just / right now"
+  },
+  {
+    "word": "der",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "kasus": "Nominativ",
+    "geschlecht": "maskulin",
+    "indefinit": "ein",
+    "negation": "kein",
+    "possessiv": "mein",
+    "demonstrativ": "dieser",
+    "category": "Artikel",
+    "type": "article_declension",
+    "english": "the (masc.)"
+  },
+  {
+    "word": "das",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "kasus": "Nominativ",
+    "geschlecht": "neutrum",
+    "indefinit": "ein",
+    "negation": "kein",
+    "possessiv": "mein",
+    "demonstrativ": "dieses",
+    "category": "Artikel",
+    "type": "article_declension",
+    "english": "the (neut.)"
+  },
+  {
+    "word": "die",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "kasus": "Nominativ",
+    "geschlecht": "feminin",
+    "indefinit": "eine",
+    "negation": "keine",
+    "possessiv": "meine",
+    "demonstrativ": "diese",
+    "category": "Artikel",
+    "type": "article_declension",
+    "english": "the (fem./pl.)"
+  },
+  {
+    "word": "die",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "kasus": "Nominativ",
+    "geschlecht": "Plural",
+    "indefinit": "",
+    "negation": "keine",
+    "possessiv": "meine",
+    "demonstrativ": "diese",
+    "category": "Artikel",
+    "type": "article_declension",
+    "english": "the (fem./pl.)"
+  },
+  {
+    "word": "den",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "kasus": "Akkusativ",
+    "geschlecht": "maskulin",
+    "indefinit": "einen",
+    "negation": "keinen",
+    "possessiv": "meinen",
+    "demonstrativ": "diesen",
+    "category": "Artikel",
+    "type": "article_declension",
+    "english": "the (masc. acc.)"
+  },
+  {
+    "word": "das",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "kasus": "Akkusativ",
+    "geschlecht": "neutrum",
+    "indefinit": "ein",
+    "negation": "kein",
+    "possessiv": "mein",
+    "demonstrativ": "dieses",
+    "category": "Artikel",
+    "type": "article_declension",
+    "english": "the (neut.)"
+  },
+  {
+    "word": "die",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "kasus": "Akkusativ",
+    "geschlecht": "feminin",
+    "indefinit": "eine",
+    "negation": "keine",
+    "possessiv": "meine",
+    "demonstrativ": "diese",
+    "category": "Artikel",
+    "type": "article_declension",
+    "english": "the (fem./pl.)"
+  },
+  {
+    "word": "die",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "kasus": "Akkusativ",
+    "geschlecht": "Plural",
+    "indefinit": "",
+    "negation": "keine",
+    "possessiv": "meine",
+    "demonstrativ": "diese",
+    "category": "Artikel",
+    "type": "article_declension",
+    "english": "the (fem./pl.)"
+  },
+  {
+    "word": "dem",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "kasus": "Dativ",
+    "geschlecht": "maskulin",
+    "indefinit": "einem",
+    "negation": "keinem",
+    "possessiv": "meinem",
+    "demonstrativ": "diesem",
+    "category": "Artikel",
+    "type": "article_declension",
+    "english": "the (masc./neut. dat.)"
+  },
+  {
+    "word": "dem",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "kasus": "Dativ",
+    "geschlecht": "neutrum",
+    "indefinit": "einem",
+    "negation": "keinem",
+    "possessiv": "meinem",
+    "demonstrativ": "diesem",
+    "category": "Artikel",
+    "type": "article_declension",
+    "english": "the (masc./neut. dat.)"
+  },
+  {
+    "word": "der",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "kasus": "Dativ",
+    "geschlecht": "feminin",
+    "indefinit": "einer",
+    "negation": "keiner",
+    "possessiv": "meiner",
+    "demonstrativ": "dieser",
+    "category": "Artikel",
+    "type": "article_declension",
+    "english": "the (masc.)"
+  },
+  {
+    "word": "den",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "kasus": "Dativ",
+    "geschlecht": "Plural",
+    "indefinit": "",
+    "negation": "keinen",
+    "possessiv": "meinen",
+    "demonstrativ": "diesen",
+    "category": "Artikel",
+    "type": "article_declension",
+    "english": "the (masc. acc.)"
+  },
+  {
+    "word": "woher",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Fragewörter",
+    "type": "question_word",
+    "english": "where from"
+  },
+  {
+    "word": "was",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Fragewörter",
+    "type": "question_word",
+    "english": "what"
+  },
+  {
+    "word": "wo",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Fragewörter",
+    "type": "question_word",
+    "english": "where"
+  },
+  {
+    "word": "wie",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Fragewörter",
+    "type": "question_word",
+    "english": "how"
+  },
+  {
+    "word": "welche",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Fragewörter",
+    "type": "question_word",
+    "english": "which"
+  },
+  {
+    "word": "wer",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Fragewörter",
+    "type": "question_word",
+    "english": "who"
+  },
+  {
+    "word": "wohin",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Fragewörter",
+    "type": "question_word",
+    "english": "where to"
+  },
+  {
+    "word": "warum",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Fragewörter",
+    "type": "question_word",
+    "english": "why"
+  },
+  {
+    "word": "wieso",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Fragewörter",
+    "type": "question_word",
+    "english": "why"
+  },
+  {
+    "word": "Freund",
+    "article": "der",
+    "plural": "Freunde",
+    "pluralArticle": "die",
+    "feminine": "Freundin",
+    "femininePlural": "Freundinnen",
+    "category": "Personen",
+    "type": "noun",
+    "english": "friend"
+  },
+  {
+    "word": "Politiker",
+    "article": "der",
+    "plural": "Politiker",
+    "pluralArticle": "die",
+    "feminine": "Politikerin",
+    "femininePlural": "Politikerinnen",
+    "category": "Personen",
+    "type": "noun",
+    "english": "politician"
+  },
+  {
+    "word": "Vegetarier",
+    "article": "der",
+    "plural": "Vegetarier",
+    "pluralArticle": "die",
+    "feminine": "Vegetarierin",
+    "femininePlural": "Vegetarierinnen",
+    "category": "Personen",
+    "type": "noun",
+    "english": "vegetarian"
+  },
+  {
+    "word": "Präsident",
+    "article": "der",
+    "plural": "Präsidenten",
+    "pluralArticle": "die",
+    "feminine": "Präsidentin",
+    "femininePlural": "Präsidentinnen",
+    "category": "Personen",
+    "type": "noun",
+    "english": "president"
+  },
+  {
+    "word": "Bundeskanzler",
+    "article": "der",
+    "plural": "Bundeskanzler",
+    "pluralArticle": "die",
+    "feminine": "Bundeskanzlerin",
+    "femininePlural": "Bundeskanzlerinnen",
+    "category": "Personen",
+    "type": "noun",
+    "english": "chancellor"
+  },
+  {
+    "word": "Student",
+    "article": "der",
+    "plural": "Studenten",
+    "pluralArticle": "die",
+    "feminine": "Studentin",
+    "femininePlural": "Studentinnen",
+    "category": "Personen",
+    "type": "noun",
+    "english": "student"
+  },
+  {
+    "word": "Schüler",
+    "article": "der",
+    "plural": "Schüler",
+    "pluralArticle": "die",
+    "feminine": "Schülerin",
+    "femininePlural": "Schülerinnen",
+    "category": "Personen",
+    "type": "noun",
+    "english": "pupil"
+  },
+  {
+    "word": "Pilot",
+    "article": "der",
+    "plural": "Piloten",
+    "pluralArticle": "die",
+    "feminine": "Pilotin",
+    "femininePlural": "Pilotinnen",
+    "category": "Berufe",
+    "type": "noun",
+    "english": "pilot"
+  },
+  {
+    "word": "Polizist",
+    "article": "der",
+    "plural": "Polizisten",
+    "pluralArticle": "die",
+    "feminine": "Polizistin",
+    "femininePlural": "Polizistinnen",
+    "category": "Berufe",
+    "type": "noun",
+    "english": "police officer"
+  },
+  {
+    "word": "Koch",
+    "article": "der",
+    "plural": "Köche",
+    "pluralArticle": "die",
+    "feminine": "Köchin",
+    "femininePlural": "Köchinnen",
+    "category": "Berufe",
+    "type": "noun",
+    "english": "cook / chef"
+  },
+  {
+    "word": "Arzt",
+    "article": "der",
+    "plural": "Ärzte",
+    "pluralArticle": "die",
+    "feminine": "Ärztin",
+    "femininePlural": "Ärztinnen",
+    "category": "Berufe",
+    "type": "noun",
+    "english": "doctor"
+  },
+  {
+    "word": "Chemiker",
+    "article": "der",
+    "plural": "Chemiker",
+    "pluralArticle": "die",
+    "feminine": "Chemikerin",
+    "femininePlural": "Chemikerinnen",
+    "category": "Berufe",
+    "type": "noun",
+    "english": "chemist"
+  },
+  {
+    "word": "Busfahrer",
+    "article": "der",
+    "plural": "Busfahrer",
+    "pluralArticle": "die",
+    "feminine": "Busfahrerin",
+    "femininePlural": "Busfahrerinnen",
+    "category": "Berufe",
+    "type": "noun",
+    "english": "bus driver"
+  },
+  {
+    "word": "Lehrer",
+    "article": "der",
+    "plural": "Lehrer",
+    "pluralArticle": "die",
+    "feminine": "Lehrerin",
+    "femininePlural": "Lehrerinnen",
+    "category": "Berufe",
+    "type": "noun",
+    "english": "teacher"
+  },
+  {
+    "word": "Frisör",
+    "article": "der",
+    "plural": "Frisöre",
+    "pluralArticle": "die",
+    "feminine": "Frisörin",
+    "femininePlural": "Frisörinnen",
+    "category": "Berufe",
+    "type": "noun",
+    "english": "hairdresser"
+  },
+  {
+    "word": "Ehemann",
+    "article": "der",
+    "plural": "Ehemänner",
+    "pluralArticle": "die",
+    "feminine": "Ehefrau",
+    "femininePlural": "Ehefrauen",
+    "category": "Familie",
+    "type": "noun",
+    "english": "husband"
+  },
+  {
+    "word": "Kind",
+    "article": "das",
+    "plural": "Kinder",
+    "pluralArticle": "die",
+    "category": "Familie",
+    "type": "noun",
+    "english": "child"
+  },
+  {
+    "word": "Eltern",
+    "article": "",
+    "plural": "Eltern",
+    "pluralArticle": "die",
+    "category": "Familie",
+    "type": "noun",
+    "english": "parents"
+  },
+  {
+    "word": "Vater",
+    "article": "der",
+    "plural": "Väter",
+    "pluralArticle": "die",
+    "feminine": "Mutter",
+    "femininePlural": "Mütter",
+    "category": "Familie",
+    "type": "noun",
+    "english": "father"
+  },
+  {
+    "word": "Enkelkind",
+    "article": "das",
+    "plural": "Enkelkinder",
+    "pluralArticle": "die",
+    "category": "Familie",
+    "type": "noun",
+    "english": "grandchild"
+  },
+  {
+    "word": "Großeltern",
+    "article": "",
+    "plural": "Großeltern",
+    "pluralArticle": "die",
+    "category": "Familie",
+    "type": "noun",
+    "english": "grandparents"
+  },
+  {
+    "word": "Sohn",
+    "article": "der",
+    "plural": "Söhne",
+    "pluralArticle": "die",
+    "feminine": "Tochter",
+    "femininePlural": "Töchter",
+    "category": "Familie",
+    "type": "noun",
+    "english": "son"
+  },
+  {
+    "word": "Geschwister",
+    "article": "",
+    "plural": "Geschwister",
+    "pluralArticle": "die",
+    "category": "Familie",
+    "type": "noun",
+    "english": "siblings"
+  },
+  {
+    "word": "Bruder",
+    "article": "der",
+    "plural": "Brüder",
+    "pluralArticle": "die",
+    "feminine": "Schwester",
+    "femininePlural": "Schwestern",
+    "category": "Familie",
+    "type": "noun",
+    "english": "brother"
+  },
+  {
+    "word": "Großvater",
+    "article": "der",
+    "plural": "Großväter",
+    "pluralArticle": "die",
+    "feminine": "Großmutter",
+    "femininePlural": "Großmütter",
+    "category": "Familie",
+    "type": "noun",
+    "english": "grandfather"
+  },
+  {
+    "word": "Opa",
+    "article": "der",
+    "plural": "Opas",
+    "pluralArticle": "die",
+    "feminine": "Oma",
+    "femininePlural": "Omas",
+    "category": "Familie",
+    "type": "noun",
+    "english": "grandpa"
+  },
+  {
+    "word": "Enkel",
+    "article": "der",
+    "plural": "Enkel",
+    "pluralArticle": "die",
+    "feminine": "Enkelin",
+    "femininePlural": "Enkelinnen",
+    "category": "Familie",
+    "type": "noun",
+    "english": "grandson"
+  },
+  {
+    "word": "Onkel",
+    "article": "der",
+    "plural": "Onkel",
+    "pluralArticle": "die",
+    "feminine": "Tante",
+    "femininePlural": "Tanten",
+    "category": "Familie",
+    "type": "noun",
+    "english": "uncle"
+  },
+  {
+    "word": "Neffe",
+    "article": "der",
+    "plural": "Neffen",
+    "pluralArticle": "die",
+    "feminine": "Nichte",
+    "femininePlural": "Nichten",
+    "category": "Familie",
+    "type": "noun",
+    "english": "nephew"
+  },
+  {
+    "word": "Cousin",
+    "article": "der",
+    "plural": "Cousins",
+    "pluralArticle": "die",
+    "feminine": "Cousine",
+    "femininePlural": "Cousinen",
+    "category": "Familie",
+    "type": "noun",
+    "english": "cousin (male)"
+  },
+  {
+    "word": "Schwiegervater",
+    "article": "der",
+    "plural": "Schwiegerväter",
+    "pluralArticle": "die",
+    "feminine": "Schwiegermutter",
+    "femininePlural": "Schwiegermütter",
+    "category": "Familie",
+    "type": "noun",
+    "english": "father-in-law"
+  },
+  {
+    "word": "Schwieger …",
+    "article": "der",
+    "plural": "",
+    "pluralArticle": "die",
+    "feminine": "Schwieger …",
+    "femininePlural": "",
+    "category": "Familie",
+    "type": "noun",
+    "english": "in-law"
+  },
+  {
+    "word": "ich",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "possessive": "mein",
+    "category": "Pronomen",
+    "type": "pronoun",
+    "english": "I"
+  },
+  {
+    "word": "du",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "possessive": "dein",
+    "category": "Pronomen",
+    "type": "pronoun",
+    "english": "you (informal)"
+  },
+  {
+    "word": "Sie",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "possessive": "Ihr",
+    "category": "Pronomen",
+    "type": "pronoun",
+    "english": "you (formal)"
+  },
+  {
+    "word": "er",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "possessive": "sein",
+    "category": "Pronomen",
+    "type": "pronoun",
+    "english": "he"
+  },
+  {
+    "word": "sie",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "possessive": "ihr",
+    "category": "Pronomen",
+    "type": "pronoun",
+    "english": "she / they"
+  },
+  {
+    "word": "es",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "possessive": "sein",
+    "category": "Pronomen",
+    "type": "pronoun",
+    "english": "it"
+  },
+  {
+    "word": "man",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "possessive": "sein",
+    "category": "Pronomen",
+    "type": "pronoun",
+    "english": "one / you (general)"
+  },
+  {
+    "word": "wir",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "possessive": "unser",
+    "category": "Pronomen",
+    "type": "pronoun",
+    "english": "we"
+  },
+  {
+    "word": "ihr",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "possessive": "euer",
+    "category": "Pronomen",
+    "type": "pronoun",
+    "english": "you (plural)"
+  },
+  {
+    "word": "Sie",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "possessive": "Ihr",
+    "category": "Pronomen",
+    "type": "pronoun",
+    "english": "you (formal)"
+  },
+  {
+    "word": "sie",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "possessive": "ihr",
+    "category": "Pronomen",
+    "type": "pronoun",
+    "english": "she / they"
+  }
+]
