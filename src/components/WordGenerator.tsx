@@ -10,6 +10,7 @@ interface WordGeneratorProps {
 export default function WordGenerator({ onWordGenerated }: WordGeneratorProps) {
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
+  const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [generatedWord, setGeneratedWord] = useState<Word | null>(null);
 
@@ -41,11 +42,32 @@ export default function WordGenerator({ onWordGenerated }: WordGeneratorProps) {
     }
   };
 
-  const handleAdd = () => {
-    if (generatedWord) {
+  const handleAdd = async () => {
+    if (!generatedWord) return;
+
+    setSaving(true);
+    setError(null);
+
+    try {
+      const response = await fetch('/api/save-word', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ word: generatedWord }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to save word');
+      }
+
       onWordGenerated(generatedWord);
       setGeneratedWord(null);
       setInput('');
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to save word');
+    } finally {
+      setSaving(false);
     }
   };
 
@@ -154,13 +176,22 @@ export default function WordGenerator({ onWordGenerated }: WordGeneratorProps) {
           <div className="flex gap-3 mt-4">
             <button
               onClick={handleAdd}
-              className="flex-1 px-4 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
+              disabled={saving}
+              className="flex-1 px-4 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed transition flex items-center justify-center gap-2"
             >
-              ✓ Add to Collection
+              {saving ? (
+                <>
+                  <span className="animate-spin">⚙️</span>
+                  Saving...
+                </>
+              ) : (
+                <>✓ Add to Collection</>
+              )}
             </button>
             <button
               onClick={() => setGeneratedWord(null)}
-              className="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-500 transition"
+              disabled={saving}
+              className="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-500 disabled:opacity-50 transition"
             >
               Discard
             </button>

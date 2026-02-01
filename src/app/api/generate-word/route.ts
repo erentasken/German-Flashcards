@@ -88,66 +88,66 @@ IMPORTANT:
 - Be accurate with grammar (articles, plurals, conjugations)`;
 
 export async function POST(request: NextRequest) {
-    try {
-        const { word } = await request.json();
+  try {
+    const { word } = await request.json();
 
-        if (!word || typeof word !== 'string') {
-            return NextResponse.json({ error: 'Word is required' }, { status: 400 });
-        }
-
-        const apiKey = process.env.XAI_API_KEY;
-        if (!apiKey) {
-            return NextResponse.json({ error: 'Grok API key not configured' }, { status: 500 });
-        }
-
-        const response = await fetch('https://api.x.ai/v1/chat/completions', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${apiKey}`,
-            },
-            body: JSON.stringify({
-                model: 'grok-4-1-fast-non-reasoning',
-                messages: [
-                    {
-                        role: 'system',
-                        content: SYSTEM_PROMPT,
-                    },
-                    {
-                        role: 'user',
-                        content: `Generate flashcard data for the German word: "${word}"`,
-                    },
-                ],
-                temperature: 0.3,
-            }),
-        });
-
-        if (!response.ok) {
-            const error = await response.text();
-            console.error('Grok API error:', error);
-            return NextResponse.json({ error: 'Failed to generate word data' }, { status: response.status });
-        }
-
-        const data = await response.json();
-        const content = data.choices?.[0]?.message?.content;
-
-        if (!content) {
-            return NextResponse.json({ error: 'No response from Grok' }, { status: 500 });
-        }
-
-        // Parse the JSON response
-        try {
-            // Remove potential markdown code blocks
-            const jsonStr = content.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-            const wordData = JSON.parse(jsonStr);
-
-            return NextResponse.json({ success: true, word: wordData });
-        } catch (parseError) {
-            console.error('Failed to parse Grok response:', content);
-            return NextResponse.json({ error: 'Invalid response format', raw: content }, { status: 500 });
-        }
-    } catch (error) {
-        console.error('Generate word error:', error);
-        return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
+    if (!word || typeof word !== 'string') {
+      return NextResponse.json({ error: 'Word is required' }, { status: 400 });
     }
+
+    const apiKey = process.env.XAI_API_KEY;
+    if (!apiKey) {
+      return NextResponse.json({ error: 'Grok API key not configured' }, { status: 500 });
+    }
+
+    const response = await fetch('https://api.x.ai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${apiKey}`,
+      },
+      body: JSON.stringify({
+        model: 'grok-4-1-fast-non-reasoning',
+        messages: [
+          {
+            role: 'system',
+            content: SYSTEM_PROMPT,
+          },
+          {
+            role: 'user',
+            content: `Generate flashcard data for the German word: "${word}"`,
+          },
+        ],
+        temperature: 0.3,
+      }),
+    });
+
+    if (!response.ok) {
+      const error = await response.text();
+      console.error('Grok API error:', error);
+      return NextResponse.json({ error: 'Failed to generate word data' }, { status: response.status });
+    }
+
+    const data = await response.json();
+    const content = data.choices?.[0]?.message?.content;
+
+    if (!content) {
+      return NextResponse.json({ error: 'No response from Grok' }, { status: 500 });
+    }
+
+    // Parse the JSON response
+    try {
+      // Remove potential markdown code blocks
+      const jsonStr = content.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+      const wordData = JSON.parse(jsonStr);
+
+      return NextResponse.json({ success: true, word: wordData });
+    } catch (parseError) {
+      console.error('Failed to parse Grok response:', content);
+      return NextResponse.json({ error: 'Invalid response format', raw: content }, { status: 500 });
+    }
+  } catch (error) {
+    console.error('Generate word error:', error);
+    return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
+  }
 }

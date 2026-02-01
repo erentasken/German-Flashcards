@@ -8529,5 +8529,120 @@
       "de": "Sie liest ein Buch.",
       "en": "She is reading a book."
     }
+  },
+  {
+    "word": "traurig",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "sad",
+    "komparativ": "trauriger",
+    "superlativ": "am traurigsten",
+    "sentence": {
+      "de": "Das Kind ist traurig, weil es sein Spielzeug verloren hat.",
+      "en": "The child is sad because it lost its toy."
+    }
+  },
+  {
+    "word": "klug",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "clever, smart",
+    "komparativ": "klüger",
+    "superlativ": "am klügsten",
+    "sentence": {
+      "de": "Meine Schwester ist sehr klug.",
+      "en": "My sister is very clever."
+    }
+  },
+  {
+    "word": "billig",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "cheap, inexpensive",
+    "komparativ": "billiger",
+    "superlativ": "am billigsten",
+    "sentence": {
+      "de": "Dieses Auto ist sehr billig.",
+      "en": "This car is very cheap."
+    }
+  },
+  {
+    "word": "leider",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Partikel",
+    "type": "particle",
+    "partikelType": "Adverb",
+    "english": "unfortunately",
+    "sentence": {
+      "de": "Leider regnet es heute.",
+      "en": "Unfortunately, it's raining today."
+    }
+  },
+  {
+    "word": "leer",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "empty",
+    "komparativ": "leerer",
+    "superlativ": "am leersten",
+    "sentence": {
+      "de": "Das Glas ist leer.",
+      "en": "The glass is empty."
+    }
+  },
+  {
+    "word": "glücklich",
+    "article": "",
+    "plural": "",
+    "pluralArticle": "",
+    "category": "Adjektive",
+    "type": "adjective",
+    "english": "happy",
+    "komparativ": "glücklicher",
+    "superlativ": "am glücklichsten",
+    "sentence": {
+      "de": "Ich bin glücklich mit meiner Familie.",
+      "en": "I am happy with my family."
+    }
+  },
+  {
+    "word": "Spaß",
+    "article": "der",
+    "plural": "Spaße",
+    "pluralArticle": "die",
+    "category": "Freizeit",
+    "type": "noun",
+    "english": "fun",
+    "sentence": {
+      "de": "Wir haben viel Spaß im Park.",
+      "en": "We have a lot of fun in the park."
+    }
+  },
+  {
+    "word": "Nichte",
+    "article": "die",
+    "plural": "Nichten",
+    "pluralArticle": "die",
+    "category": "Familie",
+    "type": "noun",
+    "english": "niece",
+    "sentence": {
+      "de": "Meine Nichte kommt morgen zu Besuch.",
+      "en": "My niece is coming to visit tomorrow."
+    }
   }
 ]

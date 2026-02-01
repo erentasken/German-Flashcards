@@ -35,20 +35,41 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [showSearch, setShowSearch] = useState(false);
   const [showGenerator, setShowGenerator] = useState(false);
-  const [generatedWords, setGeneratedWords] = useState<Word[]>([]);
+  const [sessionWords, setSessionWords] = useState<Word[]>([]); // Words added this session (not persisted to localStorage)
 
-  // Combine original words with generated words
-  const allWords = useMemo(() => [...words, ...generatedWords], [words, generatedWords]);
+  // Combine original words with session-added words
+  const allWords = useMemo(() => [...words, ...sessionWords], [words, sessionWords]);
+
+  // Normalize German umlauts for search (ä→a, ö→o, ü→u, ß→ss)
+  const normalizeGerman = (str: string) => {
+    return str
+      .toLowerCase()
+      .replace(/ä/g, 'a')
+      .replace(/ö/g, 'o')
+      .replace(/ü/g, 'u')
+      .replace(/ß/g, 'ss');
+  };
 
   // Search results
   const searchResults = useMemo(() => {
     if (!searchQuery.trim()) return [];
     const query = searchQuery.toLowerCase().trim();
-    return allWords.filter(w =>
-      w.word.toLowerCase().includes(query) ||
-      (w.english && w.english.toLowerCase().includes(query)) ||
-      (w.article && `${w.article} ${w.word}`.toLowerCase().includes(query))
-    ).slice(0, 10); // Limit to 10 results
+    const normalizedQuery = normalizeGerman(query);
+    return allWords.filter(w => {
+      const wordLower = w.word.toLowerCase();
+      const normalizedWord = normalizeGerman(w.word);
+      const englishLower = w.english?.toLowerCase() || '';
+      const fullWord = w.article ? `${w.article} ${w.word}`.toLowerCase() : '';
+      const normalizedFullWord = normalizeGerman(fullWord);
+      
+      return (
+        wordLower.includes(query) ||
+        normalizedWord.includes(normalizedQuery) ||
+        englishLower.includes(query) ||
+        fullWord.includes(query) ||
+        normalizedFullWord.includes(normalizedQuery)
+      );
+    }).slice(0, 10); // Limit to 10 results
   }, [allWords, searchQuery]);
 
   // Load unknown words from localStorage on mount
@@ -61,16 +82,7 @@ export default function Home() {
         console.error('Failed to load unknown words:', e);
       }
     }
-    
-    // Load generated words
-    const savedGenerated = localStorage.getItem('generatedWords');
-    if (savedGenerated) {
-      try {
-        setGeneratedWords(JSON.parse(savedGenerated));
-      } catch (e) {
-        console.error('Failed to load generated words:', e);
-      }
-    }
+
   }, []);
 
   // Save unknown words to localStorage
@@ -78,14 +90,9 @@ export default function Home() {
     localStorage.setItem('unknownWords', JSON.stringify(unknownWords));
   }, [unknownWords]);
 
-  // Save generated words to localStorage
-  useEffect(() => {
-    localStorage.setItem('generatedWords', JSON.stringify(generatedWords));
-  }, [generatedWords]);
-
-  // Handler for adding generated words
+  // Handler for adding generated words - add to session state (already saved to words.json)
   const handleWordGenerated = (word: Word) => {
-    setGeneratedWords(prev => [...prev, word]);
+    setSessionWords(prev => [...prev, word]);
   };
 
   // Filter words based on selected categories
@@ -297,25 +304,6 @@ export default function Home() {
         {/* AI Word Generator */}
         {showGenerator && (
           <WordGenerator onWordGenerated={handleWordGenerated} />
-        )}
-
-        {/* Generated Words Count */}
-        {generatedWords.length > 0 && (
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <span className="text-sm text-purple-400">
-              ✨ {generatedWords.length} AI-generated word{generatedWords.length !== 1 ? 's' : ''} added
-            </span>
-            <button
-              onClick={() => {
-                if (confirm('Clear all generated words?')) {
-                  setGeneratedWords([]);
-                }
-              }}
-              className="text-xs px-2 py-1 rounded bg-slate-800 text-slate-500 hover:text-red-400 transition-colors"
-            >
-              Clear
-            </button>
-          </div>
         )}
 
         {/* Mode Tabs */}
