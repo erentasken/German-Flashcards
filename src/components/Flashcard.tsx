@@ -17,6 +17,48 @@ interface FlashcardProps {
 export default function Flashcard({ word, onNext, onPrev, current, total, onMarkUnknown, onMarkKnown, isUnknown }: FlashcardProps) {
     const [isFlipped, setIsFlipped] = useState(false);
     const [isTransitioning, setIsTransitioning] = useState(false);
+    const [isSpeaking, setIsSpeaking] = useState(false);
+
+    const speak = async (text: string) => {
+        if (isSpeaking) return;
+
+        setIsSpeaking(true);
+
+        try {
+            const response = await fetch('/api/tts', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ text }),
+            });
+
+            if (!response.ok) {
+                throw new Error('TTS request failed');
+            }
+
+            const audioBlob = await response.blob();
+            const audioUrl = URL.createObjectURL(audioBlob);
+            const audio = new Audio(audioUrl);
+
+            audio.onended = () => {
+                setIsSpeaking(false);
+                URL.revokeObjectURL(audioUrl);
+            };
+            audio.onerror = () => {
+                setIsSpeaking(false);
+                URL.revokeObjectURL(audioUrl);
+            };
+
+            await audio.play();
+        } catch (error) {
+            console.error('TTS error:', error);
+            setIsSpeaking(false);
+        }
+    };
+
+    const handleSpeak = (e: React.MouseEvent) => {
+        e.stopPropagation();
+        speak(word.word);
+    };
 
     const handleFlip = () => {
         if (!isTransitioning) {
@@ -327,6 +369,17 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
                 >
                     {/* Front */}
                     <div className="absolute w-full h-full backface-hidden bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl shadow-2xl border border-slate-700/50 flex flex-col items-center justify-center p-8">
+                        <button
+                            onClick={handleSpeak}
+                            className={`absolute top-4 right-4 p-2 rounded-full transition-all ${isSpeaking ? 'bg-blue-600 text-white' : 'bg-slate-700/50 text-slate-400 hover:bg-slate-700 hover:text-white'}`}
+                            title="Pronounce"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                            </svg>
+                        </button>
                         <p className="text-3xl sm:text-4xl font-bold text-white text-center leading-tight">{word.word}</p>
                         <p className="text-xs text-slate-500 mt-6 flex items-center gap-1">
                             <span className="inline-block w-4 h-4 border border-slate-600 rounded"></span>
