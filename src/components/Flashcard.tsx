@@ -62,7 +62,7 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
             const audioBlob = await response.blob();
             const audioUrl = URL.createObjectURL(audioBlob);
             audioUrlRef.current = audioUrl;
-            
+
             const audio = new Audio(audioUrl);
             audioRef.current = audio;
 
