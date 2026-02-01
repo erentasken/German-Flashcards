@@ -66,27 +66,34 @@ export default function Flashcard({ word, onNext, onPrev, current, total, onMark
             const audio = new Audio(audioUrl);
             audioRef.current = audio;
 
-            audio.onended = () => {
-                setIsSpeaking(false);
-                if (audioUrlRef.current) {
-                    URL.revokeObjectURL(audioUrlRef.current);
-                    audioUrlRef.current = null;
-                }
-                audioRef.current = null;
-            };
-            audio.onerror = () => {
-                setIsSpeaking(false);
-                if (audioUrlRef.current) {
-                    URL.revokeObjectURL(audioUrlRef.current);
-                    audioUrlRef.current = null;
-                }
-                audioRef.current = null;
-            };
-
-            await audio.play();
+            await new Promise<void>((resolve, reject) => {
+                audio.onended = () => {
+                    setIsSpeaking(false);
+                    if (audioUrlRef.current) {
+                        URL.revokeObjectURL(audioUrlRef.current);
+                        audioUrlRef.current = null;
+                    }
+                    audioRef.current = null;
+                    resolve();
+                };
+                audio.onerror = (e) => {
+                    reject(e);
+                };
+                audio.play().catch(reject);
+            });
         } catch (error) {
-            console.error('TTS error:', error);
+            // Ignore AbortError - it's expected when audio is interrupted
+            if (error instanceof Error && error.name === 'AbortError') {
+                // Audio was interrupted, this is normal behavior
+            } else {
+                console.error('TTS error:', error);
+            }
             setIsSpeaking(false);
+            if (audioUrlRef.current) {
+                URL.revokeObjectURL(audioUrlRef.current);
+                audioUrlRef.current = null;
+            }
+            audioRef.current = null;
         }
     };
 
