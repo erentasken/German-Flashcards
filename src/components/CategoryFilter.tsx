@@ -1,5 +1,5 @@
 'use client';
-import { useState, useMemo, useEffect } from 'react';
+ import { useState, useMemo, useEffect } from 'react';
 import { Word } from '@/types/word';
 
 interface CategoryFilterProps {
@@ -10,6 +10,7 @@ interface CategoryFilterProps {
     onCreateCategory?: (name: string) => void;
     deletableCategories?: string[];
     onDeleteCategory?: (name: string) => void;
+    onBulkDelete?: (names: string[]) => void;
     words?: Word[];
     onAddWordToCategory?: (word: Word, category: string) => void;
     customCategories?: Record<string, Word[]>;
@@ -24,6 +25,7 @@ export default function CategoryFilter({
     onCreateCategory,
     deletableCategories = [],
     onDeleteCategory,
+    onBulkDelete,
     words = [],
     onAddWordToCategory,
     customCategories = {},
@@ -32,8 +34,9 @@ export default function CategoryFilter({
     const [newCategory, setNewCategory] = useState('');
     const [showCreate, setShowCreate] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
-    const [viewCategoryName, setViewCategoryName] = useState<string | null>(null);
-    const [showViewPanel, setShowViewPanel] = useState(false);
+    const [addWordCategory, setAddWordCategory] = useState<string | null>(null);
+    const [deleteMode, setDeleteMode] = useState(false);
+    const [deleteSelected, setDeleteSelected] = useState<string[]>([]);
 
     const selectedCustomCategories = deletableCategories.filter(c => selectedCategories.includes(c));
 
@@ -73,6 +76,23 @@ export default function CategoryFilter({
         }
     };
 
+    const toggleDeleteSelect = (category: string) => {
+        if (!deletableCategories.includes(category)) return;
+        setDeleteSelected((prev) => prev.includes(category) ? prev.filter(c => c !== category) : [...prev, category]);
+    };
+
+    const performBulkDelete = () => {
+        if (deleteSelected.length === 0) return;
+        if (!confirm(`Delete ${deleteSelected.length} categories? This will not remove words.`)) return;
+        if (onBulkDelete) {
+            onBulkDelete(deleteSelected);
+        } else {
+            deleteSelected.forEach((c) => onDeleteCategory?.(c));
+        }
+        setDeleteSelected([]);
+        setDeleteMode(false);
+    };
+
     const totalSelected = selectedCategories.reduce((sum, cat) => sum + (categoryCounts?.[cat] || 0), 0);
     const totalWords = Object.values(categoryCounts || {}).reduce((sum, count) => sum + count, 0);
 
@@ -88,12 +108,42 @@ export default function CategoryFilter({
                             ({selectedCategories.length} of {categories.length})
                         </span>
                     </h3>
-                    <button
-                        onClick={handleSelectAllCategories}
-                        className="text-xs px-2 py-1 rounded-md bg-slate-800 text-slate-400 hover:text-white transition-colors"
-                    >
-                        {selectedCategories.length === categories.length ? 'Clear' : 'All'}
-                    </button>
+                    <div className="flex flex-col items-end gap-2">
+                        <button
+                            onClick={handleSelectAllCategories}
+                            className="text-xs px-2 py-1 rounded-md bg-slate-800 text-slate-400 hover:text-white transition-colors"
+                        >
+                            {selectedCategories.length === categories.length ? 'Clear' : 'All'}
+                        </button>
+
+                        {!deleteMode && (
+                            <button
+                                onClick={() => { setDeleteMode((s) => !s); setDeleteSelected([]); setAddWordCategory(null); }}
+                                className={`text-xs px-2 py-1 rounded-md transition-colors ${deleteMode ? 'bg-red-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'}`}
+                                title="Delete categories"
+                            >
+                                Delete categories
+                            </button>
+                        )}
+                    </div>
+                {deleteMode && (
+                    <div className="mt-2 flex items-center justify-end gap-2">
+                        <div className="text-xs text-slate-400">{deleteSelected.length} selected</div>
+                        <button
+                            onClick={performBulkDelete}
+                            disabled={deleteSelected.length === 0}
+                            className={`text-xs px-2 py-1 rounded-md ${deleteSelected.length > 0 ? 'bg-red-600 text-white' : 'bg-slate-800 text-slate-500 cursor-not-allowed'}`}
+                        >
+                            Delete selected
+                        </button>
+                        <button
+                            onClick={() => { setDeleteMode(false); setDeleteSelected([]); }}
+                            className="text-xs px-2 py-1 rounded-md bg-slate-800 text-slate-400 hover:text-white"
+                        >
+                            Cancel
+                        </button>
+                    </div>
+                )}
                 </div>
 
                 {/* Categories Grid */}
@@ -101,44 +151,59 @@ export default function CategoryFilter({
                     {categories.map((category) => {
                         const isSelected = selectedCategories.includes(category);
                         const count = categoryCounts?.[category] || 0;
+                        const isDeleteSelected = deleteMode && deleteSelected.includes(category);
                         return (
                             <button
                                 key={category}
-                                onClick={() => handleCategoryToggle(category)}
-                                className={`group relative px-3 py-2 rounded-lg text-left transition-all ${isSelected
-                                        ? 'bg-emerald-500/15 border border-emerald-500/50'
-                                        : 'bg-slate-800/30 border border-transparent hover:bg-slate-800/60 hover:border-slate-700'
+                                onClick={() => { if (deleteMode) { toggleDeleteSelect(category); } else { handleCategoryToggle(category); } }}
+                                className={`group relative rounded-lg text-left transition-all ${isDeleteSelected
+                                        ? 'bg-red-500/15 border border-red-500/50 px-4 py-3 shadow-lg'
+                                        : isSelected && deletableCategories.includes(category)
+                                            ? 'bg-emerald-500/15 border border-emerald-500/50 px-4 py-3 shadow-lg'
+                                            : isSelected
+                                                ? 'bg-emerald-500/15 border border-emerald-500/50 px-3 py-2'
+                                                : 'bg-slate-800/30 border border-transparent hover:bg-slate-800/60 hover:border-slate-700 px-3 py-2'
                                     }`}
                             >
-                                {deletableCategories.includes(category) && (
-                                    <>
-                                        <button
-                                            onClick={(e) => { e.stopPropagation(); if (confirm(`Delete category "${category}"?`)) { onDeleteCategory?.(category); } }}
-                                            className="absolute top-1 left-1 text-xs text-red-400 hover:text-red-200"
-                                            title="Delete category"
-                                        >
-                                            ×
-                                        </button>
-                                        <button
-                                            onClick={(e) => { e.stopPropagation(); setViewCategoryName(category); setShowViewPanel(true); }}
-                                            className="absolute top-1 right-6 text-xs text-slate-300 hover:text-white px-1 bg-slate-800/40 rounded"
-                                            title="View words"
-                                        >
-                                            View
-                                        </button>
-                                    </>
-                                )}
+                                {deletableCategories.includes(category) && null}
                                 <div className="flex items-center justify-between gap-2">
-                                    <span className={`text-sm truncate ${isSelected ? 'text-emerald-400' : 'text-slate-400 group-hover:text-slate-300'}`}>
+                                    <span className={`text-sm truncate ${isDeleteSelected ? 'text-red-400' : isSelected ? 'text-emerald-400' : 'text-slate-400 group-hover:text-slate-300'}`}>
                                         {category}
                                     </span>
-                                    <span className={`text-xs tabular-nums ${isSelected ? 'text-emerald-500/70' : 'text-slate-600'}`}>
+                                    <span className={`text-xs tabular-nums ${isDeleteSelected ? 'text-red-500/70' : isSelected ? 'text-emerald-500/70' : 'text-slate-600'}`}>
                                         {count}
                                     </span>
                                 </div>
-                                {/* Selection indicator */}
-                                {isSelected && (
-                                    <div className="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-emerald-400" />
+                                {/* Selection / delete indicator */}
+                                {deleteMode ? (
+                                    isDeleteSelected && (
+                                        <div className="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-red-400" />
+                                    )
+                                ) : (
+                                    isSelected && (
+                                        <div className="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-emerald-400" />
+                                    )
+                                )}
+
+                                {/* Inline options for newly created (deletable) categories when selected */}
+                                {(!deleteMode && isSelected && deletableCategories.includes(category)) && (
+                                    <div className="mt-3 space-y-2">
+                                        <div className="flex items-center gap-2">
+                                                                <button
+                                                                    onClick={(e) => { e.stopPropagation(); setAddWordCategory(category); setSearchQuery(''); }}
+                                                                    className="w-full px-2 py-1 text-sm bg-emerald-600 rounded text-white"
+                                                                >
+                                                                    Add word
+                                                                </button>
+                                        </div>
+
+                                        {/* Add word now opens a modal — handled below */}
+                                    </div>
+                                )}
+
+                                {/* In delete mode, mark deletable tiles that are selected for deletion */}
+                                {deleteMode && deletableCategories.includes(category) && deleteSelected.includes(category) && (
+                                    <div className="absolute left-2 bottom-2" aria-hidden />
                                 )}
                             </button>
                         );
@@ -161,6 +226,8 @@ export default function CategoryFilter({
                                 value={newCategory}
                                 onChange={(e) => setNewCategory(e.target.value)}
                                 onKeyDown={(e) => e.key === 'Enter' && handleCreate()}
+                                onClick={(e) => e.stopPropagation()}
+                                onMouseDown={(e) => e.stopPropagation()}
                                 placeholder="Category name"
                                 className="flex-1 px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-sm text-white outline-none"
                             />
@@ -179,28 +246,30 @@ export default function CategoryFilter({
                     )}
                 </div>
 
-                {/* View panel modal */}
-                {showViewPanel && viewCategoryName && (
+                {/* Add-word modal (opens when `addWordCategory` is set) */}
+                {addWordCategory && (
                     <div className="fixed inset-0 z-50 flex items-center justify-center">
-                        <div className="absolute inset-0 bg-black/50" onClick={() => setShowViewPanel(false)} />
-                        <div className="relative w-full max-w-2xl bg-slate-900 border border-slate-800 rounded-lg p-4 z-60">
+                        <div className="absolute inset-0 bg-black/50" onClick={() => setAddWordCategory(null)} />
+                        <div className="relative w-full max-w-xl bg-slate-900 border border-slate-800 rounded-lg p-4 z-60">
                             <div className="flex items-center justify-between mb-3">
-                                <h4 className="text-lg font-semibold">Words in "{viewCategoryName}"</h4>
-                                <button onClick={() => setShowViewPanel(false)} className="px-3 py-1 bg-slate-800 rounded">Close</button>
+                                <h4 className="text-lg font-semibold">Manage words for "{addWordCategory}"</h4>
+                                <button onClick={() => setAddWordCategory(null)} className="px-3 py-1 bg-slate-800 rounded">Close</button>
                             </div>
+
                             <div className="space-y-3">
-                                {/* Search inside view panel */}
-                                <div className="flex gap-2">
+                                <div>
                                     <input
                                         value={searchQuery}
                                         onChange={(e) => setSearchQuery(e.target.value)}
+                                        onClick={(e) => e.stopPropagation()}
+                                        onMouseDown={(e) => e.stopPropagation()}
                                         placeholder="Search words to add..."
-                                        className="flex-1 px-3 py-2 bg-slate-800 border border-slate-700 rounded text-sm outline-none"
+                                        className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded text-sm outline-none"
                                     />
                                 </div>
 
                                 {searchQuery.trim() && (
-                                    <div className="max-h-36 overflow-y-auto bg-slate-900 rounded p-2">
+                                    <div className="max-h-40 overflow-y-auto bg-slate-900 rounded p-2">
                                         {searchResults.length > 0 ? searchResults.map((w) => (
                                             <div key={`${w.word}-${w.category}`} className="flex items-center justify-between px-2 py-1 text-sm hover:bg-slate-800/50 rounded">
                                                 <div>
@@ -209,7 +278,7 @@ export default function CategoryFilter({
                                                 </div>
                                                 <div className="flex gap-2">
                                                     <button
-                                                        onClick={() => { onAddWordToCategory?.(w, viewCategoryName); setSearchQuery(''); }}
+                                                        onClick={() => { onAddWordToCategory?.(w, addWordCategory); setSearchQuery(''); }}
                                                         className="ml-2 px-2 py-1 bg-emerald-600 rounded text-xs text-white"
                                                     >Add</button>
                                                 </div>
@@ -220,18 +289,18 @@ export default function CategoryFilter({
                                     </div>
                                 )}
 
-                                <div className="max-h-72 overflow-y-auto space-y-2 bg-slate-900 rounded p-2">
-                                    {(customCategories[viewCategoryName] || []).length === 0 ? (
+                                <div className="max-h-64 overflow-y-auto space-y-2 bg-slate-900 rounded p-2">
+                                    {(customCategories[addWordCategory] || []).length === 0 ? (
                                         <div className="text-sm text-slate-500">No words in this category.</div>
                                     ) : (
-                                        (customCategories[viewCategoryName] || []).map((cw) => (
+                                        (customCategories[addWordCategory] || []).map((cw) => (
                                             <div key={`${cw.word}-${cw.category}`} className="flex items-center justify-between px-2 py-1 text-sm hover:bg-slate-800/50 rounded">
                                                 <div>
                                                     <div className="text-white font-medium">{cw.article && <span className="text-blue-400">{cw.article} </span>}{cw.word}</div>
                                                     <div className="text-xs text-slate-400">{cw.english || ''}</div>
                                                 </div>
                                                 <button
-                                                    onClick={() => { onRemoveWordFromCategory?.(cw, viewCategoryName); }}
+                                                    onClick={() => { onRemoveWordFromCategory?.(cw, addWordCategory); }}
                                                     className="ml-2 px-2 py-1 bg-red-600 rounded text-xs text-white"
                                                 >Remove</button>
                                             </div>
